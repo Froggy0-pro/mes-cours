@@ -9,3 +9,4 @@ enableGitInfo = true
   BookTheme = "light"
   BookToC = true
   BookSearch = true
+  BookKaTeX = true
