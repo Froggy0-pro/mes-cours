@@ -1,0 +1,11 @@
+baseURL = "https://Froggy0-pro.github.io/mes-cours/"
+languageCode = "fr-fr"
+title = "Mes cours"
+theme = "book"
+
+enableGitInfo = true
+
+[params]
+  BookTheme = "light"
+  BookToC = true
+  BookSearch = true
