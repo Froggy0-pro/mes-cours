@@ -8,6 +8,7 @@ enableGitInfo = true
 relativeURLs = true
 
 [params]
+  BookSection = "docs"
   BookTheme = "light"
   BookToC = true
   BookSearch = true

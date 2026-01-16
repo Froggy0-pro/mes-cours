@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mes cours</title>
+    <link>http://localhost:1313/mes-cours/</link>
+    <description>Recent content on Mes cours</description>
+    <generator>Hugo</generator>
+    <language>fr-fr</language>
+    <atom:link href="http://localhost:1313/mes-cours/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Suites</title>
+      <link>http://localhost:1313/mes-cours/docs/maths/3-premiere/suites/suites/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/mes-cours/docs/maths/3-premiere/suites/suites/</guid>
+      <description>&lt;h2 id=&#34;définition&#34;&gt;Définition&lt;a class=&#34;anchor&#34; href=&#34;#d%c3%a9finition&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Une suite arithmétique est une suite de nombres&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;exemple&#34;&gt;Exemple&lt;a class=&#34;anchor&#34; href=&#34;#exemple&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Soit la suite définie par&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;exercices&#34;&gt;Exercices&lt;a class=&#34;anchor&#34; href=&#34;#exercices&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Calculer le terme u₁₀&amp;hellip;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;hr&gt;</description>
+    </item>
+    <item>
+      <title>Suites arithmétiques</title>
+      <link>http://localhost:1313/mes-cours/docs/maths/3-premiere/suites/suites-arithmetiques/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/mes-cours/docs/maths/3-premiere/suites/suites-arithmetiques/</guid>
+      <description>&lt;h2 id=&#34;définition&#34;&gt;Définition&lt;a class=&#34;anchor&#34; href=&#34;#d%c3%a9finition&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Une suite arithmétique est une suite de nombres&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;exemple&#34;&gt;Exemple&lt;a class=&#34;anchor&#34; href=&#34;#exemple&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Soit la suite définie par&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;exercices&#34;&gt;Exercices&lt;a class=&#34;anchor&#34; href=&#34;#exercices&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Calculer le terme u₁₀&amp;hellip;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;hr&gt;</description>
+    </item>
+  </channel>
+</rss>
