@@ -5,6 +5,8 @@ theme = "book"
 
 enableGitInfo = true
 
+relativeURLs = true
+
 [params]
   BookTheme = "light"
   BookToC = true
