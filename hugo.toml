@@ -4,8 +4,9 @@ title = "Mes cours"
 theme = "book"
 
 enableGitInfo = true
-
 relativeURLs = true
+canonifyURLs = true
+
 
 [params]
   BookSection = "docs"
