@@ -4,7 +4,7 @@ title = "Mes cours"
 theme = "book"
 
 enableGitInfo = true
-relativeURLs = true
+relativeURLs = false
 canonifyURLs = true
 
 
