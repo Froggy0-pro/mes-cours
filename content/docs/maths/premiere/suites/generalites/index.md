@@ -1,5 +1,5 @@
 ---
-title: "Généralités sur les suites"
+title: "1) Généralités"
 ---
 
 ## Définition

@@ -1,5 +1,5 @@
 ---
-title: "Suites arithmétiques"
+title: "2) Suites arithmétiques"
 ---
 
 ## Définition

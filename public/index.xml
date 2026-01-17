@@ -8,17 +8,199 @@
     <language>fr-fr</language>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Généralités sur les suites</title>
+      <title>1) Bases de programmation</title>
+      <link>http://localhost:1313/docs/maths/premiere/python/base/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/maths/premiere/python/base/</guid>
+      <description>&lt;h2 id=&#34;définition&#34;&gt;Définition&lt;a class=&#34;anchor&#34; href=&#34;#d%c3%a9finition&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Une suite arithmétique est une suite de nombres&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;exemple&#34;&gt;Exemple&lt;a class=&#34;anchor&#34; href=&#34;#exemple&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Soit la suite définie par&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;exercices&#34;&gt;Exercices&lt;a class=&#34;anchor&#34; href=&#34;#exercices&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Calculer le terme u₁₀&amp;hellip;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title>1) Cercle trigonométrique</title>
+      <link>http://localhost:1313/docs/maths/premiere/trigo/cercle/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/maths/premiere/trigo/cercle/</guid>
+      <description>&lt;h2 id=&#34;définition&#34;&gt;Définition&lt;a class=&#34;anchor&#34; href=&#34;#d%c3%a9finition&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Une suite arithmétique est une suite de nombres&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;exemple&#34;&gt;Exemple&lt;a class=&#34;anchor&#34; href=&#34;#exemple&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Soit la suite définie par&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;exercices&#34;&gt;Exercices&lt;a class=&#34;anchor&#34; href=&#34;#exercices&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Calculer le terme u₁₀&amp;hellip;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title>1) Fonction exponentielle</title>
+      <link>http://localhost:1313/docs/maths/premiere/exponentielle/fonction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/maths/premiere/exponentielle/fonction/</guid>
+      <description>&lt;h2 id=&#34;définition&#34;&gt;Définition&lt;a class=&#34;anchor&#34; href=&#34;#d%c3%a9finition&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Une suite arithmétique est une suite de nombres&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;exemple&#34;&gt;Exemple&lt;a class=&#34;anchor&#34; href=&#34;#exemple&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Soit la suite définie par&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;exercices&#34;&gt;Exercices&lt;a class=&#34;anchor&#34; href=&#34;#exercices&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Calculer le terme u₁₀&amp;hellip;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title>1) Généralités</title>
       <link>http://localhost:1313/docs/maths/premiere/suites/generalites/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/docs/maths/premiere/suites/generalites/</guid>
       <description>&lt;h2 id=&#34;définition&#34;&gt;Définition&lt;a class=&#34;anchor&#34; href=&#34;#d%c3%a9finition&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Une suite arithmétique est une suite de nombres&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;exemple&#34;&gt;Exemple&lt;a class=&#34;anchor&#34; href=&#34;#exemple&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Soit la suite définie par&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;exercices&#34;&gt;Exercices&lt;a class=&#34;anchor&#34; href=&#34;#exercices&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Calculer le terme u₁₀&amp;hellip;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
     </item>
     <item>
-      <title>Suites arithmétiques</title>
+      <title>1) Probas conditionnelles</title>
+      <link>http://localhost:1313/docs/maths/premiere/probas/conditionnelle/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/maths/premiere/probas/conditionnelle/</guid>
+      <description>&lt;h2 id=&#34;définition&#34;&gt;Définition&lt;a class=&#34;anchor&#34; href=&#34;#d%c3%a9finition&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Une suite arithmétique est une suite de nombres&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;exemple&#34;&gt;Exemple&lt;a class=&#34;anchor&#34; href=&#34;#exemple&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Soit la suite définie par&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;exercices&#34;&gt;Exercices&lt;a class=&#34;anchor&#34; href=&#34;#exercices&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Calculer le terme u₁₀&amp;hellip;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title>1) Rappels sur les vecteurs</title>
+      <link>http://localhost:1313/docs/maths/premiere/geometrie/vecteurs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/maths/premiere/geometrie/vecteurs/</guid>
+      <description>&lt;h2 id=&#34;définition&#34;&gt;Définition&lt;a class=&#34;anchor&#34; href=&#34;#d%c3%a9finition&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Une suite arithmétique est une suite de nombres&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;exemple&#34;&gt;Exemple&lt;a class=&#34;anchor&#34; href=&#34;#exemple&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Soit la suite définie par&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;exercices&#34;&gt;Exercices&lt;a class=&#34;anchor&#34; href=&#34;#exercices&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Calculer le terme u₁₀&amp;hellip;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title>1) Second degré</title>
+      <link>http://localhost:1313/docs/maths/premiere/polynomes/second/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/maths/premiere/polynomes/second/</guid>
+      <description>&lt;h2 id=&#34;définition&#34;&gt;Définition&lt;a class=&#34;anchor&#34; href=&#34;#d%c3%a9finition&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Une suite arithmétique est une suite de nombres&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;exemple&#34;&gt;Exemple&lt;a class=&#34;anchor&#34; href=&#34;#exemple&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Soit la suite définie par&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;exercices&#34;&gt;Exercices&lt;a class=&#34;anchor&#34; href=&#34;#exercices&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Calculer le terme u₁₀&amp;hellip;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title>1) Taux de variation</title>
+      <link>http://localhost:1313/docs/maths/premiere/derivation/variation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/maths/premiere/derivation/variation/</guid>
+      <description>&lt;h2 id=&#34;définition&#34;&gt;Définition&lt;a class=&#34;anchor&#34; href=&#34;#d%c3%a9finition&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Une suite arithmétique est une suite de nombres&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;exemple&#34;&gt;Exemple&lt;a class=&#34;anchor&#34; href=&#34;#exemple&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Soit la suite définie par&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;exercices&#34;&gt;Exercices&lt;a class=&#34;anchor&#34; href=&#34;#exercices&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Calculer le terme u₁₀&amp;hellip;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title>2) Applications diverses</title>
+      <link>http://localhost:1313/docs/maths/premiere/polynomes/secondplus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/maths/premiere/polynomes/secondplus/</guid>
+      <description>&lt;h2 id=&#34;définition&#34;&gt;Définition&lt;a class=&#34;anchor&#34; href=&#34;#d%c3%a9finition&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Une suite arithmétique est une suite de nombres&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;exemple&#34;&gt;Exemple&lt;a class=&#34;anchor&#34; href=&#34;#exemple&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Soit la suite définie par&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;exercices&#34;&gt;Exercices&lt;a class=&#34;anchor&#34; href=&#34;#exercices&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Calculer le terme u₁₀&amp;hellip;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title>2) Calculs et équations</title>
+      <link>http://localhost:1313/docs/maths/premiere/trigo/equations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/maths/premiere/trigo/equations/</guid>
+      <description>&lt;h2 id=&#34;définition&#34;&gt;Définition&lt;a class=&#34;anchor&#34; href=&#34;#d%c3%a9finition&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Une suite arithmétique est une suite de nombres&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;exemple&#34;&gt;Exemple&lt;a class=&#34;anchor&#34; href=&#34;#exemple&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Soit la suite définie par&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;exercices&#34;&gt;Exercices&lt;a class=&#34;anchor&#34; href=&#34;#exercices&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Calculer le terme u₁₀&amp;hellip;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title>2) Dérivées usuelles</title>
+      <link>http://localhost:1313/docs/maths/premiere/derivation/usuelles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/maths/premiere/derivation/usuelles/</guid>
+      <description>&lt;h2 id=&#34;définition&#34;&gt;Définition&lt;a class=&#34;anchor&#34; href=&#34;#d%c3%a9finition&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Une suite arithmétique est une suite de nombres&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;exemple&#34;&gt;Exemple&lt;a class=&#34;anchor&#34; href=&#34;#exemple&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Soit la suite définie par&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;exercices&#34;&gt;Exercices&lt;a class=&#34;anchor&#34; href=&#34;#exercices&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Calculer le terme u₁₀&amp;hellip;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title>2) Équations droite/cercle</title>
+      <link>http://localhost:1313/docs/maths/premiere/geometrie/equations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/maths/premiere/geometrie/equations/</guid>
+      <description>&lt;h2 id=&#34;définition&#34;&gt;Définition&lt;a class=&#34;anchor&#34; href=&#34;#d%c3%a9finition&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Une suite arithmétique est une suite de nombres&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;exemple&#34;&gt;Exemple&lt;a class=&#34;anchor&#34; href=&#34;#exemple&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Soit la suite définie par&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;exercices&#34;&gt;Exercices&lt;a class=&#34;anchor&#34; href=&#34;#exercices&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Calculer le terme u₁₀&amp;hellip;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title>2) Suites arithmétiques</title>
       <link>http://localhost:1313/docs/maths/premiere/suites/arithmetiques/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/docs/maths/premiere/suites/arithmetiques/</guid>
+      <description>&lt;h2 id=&#34;définition&#34;&gt;Définition&lt;a class=&#34;anchor&#34; href=&#34;#d%c3%a9finition&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Une suite arithmétique est une suite de nombres&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;exemple&#34;&gt;Exemple&lt;a class=&#34;anchor&#34; href=&#34;#exemple&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Soit la suite définie par&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;exercices&#34;&gt;Exercices&lt;a class=&#34;anchor&#34; href=&#34;#exercices&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Calculer le terme u₁₀&amp;hellip;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title>2) Sujets d&#39;entraînement</title>
+      <link>http://localhost:1313/docs/maths/premiere/exponentielle/devoirs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/maths/premiere/exponentielle/devoirs/</guid>
+      <description>&lt;h2 id=&#34;définition&#34;&gt;Définition&lt;a class=&#34;anchor&#34; href=&#34;#d%c3%a9finition&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Une suite arithmétique est une suite de nombres&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;exemple&#34;&gt;Exemple&lt;a class=&#34;anchor&#34; href=&#34;#exemple&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Soit la suite définie par&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;exercices&#34;&gt;Exercices&lt;a class=&#34;anchor&#34; href=&#34;#exercices&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Calculer le terme u₁₀&amp;hellip;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title>2) Sujets d&#39;entraînement</title>
+      <link>http://localhost:1313/docs/maths/premiere/python/devoirs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/maths/premiere/python/devoirs/</guid>
+      <description>&lt;h2 id=&#34;définition&#34;&gt;Définition&lt;a class=&#34;anchor&#34; href=&#34;#d%c3%a9finition&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Une suite arithmétique est une suite de nombres&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;exemple&#34;&gt;Exemple&lt;a class=&#34;anchor&#34; href=&#34;#exemple&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Soit la suite définie par&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;exercices&#34;&gt;Exercices&lt;a class=&#34;anchor&#34; href=&#34;#exercices&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Calculer le terme u₁₀&amp;hellip;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title>2) Tableaux croisés</title>
+      <link>http://localhost:1313/docs/maths/premiere/probas/tableaux/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/maths/premiere/probas/tableaux/</guid>
+      <description>&lt;h2 id=&#34;définition&#34;&gt;Définition&lt;a class=&#34;anchor&#34; href=&#34;#d%c3%a9finition&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Une suite arithmétique est une suite de nombres&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;exemple&#34;&gt;Exemple&lt;a class=&#34;anchor&#34; href=&#34;#exemple&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Soit la suite définie par&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;exercices&#34;&gt;Exercices&lt;a class=&#34;anchor&#34; href=&#34;#exercices&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Calculer le terme u₁₀&amp;hellip;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title>3) Fonctions trigo</title>
+      <link>http://localhost:1313/docs/maths/premiere/trigo/fonction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/maths/premiere/trigo/fonction/</guid>
+      <description>&lt;h2 id=&#34;définition&#34;&gt;Définition&lt;a class=&#34;anchor&#34; href=&#34;#d%c3%a9finition&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Une suite arithmétique est une suite de nombres&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;exemple&#34;&gt;Exemple&lt;a class=&#34;anchor&#34; href=&#34;#exemple&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Soit la suite définie par&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;exercices&#34;&gt;Exercices&lt;a class=&#34;anchor&#34; href=&#34;#exercices&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Calculer le terme u₁₀&amp;hellip;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title>3) Produit scalaire</title>
+      <link>http://localhost:1313/docs/maths/premiere/geometrie/scalaire/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/maths/premiere/geometrie/scalaire/</guid>
+      <description>&lt;h2 id=&#34;définition&#34;&gt;Définition&lt;a class=&#34;anchor&#34; href=&#34;#d%c3%a9finition&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Une suite arithmétique est une suite de nombres&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;exemple&#34;&gt;Exemple&lt;a class=&#34;anchor&#34; href=&#34;#exemple&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Soit la suite définie par&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;exercices&#34;&gt;Exercices&lt;a class=&#34;anchor&#34; href=&#34;#exercices&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Calculer le terme u₁₀&amp;hellip;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title>3) Sens de variation</title>
+      <link>http://localhost:1313/docs/maths/premiere/derivation/fonctions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/maths/premiere/derivation/fonctions/</guid>
+      <description>&lt;h2 id=&#34;définition&#34;&gt;Définition&lt;a class=&#34;anchor&#34; href=&#34;#d%c3%a9finition&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Une suite arithmétique est une suite de nombres&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;exemple&#34;&gt;Exemple&lt;a class=&#34;anchor&#34; href=&#34;#exemple&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Soit la suite définie par&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;exercices&#34;&gt;Exercices&lt;a class=&#34;anchor&#34; href=&#34;#exercices&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Calculer le terme u₁₀&amp;hellip;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title>3) Suites géométriques</title>
+      <link>http://localhost:1313/docs/maths/premiere/suites/geometriques/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/maths/premiere/suites/geometriques/</guid>
+      <description>&lt;h2 id=&#34;définition&#34;&gt;Définition&lt;a class=&#34;anchor&#34; href=&#34;#d%c3%a9finition&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Une suite arithmétique est une suite de nombres&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;exemple&#34;&gt;Exemple&lt;a class=&#34;anchor&#34; href=&#34;#exemple&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Soit la suite définie par&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;exercices&#34;&gt;Exercices&lt;a class=&#34;anchor&#34; href=&#34;#exercices&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Calculer le terme u₁₀&amp;hellip;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title>3) Troisième degré</title>
+      <link>http://localhost:1313/docs/maths/premiere/polynomes/troisieme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/maths/premiere/polynomes/troisieme/</guid>
+      <description>&lt;h2 id=&#34;définition&#34;&gt;Définition&lt;a class=&#34;anchor&#34; href=&#34;#d%c3%a9finition&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Une suite arithmétique est une suite de nombres&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;exemple&#34;&gt;Exemple&lt;a class=&#34;anchor&#34; href=&#34;#exemple&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Soit la suite définie par&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;exercices&#34;&gt;Exercices&lt;a class=&#34;anchor&#34; href=&#34;#exercices&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Calculer le terme u₁₀&amp;hellip;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title>3) Variables aléatoires</title>
+      <link>http://localhost:1313/docs/maths/premiere/probas/lois/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/maths/premiere/probas/lois/</guid>
+      <description>&lt;h2 id=&#34;définition&#34;&gt;Définition&lt;a class=&#34;anchor&#34; href=&#34;#d%c3%a9finition&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Une suite arithmétique est une suite de nombres&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;exemple&#34;&gt;Exemple&lt;a class=&#34;anchor&#34; href=&#34;#exemple&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Soit la suite définie par&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;exercices&#34;&gt;Exercices&lt;a class=&#34;anchor&#34; href=&#34;#exercices&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Calculer le terme u₁₀&amp;hellip;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title>4) Sujets d&#39;entraînement</title>
+      <link>http://localhost:1313/docs/maths/premiere/derivation/sujets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/maths/premiere/derivation/sujets/</guid>
+      <description>&lt;h2 id=&#34;définition&#34;&gt;Définition&lt;a class=&#34;anchor&#34; href=&#34;#d%c3%a9finition&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Une suite arithmétique est une suite de nombres&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;exemple&#34;&gt;Exemple&lt;a class=&#34;anchor&#34; href=&#34;#exemple&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Soit la suite définie par&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;exercices&#34;&gt;Exercices&lt;a class=&#34;anchor&#34; href=&#34;#exercices&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Calculer le terme u₁₀&amp;hellip;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title>4) Sujets d&#39;entraînement</title>
+      <link>http://localhost:1313/docs/maths/premiere/geometrie/devoirs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/maths/premiere/geometrie/devoirs/</guid>
+      <description>&lt;h2 id=&#34;définition&#34;&gt;Définition&lt;a class=&#34;anchor&#34; href=&#34;#d%c3%a9finition&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Une suite arithmétique est une suite de nombres&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;exemple&#34;&gt;Exemple&lt;a class=&#34;anchor&#34; href=&#34;#exemple&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Soit la suite définie par&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;exercices&#34;&gt;Exercices&lt;a class=&#34;anchor&#34; href=&#34;#exercices&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Calculer le terme u₁₀&amp;hellip;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title>4) Sujets d&#39;entraînement</title>
+      <link>http://localhost:1313/docs/maths/premiere/polynomes/devoirs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/maths/premiere/polynomes/devoirs/</guid>
+      <description>&lt;h2 id=&#34;définition&#34;&gt;Définition&lt;a class=&#34;anchor&#34; href=&#34;#d%c3%a9finition&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Une suite arithmétique est une suite de nombres&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;exemple&#34;&gt;Exemple&lt;a class=&#34;anchor&#34; href=&#34;#exemple&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Soit la suite définie par&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;exercices&#34;&gt;Exercices&lt;a class=&#34;anchor&#34; href=&#34;#exercices&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Calculer le terme u₁₀&amp;hellip;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title>4) Sujets d&#39;entraînement</title>
+      <link>http://localhost:1313/docs/maths/premiere/probas/devoirs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/maths/premiere/probas/devoirs/</guid>
+      <description>&lt;h2 id=&#34;définition&#34;&gt;Définition&lt;a class=&#34;anchor&#34; href=&#34;#d%c3%a9finition&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Une suite arithmétique est une suite de nombres&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;exemple&#34;&gt;Exemple&lt;a class=&#34;anchor&#34; href=&#34;#exemple&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Soit la suite définie par&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;exercices&#34;&gt;Exercices&lt;a class=&#34;anchor&#34; href=&#34;#exercices&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Calculer le terme u₁₀&amp;hellip;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title>4) Sujets d&#39;entraînement</title>
+      <link>http://localhost:1313/docs/maths/premiere/suites/devoirs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/maths/premiere/suites/devoirs/</guid>
+      <description>&lt;h2 id=&#34;définition&#34;&gt;Définition&lt;a class=&#34;anchor&#34; href=&#34;#d%c3%a9finition&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Une suite arithmétique est une suite de nombres&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;exemple&#34;&gt;Exemple&lt;a class=&#34;anchor&#34; href=&#34;#exemple&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Soit la suite définie par&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;exercices&#34;&gt;Exercices&lt;a class=&#34;anchor&#34; href=&#34;#exercices&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Calculer le terme u₁₀&amp;hellip;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title>4) Sujets d&#39;entraînement</title>
+      <link>http://localhost:1313/docs/maths/premiere/trigo/devoirs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/maths/premiere/trigo/devoirs/</guid>
       <description>&lt;h2 id=&#34;définition&#34;&gt;Définition&lt;a class=&#34;anchor&#34; href=&#34;#d%c3%a9finition&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Une suite arithmétique est une suite de nombres&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;exemple&#34;&gt;Exemple&lt;a class=&#34;anchor&#34; href=&#34;#exemple&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Soit la suite définie par&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;exercices&#34;&gt;Exercices&lt;a class=&#34;anchor&#34; href=&#34;#exercices&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Calculer le terme u₁₀&amp;hellip;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
     </item>
   </channel>
