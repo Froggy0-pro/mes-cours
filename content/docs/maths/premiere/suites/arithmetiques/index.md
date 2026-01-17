@@ -1,5 +1,5 @@
 ---
-title: "Suites"
+title: "Suites arithmétiques"
 ---
 
 ## Définition
@@ -10,4 +10,3 @@ Soit la suite définie par...
 
 ## Exercices
 1. Calculer le terme u₁₀...
----
