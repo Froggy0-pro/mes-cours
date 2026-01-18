@@ -2,101 +2,39 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/docs/maths/post-bac/</loc>
-    <lastmod>2026-01-17T10:25:23+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/docs/maths/seconde/</loc>
-    <lastmod>2026-01-17T10:25:23+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/docs/maths/terminale/</loc>
-    <lastmod>2026-01-17T10:25:23+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/docs/maths/troisi%C3%A8me/</loc>
-  </url><url>
-    <loc>http://localhost:1313/docs/maths/premiere/python/base/</loc>
-  </url><url>
-    <loc>http://localhost:1313/docs/maths/premiere/trigo/cercle/</loc>
-  </url><url>
-    <loc>http://localhost:1313/docs/maths/premiere/exponentielle/fonction/</loc>
-  </url><url>
-    <loc>http://localhost:1313/docs/maths/premiere/suites/generalites/</loc>
-    <lastmod>2026-01-17T10:25:23+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/docs/maths/premiere/probas/conditionnelle/</loc>
-  </url><url>
-    <loc>http://localhost:1313/docs/maths/premiere/geometrie/vecteurs/</loc>
-  </url><url>
-    <loc>http://localhost:1313/docs/maths/premiere/polynomes/second/</loc>
-  </url><url>
-    <loc>http://localhost:1313/docs/maths/premiere/derivation/variation/</loc>
-  </url><url>
-    <loc>http://localhost:1313/docs/maths/premiere/polynomes/secondplus/</loc>
-  </url><url>
-    <loc>http://localhost:1313/docs/maths/premiere/trigo/equations/</loc>
-  </url><url>
-    <loc>http://localhost:1313/docs/maths/premiere/derivation/usuelles/</loc>
-  </url><url>
-    <loc>http://localhost:1313/docs/maths/premiere/geometrie/equations/</loc>
-  </url><url>
-    <loc>http://localhost:1313/docs/maths/premiere/suites/arithmetiques/</loc>
-    <lastmod>2026-01-17T10:25:23+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/docs/maths/premiere/exponentielle/devoirs/</loc>
-  </url><url>
-    <loc>http://localhost:1313/docs/maths/premiere/python/devoirs/</loc>
-  </url><url>
-    <loc>http://localhost:1313/docs/maths/premiere/probas/tableaux/</loc>
-  </url><url>
-    <loc>http://localhost:1313/docs/maths/premiere/trigo/fonction/</loc>
-  </url><url>
-    <loc>http://localhost:1313/docs/maths/premiere/geometrie/scalaire/</loc>
-  </url><url>
-    <loc>http://localhost:1313/docs/maths/premiere/derivation/fonctions/</loc>
-  </url><url>
-    <loc>http://localhost:1313/docs/maths/premiere/suites/geometriques/</loc>
-  </url><url>
-    <loc>http://localhost:1313/docs/maths/premiere/polynomes/troisieme/</loc>
-  </url><url>
-    <loc>http://localhost:1313/docs/maths/premiere/probas/lois/</loc>
-  </url><url>
-    <loc>http://localhost:1313/docs/maths/premiere/derivation/sujets/</loc>
-  </url><url>
-    <loc>http://localhost:1313/docs/maths/premiere/geometrie/devoirs/</loc>
-  </url><url>
-    <loc>http://localhost:1313/docs/maths/premiere/polynomes/devoirs/</loc>
-  </url><url>
-    <loc>http://localhost:1313/docs/maths/premiere/probas/devoirs/</loc>
-  </url><url>
-    <loc>http://localhost:1313/docs/maths/premiere/suites/devoirs/</loc>
-  </url><url>
-    <loc>http://localhost:1313/docs/maths/premiere/trigo/devoirs/</loc>
-  </url><url>
-    <loc>http://localhost:1313/docs/anglais/</loc>
-    <lastmod>2026-01-17T10:25:23+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-  </url><url>
     <loc>http://localhost:1313/docs/maths/premiere/derivation/</loc>
     <lastmod>2026-01-17T10:25:23+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/</loc>
-    <lastmod>2026-01-17T10:25:23+01:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/docs/maths/premiere/exponentielle/</loc>
+    <lastmod>2026-01-17T20:49:05+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/maths/premiere/geometrie/</loc>
+    <lastmod>2026-01-17T20:49:05+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/maths/premiere/polynomes/</loc>
+    <lastmod>2026-01-17T10:25:23+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/maths/premiere/probas/</loc>
+    <lastmod>2026-01-17T20:49:05+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/maths/premiere/python/</loc>
+    <lastmod>2026-01-17T20:49:05+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/maths/premiere/suites/</loc>
+    <lastmod>2026-01-17T10:25:23+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/maths/premiere/trigo/</loc>
+    <lastmod>2026-01-17T20:49:05+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/maths/</loc>
     <lastmod>2026-01-17T10:25:23+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2026-01-17T10:25:23+01:00</lastmod>
+    <loc>http://localhost:1313/docs/physique/terminale/acidebase/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/physique/</loc>
     <lastmod>2026-01-17T10:25:23+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/maths/premiere/polynomes/</loc>
-    <lastmod>2026-01-17T10:25:23+01:00</lastmod>
+    <loc>http://localhost:1313/docs/maths/postbac/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/maths/premiere/</loc>
     <lastmod>2026-01-17T10:25:23+01:00</lastmod>
@@ -104,24 +42,116 @@
     <loc>http://localhost:1313/docs/physique/premiere/</loc>
     <lastmod>2026-01-17T10:25:23+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/maths/premiere/probas/</loc>
-  </url><url>
-    <loc>http://localhost:1313/docs/maths/premiere/python/</loc>
+    <loc>http://localhost:1313/docs/maths/seconde/</loc>
+    <lastmod>2026-01-17T10:25:23+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/physique/seconde/</loc>
     <lastmod>2026-01-17T10:25:23+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/maths/premiere/suites/</loc>
+    <loc>http://localhost:1313/docs/maths/terminale/</loc>
     <lastmod>2026-01-17T10:25:23+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/physique/terminale/</loc>
     <lastmod>2026-01-17T10:25:23+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/maths/premiere/trigo/</loc>
+    <loc>http://localhost:1313/docs/maths/troisieme/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/physique/troisieme/</loc>
     <lastmod>2026-01-17T10:25:23+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/anglais/</loc>
+    <lastmod>2026-01-17T10:25:23+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/maths/premiere/python/base/</loc>
+    <lastmod>2026-01-17T20:49:05+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/maths/premiere/trigo/cercle/</loc>
+    <lastmod>2026-01-17T20:49:05+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/physique/terminale/acidebase/reaction/</loc>
+  </url><url>
+    <loc>http://localhost:1313/docs/maths/premiere/exponentielle/fonction/</loc>
+    <lastmod>2026-01-17T20:49:05+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/maths/premiere/suites/generalites/</loc>
+    <lastmod>2026-01-17T20:49:05+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/maths/premiere/probas/conditionnelle/</loc>
+    <lastmod>2026-01-17T20:49:05+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/maths/premiere/geometrie/vecteurs/</loc>
+    <lastmod>2026-01-17T20:49:05+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/maths/premiere/polynomes/second/</loc>
+    <lastmod>2026-01-17T20:49:05+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/maths/premiere/derivation/variation/var/</loc>
+  </url><url>
+    <loc>http://localhost:1313/docs/maths/premiere/polynomes/secondplus/</loc>
+    <lastmod>2026-01-17T20:49:05+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/maths/premiere/trigo/equations/</loc>
+    <lastmod>2026-01-17T20:49:05+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/maths/premiere/derivation/usuelles/usu/</loc>
+  </url><url>
+    <loc>http://localhost:1313/docs/maths/premiere/geometrie/equations/</loc>
+    <lastmod>2026-01-17T20:49:05+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/maths/premiere/suites/arithmetiques/</loc>
+    <lastmod>2026-01-17T20:49:05+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/maths/premiere/exponentielle/devoirs/</loc>
+    <lastmod>2026-01-17T20:49:05+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/maths/premiere/python/devoirs/</loc>
+    <lastmod>2026-01-17T20:49:05+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/maths/premiere/probas/tableaux/</loc>
+    <lastmod>2026-01-17T20:49:05+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/maths/premiere/trigo/fonction/</loc>
+    <lastmod>2026-01-17T20:49:05+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/maths/premiere/geometrie/scalaire/</loc>
+    <lastmod>2026-01-17T20:49:05+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/maths/premiere/derivation/fonctions/fonc/</loc>
+  </url><url>
+    <loc>http://localhost:1313/docs/maths/premiere/suites/geometriques/</loc>
+    <lastmod>2026-01-17T20:49:05+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/maths/premiere/polynomes/troisieme/</loc>
+    <lastmod>2026-01-17T20:49:05+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/maths/premiere/probas/lois/</loc>
+    <lastmod>2026-01-17T20:49:05+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/maths/premiere/derivation/sujets/suj/</loc>
+  </url><url>
+    <loc>http://localhost:1313/docs/maths/premiere/geometrie/devoirs/</loc>
+    <lastmod>2026-01-17T20:49:05+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/maths/premiere/polynomes/devoirs/</loc>
+    <lastmod>2026-01-17T20:49:05+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/maths/premiere/probas/devoirs/</loc>
+    <lastmod>2026-01-17T20:49:05+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/maths/premiere/suites/devoirs/</loc>
+    <lastmod>2026-01-17T20:49:05+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/maths/premiere/trigo/devoirs/</loc>
+    <lastmod>2026-01-17T20:49:05+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/docs/</loc>
+    <lastmod>2026-01-17T20:49:05+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-01-17T20:49:05+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>

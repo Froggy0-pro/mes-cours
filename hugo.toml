@@ -9,8 +9,16 @@ canonifyURLs = true
 
 
 [params]
-  BookSection = "docs"
   BookTheme = "light"
   BookToC = true
   BookSearch = true
   BookKaTeX = true
+  BookMenuBundle = "/docs"
+  BookSection = "docs"
+  BookMenuSort = "weight"
+  BookCollapseSection = true
+  BookMenuWidth = "20rem"
+  BookBodyMaxWidth = "60rem"
+
+ 
+

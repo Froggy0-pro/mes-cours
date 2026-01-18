@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chimie on Mes cours</title>
+    <link>http://localhost:1313/docs/physique/terminale/acidebase/</link>
+    <description>Recent content in Chimie on Mes cours</description>
+    <generator>Hugo</generator>
+    <language>fr-fr</language>
+    <atom:link href="http://localhost:1313/docs/physique/terminale/acidebase/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>1) Couples acide/base</title>
+      <link>http://localhost:1313/docs/physique/terminale/acidebase/reaction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/physique/terminale/acidebase/reaction/</guid>
+      <description>&lt;h2 id=&#34;définition&#34;&gt;Définition&lt;a class=&#34;anchor&#34; href=&#34;#d%c3%a9finition&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Une suite arithmétique est une suite de nombres lorem ipsum &amp;hellip;Une suite arithmétique est une suite de nombres lorem ipsum &amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2) Méthodes de suivi</title>
+      <link>http://localhost:1313/docs/physique/terminale/acidebase/suivi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/physique/terminale/acidebase/suivi/</guid>
+      <description>&lt;h2 id=&#34;définition&#34;&gt;Définition&lt;a class=&#34;anchor&#34; href=&#34;#d%c3%a9finition&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Une suite arithmétique est une suite de nombres lorem ipsum &amp;hellip;Une suite arithmétique est une suite de nombres lorem ipsum &amp;hellip;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

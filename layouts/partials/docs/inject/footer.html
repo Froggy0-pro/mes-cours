@@ -1,0 +1,25 @@
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll(".book-menu li").forEach(function (li) {
+    const link = li.querySelector(":scope > a");
+    const sublist = li.querySelector(":scope > ul");
+
+    if (link && sublist) {
+      // Masquer la sous-liste par défaut
+      sublist.style.display = "none";
+      link.classList.add("menu-toggle");
+
+      // Rendre le lien cliquable sans navigation
+      link.addEventListener("click", function (e) {
+        e.preventDefault();
+        const isOpen = sublist.style.display === "block";
+        sublist.style.display = isOpen ? "none" : "block";
+        link.classList.toggle("open", !isOpen);
+      });
+    }
+  });
+});
+</script>
+
+
+

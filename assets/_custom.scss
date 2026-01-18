@@ -1,0 +1,89 @@
+// Variables
+$menu-width: 20rem;
+
+// Forcer la largeur du menu de gauche AVEC outline bleu
+.book-menu {
+  width: $menu-width !important;
+  min-width: $menu-width !important;
+  max-width: $menu-width !important; // Ajouter max-width
+  flex: 0 0 $menu-width !important;
+  overflow: hidden !important; // Empêcher tout débordement
+  position: relative !important;
+  z-index: 1 !important; // S'assurer qu'il est sous le contenu
+}
+
+// Empêcher le contenu du menu de déborder
+.book-menu * {
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+// S'assurer que le contenu du menu utilise toute la largeur
+.book-menu-content {
+  width: 100% !important;
+  max-width: $menu-width !important;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.9rem;
+  background-color: #f5f5f5 !important;
+}
+
+.book-toc-content {
+  background-color: #f5f5f5 !important; // Fond bleu clair pour la TOC
+}
+
+// Fixer la barre de recherche pour qu'elle reste dans le menu
+.book-search {
+  width: 100% !important;
+  max-width: none !important;
+}
+
+.book-search input {
+  width: 100% !important;
+  max-width: calc(#{$menu-width} - 2rem) !important;
+  box-sizing: border-box;
+}
+
+// Forcer la largeur du contenu principal
+.container,
+main,
+.book-page,
+.markdown {
+  max-width: none !important;
+  width: 100% !important;
+}
+
+.book-page {
+  position: relative !important;
+  z-index: 2 !important; // S'assurer qu'il est au-dessus du menu
+}
+
+
+// Styles du menu
+.book-menu ul li {
+  margin-bottom: 0.2rem;
+}
+
+// Repositionner les flèches de déploiement
+.book-menu label {
+  display: flex !important;
+  flex-direction: row-reverse !important;
+  justify-content: flex-end !important;
+  align-items: center;
+  width: 100% !important;
+}
+
+// Cacher la checkbox
+.book-menu input[type="checkbox"] {
+  margin-right: 0.5rem !important;
+  margin-left: 0 !important;
+  flex-shrink: 0 !important;
+}
+
+// Ajuster l'espacement du lien
+.book-menu label > a {
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  white-space: nowrap !important;
+}
+
+
