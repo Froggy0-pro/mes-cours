@@ -7,6 +7,10 @@ enableGitInfo = true
 relativeURLs = false
 canonifyURLs = true
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [params]
   BookTheme = "light"
@@ -20,5 +24,5 @@ canonifyURLs = true
   BookMenuWidth = "20rem"
   BookBodyMaxWidth = "60rem"
 
- 
+
 

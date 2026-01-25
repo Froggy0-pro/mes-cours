@@ -9,13 +9,20 @@
     <atom:link href="http://localhost:1313/docs/physique/terminale/acidebase/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>1) Couples acide/base</title>
-      <link>http://localhost:1313/docs/physique/terminale/acidebase/reaction/</link>
+      <link>http://localhost:1313/docs/physique/terminale/acidebase/couples/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/physique/terminale/acidebase/reaction/</guid>
-      <description>&lt;h2 id=&#34;définition&#34;&gt;Définition&lt;a class=&#34;anchor&#34; href=&#34;#d%c3%a9finition&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Une suite arithmétique est une suite de nombres lorem ipsum &amp;hellip;Une suite arithmétique est une suite de nombres lorem ipsum &amp;hellip;&lt;/p&gt;</description>
+      <guid>http://localhost:1313/docs/physique/terminale/acidebase/couples/</guid>
+      <description>&lt;h2 id=&#34;définition-théorie-de-brønsted-lowry&#34;&gt;Définition (Théorie de Brønsted-Lowry)&lt;a class=&#34;anchor&#34; href=&#34;#d%c3%a9finition-th%c3%a9orie-de-br%c3%b8nsted-lowry&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;On définit un &lt;strong&gt;acide&lt;/strong&gt; comme une espèce chimique capable de &lt;strong&gt;céder&lt;/strong&gt; un (ou plusieurs) proton(s) sous la forme d&amp;rsquo;ions H+.&lt;/li&gt;&#xA;&lt;li&gt;On définit une &lt;strong&gt;base&lt;/strong&gt; comme une espèce chimique capable de &lt;strong&gt;capter&lt;/strong&gt; un (ou plusieurs) proton(s) sous la forme d&amp;rsquo;ions H+.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Ainsi, un échange de protons entre deux espèces chimiques mène à une &lt;strong&gt;réaction acido-basique&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;couples-acidebase&#34;&gt;Couples acide/base&lt;a class=&#34;anchor&#34; href=&#34;#couples-acidebase&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Toute espèce acide ou basique possède respectivement une base ou un acide &lt;strong&gt;conjugué&lt;/strong&gt;, les deux formant ensemble un &lt;strong&gt;couple acide/base&lt;/strong&gt; (&lt;em&gt;toujours noté dans cet ordre&lt;/em&gt;).&lt;/p&gt;</description>
     </item>
     <item>
-      <title>2) Méthodes de suivi</title>
+      <title>2) Force des acides/bases</title>
+      <link>http://localhost:1313/docs/physique/terminale/acidebase/force/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/physique/terminale/acidebase/force/</guid>
+      <description>&lt;h2 id=&#34;définition-théorie-de-brønsted-lowry&#34;&gt;Définition (Théorie de Brønsted-Lowry)&lt;a class=&#34;anchor&#34; href=&#34;#d%c3%a9finition-th%c3%a9orie-de-br%c3%b8nsted-lowry&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;On définit un &lt;strong&gt;acide&lt;/strong&gt; comme une espèce chimique capable de &lt;strong&gt;céder&lt;/strong&gt; un (ou plusieurs) proton(s) sous la forme d&amp;rsquo;ions H+.&lt;/li&gt;&#xA;&lt;li&gt;On définit une &lt;strong&gt;base&lt;/strong&gt; comme une espèce chimique capable de &lt;strong&gt;capter&lt;/strong&gt; un (ou plusieurs) proton(s) sous la forme d&amp;rsquo;ions H+.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Ainsi, un échange de protons entre deux espèces chimiques mène à une &lt;strong&gt;réaction acido-basique&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;couples-acidebase&#34;&gt;Couples acide/base&lt;a class=&#34;anchor&#34; href=&#34;#couples-acidebase&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Toute espèce acide ou basique possède respectivement une base ou un acide &lt;strong&gt;conjugué&lt;/strong&gt;, les deux formant ensemble un &lt;strong&gt;couple acide/base&lt;/strong&gt; (&lt;em&gt;toujours noté dans cet ordre&lt;/em&gt;).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>3) Méthodes de suivi</title>
       <link>http://localhost:1313/docs/physique/terminale/acidebase/suivi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/docs/physique/terminale/acidebase/suivi/</guid>
