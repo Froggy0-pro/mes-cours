@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .grid { stroke: #e0e0e0; stroke-width: 0.5; }
+      .axis { stroke: #000; stroke-width: 2; }
+      .curve-acid { stroke: #d32f2f; stroke-width: 3; fill: none; }
+      .curve-base { stroke: #1976d2; stroke-width: 3; fill: none; }
+      .label { font-family: Arial, sans-serif; font-size: 14px; }
+      .pka-line { stroke: #4caf50; stroke-width: 2; stroke-dasharray: 5,5; }
+    </style>
+  </defs>
+  
+  <!-- Grille horizontale -->
+  <line x1="40" y1="20" x2="560" y2="20" class="grid"/>
+  <line x1="40" y1="52" x2="560" y2="52" class="grid"/>
+  <line x1="40" y1="84" x2="560" y2="84" class="grid"/>
+  <line x1="40" y1="116" x2="560" y2="116" class="grid"/>
+  <line x1="40" y1="148" x2="560" y2="148" class="grid"/>
+  <line x1="40" y1="180" x2="560" y2="180" class="grid"/>
+  <line x1="40" y1="212" x2="560" y2="212" class="grid"/>
+  <line x1="40" y1="244" x2="560" y2="244" class="grid"/>
+  <line x1="40" y1="276" x2="560" y2="276" class="grid"/>
+  <line x1="40" y1="308" x2="560" y2="308" class="grid"/>
+  <line x1="40" y1="340" x2="560" y2="340" class="grid"/>
+  
+  <!-- Grille verticale -->
+  <line x1="80" y1="20" x2="80" y2="340" class="grid"/>
+  <line x1="120" y1="20" x2="120" y2="340" class="grid"/>
+  <line x1="160" y1="20" x2="160" y2="340" class="grid"/>
+  <line x1="200" y1="20" x2="200" y2="340" class="grid"/>
+  <line x1="240" y1="20" x2="240" y2="340" class="grid"/>
+  <line x1="280" y1="20" x2="280" y2="340" class="grid"/>
+  <line x1="320" y1="20" x2="320" y2="340" class="grid"/>
+  <line x1="360" y1="20" x2="360" y2="340" class="grid"/>
+  <line x1="400" y1="20" x2="400" y2="340" class="grid"/>
+  <line x1="440" y1="20" x2="440" y2="340" class="grid"/>
+  <line x1="480" y1="20" x2="480" y2="340" class="grid"/>
+  <line x1="520" y1="20" x2="520" y2="340" class="grid"/>
+  <line x1="560" y1="20" x2="560" y2="340" class="grid"/>
+  
+  <!-- Axes -->
+  <line x1="40" y1="20" x2="40" y2="340" class="axis"/>
+  <line x1="40" y1="340" x2="560" y2="340" class="axis"/>
+  
+  <!-- Labels axe Y -->
+  <text x="25" y="25" class="label" text-anchor="end">100</text>
+  <text x="25" y="89" class="label" text-anchor="end">80</text>
+  <text x="25" y="153" class="label" text-anchor="end">60</text>
+  <text x="25" y="185" class="label" text-anchor="end">50</text>
+  <text x="25" y="217" class="label" text-anchor="end">40</text>
+  <text x="25" y="281" class="label" text-anchor="end">20</text>
+  <text x="25" y="345" class="label" text-anchor="end">0</text>
+  
+  <!-- Labels axe X (pH de 0 à 14) -->
+  <text x="40" y="360" class="label" text-anchor="middle">0</text>
+  <text x="117" y="360" class="label" text-anchor="middle">2</text>
+  <text x="197" y="360" class="label" text-anchor="middle">4</text>
+  <text x="277" y="360" class="label" text-anchor="middle">6</text>
+  <text x="357" y="360" class="label" text-anchor="middle">8</text>
+  <text x="437" y="360" class="label" text-anchor="middle">10</text>
+  <text x="517" y="360" class="label" text-anchor="middle">12</text>
+  
+  <!-- Ligne verticale au pKa (pKa = 7) -->
+  <line x1="317" y1="20" x2="317" y2="340" class="pka-line"/>
+  <text x="317" y="15" class="label" text-anchor="middle" fill="#4caf50" font-weight="bold">pH = pKa</text>
+  
+  <!-- Courbe de l'acide HA (rouge) -->
+  <path d="M 40,20 Q 120,20 180,60 T 240,140 T 317,180 T 394,260 T 480,320 T 560,340" class="curve-acid"/>
+  
+  <!-- Courbe de la base A- (bleue) -->
+  <path d="M 40,340 Q 120,340 180,280 T 240,200 T 317,180 T 394,80 T 480,30 T 560,20" class="curve-base"/>
+  
+  <!-- Légendes -->
+  <text x="100" y="50" class="label" fill="#d32f2f" font-weight="bold">Acide (HA)</text>
+  <text x="450" y="50" class="label" fill="#1976d2" font-weight="bold">Base (A⁻)</text>
+  
+  <!-- Labels des axes -->
+  <text x="300" y="390" class="label" text-anchor="middle" font-weight="bold">pH</text>
+  <text x="15" y="200" class="label" writing-mode="tb" font-weight="bold">Proportion (%)</text>
+</svg>

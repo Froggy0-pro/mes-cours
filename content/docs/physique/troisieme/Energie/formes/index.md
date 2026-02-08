@@ -34,7 +34,7 @@ L'énergie cinétique est donnée par la relation $\boxed{E_c = \frac{1}{2} m v^
 - $v$ la vitesse (en m/s)
 - $E_c$ l'énergie cinétique (en joules, J)
 
-<u>Rappel</u>: Pour passer des $m/s$ aux $km/h$, on **multiplie** par $3.6$. Pour passer des $km/h$ aux $m/s$, on **divise** par $3.6$.
+<u>Rappel: Pour passer des m/s aux km/h, on **multiplie par 3,6**. Pour passer des km/h aux m/s, on **divise par 3,6.**</u>
 
 L'énergie potentielle de pesanteur est donnée par la relation $\boxed{E_p = m g h}$ avec:
 - $m$ la masse (en kg)

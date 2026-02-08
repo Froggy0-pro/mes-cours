@@ -57,11 +57,11 @@ M($\ce{CuSO4}$) = 63,5 + 32 + 4×16 = 159,5 g/mol
 
 ## pH d'une solution
 
-Le potentiel hydrogène (pH) est une grandeur sans dimension comprise entre 0 et 14 permettant de mesurer l’acidité d’une solution. Plus le pH est proche de 0, plus la solution est acide. À l’inverse, plus le pH est proche de 14, plus la solution est basique. Si pH = 7, la solution est neutre. En réalité, le pH est lié à la concentration en ions oxonium ($\ce{H3O+}$) dans une solution aqueuse, selon la relation: $\text{pH} = -\log\left(\frac{[\ce{H3O+}]}{c^0}\right)$ où $c^0 = 1~\text{mol/L}$ est la concentration de référence.
+Le potentiel hydrogène (pH) est une grandeur sans dimension comprise entre 0 et 14 permettant de mesurer l’acidité d’une solution. Plus le pH est proche de 0, plus la solution est acide. À l’inverse, plus le pH est proche de 14, plus la solution est basique. Si pH = 7, la solution est neutre. En réalité, le pH est lié à la concentration en ions oxonium ($\ce{H3O+}$) dans une solution aqueuse, selon la relation: $\boxed{\text{pH} = -\log\left(\frac{[\ce{H3O+}]}{c^0}\right)}$ où $c^0 = 1~\text{mol/L}$ est la concentration de référence.
 
-Si ${[\ce{H3O+}]}$ est en $\text{mol/L}$ alors le plus souvent on écrit directement: $\text{pH} = -\log[\ce{H3O+}]$
+Si ${[\ce{H3O+}]}$ est en $\text{mol/L}$ alors le plus souvent on écrit directement: $\boxed{\text{pH} = -\log[\ce{H3O+}]}$
 
-On peut bien sûr faire le chemin inverse et retrouver la concentration en ions oxonium à partir d'un pH connu: $[\ce{H3O+}] = 10^{-\text{pH}}$
+On peut bien sûr faire le chemin inverse et retrouver la concentration en ions oxonium à partir d'un pH connu: $\boxed{[\ce{H3O+}] = 10^{-\text{pH}}}$
 
 <details>
 <summary>Exercice</summary>

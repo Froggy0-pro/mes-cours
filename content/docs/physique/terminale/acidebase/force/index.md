@@ -1,30 +1,17 @@
 ---
-title: "2) Force des acides/bases"
+title: "4) Force des acides/bases"
 ---
 
-## Définition (Théorie de Brønsted-Lowry)
-- On définit un **acide** comme une espèce chimique capable de **céder** un (ou plusieurs) proton(s) sous la forme d'ions H+.
-- On définit une **base** comme une espèce chimique capable de **capter** un (ou plusieurs) proton(s) sous la forme d'ions H+.
+## Produit ionique de l'eau
 
-Ainsi, un échange de protons entre deux espèces chimiques mène à une **réaction acido-basique**.
+L'eau est une espèce amphotère appartenant aux couples $\ce{H3O+/H2O}$ et $\ce{H2O/HO-}$. La réaction acido-basique entre ces deux couples, appelée **autoprotolyse de l'eau**, donne l'équation $\ce{2H2O <=> H3O+ + HO-}$
 
-## Couples acide/base
-Toute espèce acide ou basique possède respectivement une base ou un acide **conjugué**, les deux formant ensemble un **couple acide/base** (*toujours noté dans cet ordre*). 
+La constante d'équilibre de cette réaction est appelée **produit ionique de l'eau**, noté $K_e$. Étant donné que l'eau n'intervient pas dans la formule du quotient de réaction/constante d'équilibre, seuls les produits sont pris en compte. De plus, on sait que le pH de l'eau à 25°C vaut environ 7, ce qui implique que ${[\ce{H3O+}] = 10^{-\text{pH}} = 10^{-7}}$. Or l'eau se dissocie en autant d'ions ${\ce{H3O+}}$ que ${\ce{HO-}}$ donc ${[\ce{HO-}] = [\ce{H3O+}] = 10^{-7}}$.
 
-Par exemple: $\ce{HCl/Cl-}$ et $\ce{H3O+/H2O}$ sont deux couples acide/base.
+À 25 °C, le produit ionique de l’eau vaut donc $\boxed{K_e = [\mathrm{H_3O^+}] \times [\mathrm{HO^-}] = 10^{-14}}$
 
-On appelle demi-équation acide-base l'équation permettant de passer de la forme acide à basique et vice-versa. Elle s'écrit: $\ce{AH <=> A- + H+}$ 
+On peut aussi définir le $pKe$ tel que $pK_e = -\log(K_e) = 14$
 
-Avec les exemples précédents, cela donne: $\ce{HCl <=> Cl- + H+}$ et $\ce{H3O+ <=> H2O + H+}$ 
-
-## Équation de réaction
-- Étape 1: On repère dans l'énoncé les deux espèces qui réagissent ensemble. Par exemple: "*On dissout dans de l’eau un échantillon de chlorure d’hydrogène gazeux*". Les réactifs seront donc $\ce{HCl}$ et $\ce{H2O}$.
-- Étape 2: On note les demi-équations associées aux deux espèces, généralement en commençant par l'espèce qui réagit. Soit $\ce{HCl <=> Cl- + H+}$ (acide -> base) et $\ce{H2O + H+ <=> H3O+}$ (base -> acide).
-- Étape 3: On combine les deux demi-équations pour former l'équation-bilan de la réaction acide-base. Soit $\ce{HCl + H2O <=> Cl- + H3O+}$
-
-<u>Remarque</u>: Les H+ n'apparaissent pas dans l'équation bilan car ils s'équilibrent des deux côtés. Par ailleurs, on fait forcément réagir la forme acide d'un des couples avec la forme basique de l'autre.
-
-Certaines espèces appartiennent à deux couples acide/base à la fois. On les appelle des espèces **amphotères** (adjectif) ou **ampholytes** (nom commun). C'est notamment le cas de l'eau: $\ce{H3O+/H2O}$ (base) et $\ce{H2O/HO-}$ (acide).
 
 <details>
 <summary>Exercice</summary>
@@ -55,13 +42,21 @@ M($\ce{CuSO4}$) = 63,5 + 32 + 4×16 = 159,5 g/mol
 
 </details>
 
-## pH d'une solution
+## Constante d'acidité
 
-Le potentiel hydrogène (pH) est une grandeur sans dimension comprise entre 0 et 14 permettant de mesurer l’acidité d’une solution. Plus le pH est proche de 0, plus la solution est acide. À l’inverse, plus le pH est proche de 14, plus la solution est basique. Si pH = 7, la solution est neutre. En réalité, le pH est lié à la concentration en ions oxonium ($\ce{H3O+}$) dans une solution aqueuse, selon la relation: $\text{pH} = -\log\left(\frac{[\ce{H3O+}]}{c^0}\right)$ où $c^0 = 1~\text{mol/L}$ est la concentration de référence.
+La réaction acido-basique entre entre un acide quelconque $AH$ et l'eau est $\ce{AH + H2O <=> A- + H3O+}$
 
-Si ${[\ce{H3O+}]}$ est en $\text{mol/L}$ alors le plus souvent on écrit directement: $\text{pH} = -\log[\ce{H3O+}]$
+La constante d'équilibre d'une telle réaction est appelée **constante d'acidité**. Elle se note $K_a$ et a donc pour expression $\boxed{K_a = \frac{[\ce{H3O+}] \ [\ce{A-}]}{[\ce{AH}]}}$
 
-On peut bien sûr faire le chemin inverse et retrouver la concentration en ions oxonium à partir d'un pH connu: $[\ce{H3O+}] = 10^{-\text{pH}}$
+On définit le $pK_a$ exactement de la même manière que le $pH$ ou le $pK_e$, on a donc aussi $\boxed{\text{p}K_a = -\log(K_a)}$ et $\boxed{K_a = 10^{-\text{p}K_a}}$
+
+**Relation entre pH et pKa**: $\text{p}K_a = -\log(K_a) = -\log\left(\frac{[\ce{H3O+}] \ [\ce{A-}]}{[\ce{AH}]}\right)= -\log[\ce{H3O+}] - \log\left(\frac{[\ce{A-}]}{[\ce{AH}]}\right)=\text{pH} - \log\left(\frac{[\ce{A-}]}{[\ce{AH}]}\right)$
+
+Soit au final $\boxed{\text{pH} = \text{p}K_a + \log\left(\frac{[\ce{A-}]}{[\ce{AH}]}\right)}$
+
+<u>Cas particulier</u>: À la demi-équivalence, $[\ce{A-}] = [\ce{HA}]$, donc $\text{pH} = \text{p}K_a$
+
+
 
 <details>
 <summary>Exercice</summary>
