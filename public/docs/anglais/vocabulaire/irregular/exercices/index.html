@@ -1,0 +1,1733 @@
+<!DOCTYPE html>
+<html lang="fr-fr" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="🎲 Entraînement aléatoire# Cliquez sur &#34;Nouveau verbe&#34; pour commencer&lt;div style=&#34;margin: 2rem 0;&#34;&gt;&lt;input type=&#34;text&#34; id=&#34;answer&#34; placeholder=&#34;Votre réponse...&#34; style=&#34;padding: 0.5rem; font-size: 1.1em; width: 250px; border: 2px solid #ddd; border-radius: 4px;&#34;&gt;&lt;/div&gt;&lt;div style=&#34;margin: 1rem 0;&#34;&gt;&lt;button onclick=&#34;checkAnswer()&#34; style=&#34;padding: 0.75rem 1.5rem; font-size: 1em; background-color: #4caf50; color: white; border: none; border-radius: 4px; cursor: pointer; margin-right: 0.5rem;&#34;&gt;Vérifier&lt;/button&gt;&lt;button onclick=&#34;newVerb()&#34; style=&#34;padding: 0.75rem 1.5rem; font-size: 1em; background-color: #1976d2; color: white; border: none; border-radius: 4px; cursor: pointer; margin-right: 0.5rem;&#34;&gt;Nouveau verbe&lt;/button&gt;&lt;button onclick=&#34;showAnswer()&#34; style=&#34;padding: 0.75rem 1.5rem; font-size: 1em; background-color: #ff9800; color: white; border: none; border-radius: 4px; cursor: pointer;&#34;&gt;Voir la réponse&lt;/button&gt;&lt;/div&gt;&lt;p id=&#34;result&#34; style=&#34;font-size: 1.2em; font-weight: bold; margin-top: 1rem;&#34;&gt;&lt;/p&gt;&lt;p id=&#34;score&#34; style=&#34;font-size: 1em; color: #666;&#34;&gt;Score : &lt;span id=&#34;correct&#34;&gt;0&lt;/span&gt; / &lt;span id=&#34;total&#34;&gt;0&lt;/span&gt;&lt;/p&gt;📚 Liste complète des verbes# Pour réviser la liste complète, consultez la page des verbes irréguliers.
+">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/docs/anglais/vocabulaire/irregular/exercices/">
+  <meta property="og:site_name" content="Mes cours">
+  <meta property="og:title" content="Exercice interactif - Verbes irréguliers">
+  <meta property="og:description" content="🎲 Entraînement aléatoire# Cliquez sur &#34;Nouveau verbe&#34; pour commencer&lt;div style=&#34;margin: 2rem 0;&#34;&gt;&lt;input type=&#34;text&#34; id=&#34;answer&#34; placeholder=&#34;Votre réponse...&#34; style=&#34;padding: 0.5rem; font-size: 1.1em; width: 250px; border: 2px solid #ddd; border-radius: 4px;&#34;&gt;&lt;/div&gt;&lt;div style=&#34;margin: 1rem 0;&#34;&gt;&lt;button onclick=&#34;checkAnswer()&#34; style=&#34;padding: 0.75rem 1.5rem; font-size: 1em; background-color: #4caf50; color: white; border: none; border-radius: 4px; cursor: pointer; margin-right: 0.5rem;&#34;&gt;Vérifier&lt;/button&gt;&lt;button onclick=&#34;newVerb()&#34; style=&#34;padding: 0.75rem 1.5rem; font-size: 1em; background-color: #1976d2; color: white; border: none; border-radius: 4px; cursor: pointer; margin-right: 0.5rem;&#34;&gt;Nouveau verbe&lt;/button&gt;&lt;button onclick=&#34;showAnswer()&#34; style=&#34;padding: 0.75rem 1.5rem; font-size: 1em; background-color: #ff9800; color: white; border: none; border-radius: 4px; cursor: pointer;&#34;&gt;Voir la réponse&lt;/button&gt;&lt;/div&gt;&lt;p id=&#34;result&#34; style=&#34;font-size: 1.2em; font-weight: bold; margin-top: 1rem;&#34;&gt;&lt;/p&gt;&lt;p id=&#34;score&#34; style=&#34;font-size: 1em; color: #666;&#34;&gt;Score : &lt;span id=&#34;correct&#34;&gt;0&lt;/span&gt; / &lt;span id=&#34;total&#34;&gt;0&lt;/span&gt;&lt;/p&gt;📚 Liste complète des verbes# Pour réviser la liste complète, consultez la page des verbes irréguliers.">
+  <meta property="og:locale" content="fr_fr">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="docs">
+
+
+  <meta itemprop="name" content="Exercice interactif - Verbes irréguliers">
+  <meta itemprop="description" content="🎲 Entraînement aléatoire# Cliquez sur &#34;Nouveau verbe&#34; pour commencer&lt;div style=&#34;margin: 2rem 0;&#34;&gt;&lt;input type=&#34;text&#34; id=&#34;answer&#34; placeholder=&#34;Votre réponse...&#34; style=&#34;padding: 0.5rem; font-size: 1.1em; width: 250px; border: 2px solid #ddd; border-radius: 4px;&#34;&gt;&lt;/div&gt;&lt;div style=&#34;margin: 1rem 0;&#34;&gt;&lt;button onclick=&#34;checkAnswer()&#34; style=&#34;padding: 0.75rem 1.5rem; font-size: 1em; background-color: #4caf50; color: white; border: none; border-radius: 4px; cursor: pointer; margin-right: 0.5rem;&#34;&gt;Vérifier&lt;/button&gt;&lt;button onclick=&#34;newVerb()&#34; style=&#34;padding: 0.75rem 1.5rem; font-size: 1em; background-color: #1976d2; color: white; border: none; border-radius: 4px; cursor: pointer; margin-right: 0.5rem;&#34;&gt;Nouveau verbe&lt;/button&gt;&lt;button onclick=&#34;showAnswer()&#34; style=&#34;padding: 0.75rem 1.5rem; font-size: 1em; background-color: #ff9800; color: white; border: none; border-radius: 4px; cursor: pointer;&#34;&gt;Voir la réponse&lt;/button&gt;&lt;/div&gt;&lt;p id=&#34;result&#34; style=&#34;font-size: 1.2em; font-weight: bold; margin-top: 1rem;&#34;&gt;&lt;/p&gt;&lt;p id=&#34;score&#34; style=&#34;font-size: 1em; color: #666;&#34;&gt;Score : &lt;span id=&#34;correct&#34;&gt;0&lt;/span&gt; / &lt;span id=&#34;total&#34;&gt;0&lt;/span&gt;&lt;/p&gt;📚 Liste complète des verbes# Pour réviser la liste complète, consultez la page des verbes irréguliers.">
+  <meta itemprop="wordCount" content="130">
+
+<title>Exercice interactif - Verbes irréguliers | Mes cours</title>
+<link rel="icon" href="http://localhost:1313/favicon.png" >
+<link rel="manifest" href="http://localhost:1313/manifest.json">
+<link rel="canonical" href="http://localhost:1313/docs/anglais/vocabulaire/irregular/exercices/">
+<link rel="stylesheet" href="http://localhost:1313/book.min.7e3f11d5a21359d22c624b572878d7b4815568272a8c2384e5eff87151627a86.css" integrity="sha256-fj8R1aITWdIsYktXKHjXtIFVaCcqjCOE5e/4cVFieoY=" crossorigin="anonymous">
+
+
+  <script defer src="http://localhost:1313/fuse.min.js"></script>
+  <script defer src="http://localhost:1313/en.search.min.6afa0385a8cbd77822728f0afc6f2cf55524239737a2b513194130d67222e7a3.js" integrity="sha256-avoDhajL13gico8K/G8s9VUkI5c3orUTGUEw1nIi56M=" crossorigin="anonymous"></script>
+
+
+
+  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/mhchem.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body, {
+  delimiters: [
+    {left: '$$', right: '$$', display: true},
+    {left: '$', right: '$', display: false}
+  ]
+});"></script>
+
+</head>
+<body dir="ltr" class="book-kind-page book-type-docs">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    
+<aside class="book-menu">
+  <div class="book-menu-content">
+    
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="http://localhost:1313/"><span>Mes cours</span>
+  </a>
+</h2>
+
+
+<div class="book-search hidden">
+  <input id="book-search-input" type="text" 
+    placeholder="Search"
+    aria-label="Search"
+    maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-f69cdcbbbdd3c35e1afd61029681440a" class="toggle"  />
+    <label for="section-f69cdcbbbdd3c35e1afd61029681440a" class="flex">
+      <a role="button" class="">
+        Maths</a>
+      <img src="http://localhost:1313/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a>
+      Post bac</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-4e784de060d4f2d33eae65bf7e21207d" class="toggle"  />
+    <label for="section-4e784de060d4f2d33eae65bf7e21207d" class="flex">
+      <a role="button" class="">
+        Première</a>
+      <img src="http://localhost:1313/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-ad947d7977f5cc36adee80e1d7344253" class="toggle"  />
+    <label for="section-ad947d7977f5cc36adee80e1d7344253" class="flex">
+      <a role="button" class="">
+        Dérivation</a>
+      <img src="http://localhost:1313/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/premiere/derivation/variation/var/" class="">
+      1) Taux de variation</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/premiere/derivation/usuelles/usu/" class="">
+      2) Dérivées usuelles</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/premiere/derivation/fonctions/fonc/" class="">
+      3) Sens de variation</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/premiere/derivation/sujets/suj/" class="">
+      4) Sujets d&#39;entraînement</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-5c750ef3bc2f9de76436469c87343288" class="toggle"  />
+    <label for="section-5c750ef3bc2f9de76436469c87343288" class="flex">
+      <a role="button" class="">
+        Exponentielle</a>
+      <img src="http://localhost:1313/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/premiere/exponentielle/fonction/" class="">
+      1) Fonction exponentielle</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/premiere/exponentielle/devoirs/" class="">
+      2) Sujets d&#39;entraînement</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-7b0772488c7cbd7102bbeb6115e97687" class="toggle"  />
+    <label for="section-7b0772488c7cbd7102bbeb6115e97687" class="flex">
+      <a role="button" class="">
+        Géométrie</a>
+      <img src="http://localhost:1313/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/premiere/geometrie/vecteurs/" class="">
+      1) Rappels sur les vecteurs</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/premiere/geometrie/equations/" class="">
+      2) Équations droite/cercle</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/premiere/geometrie/scalaire/" class="">
+      3) Produit scalaire</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/premiere/geometrie/devoirs/" class="">
+      4) Sujets d&#39;entraînement</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-79f63f6d39e0104fc4f2dceefd1a3a8b" class="toggle"  />
+    <label for="section-79f63f6d39e0104fc4f2dceefd1a3a8b" class="flex">
+      <a role="button" class="">
+        Polynômes</a>
+      <img src="http://localhost:1313/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/premiere/polynomes/second/" class="">
+      1) Second degré</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/premiere/polynomes/secondplus/" class="">
+      2) Applications diverses</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/premiere/polynomes/troisieme/" class="">
+      3) Troisième degré</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/premiere/polynomes/devoirs/" class="">
+      4) Sujets d&#39;entraînement</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-cfa8a488b59b392b6b51d4c4b08a2326" class="toggle"  />
+    <label for="section-cfa8a488b59b392b6b51d4c4b08a2326" class="flex">
+      <a role="button" class="">
+        Probabilités</a>
+      <img src="http://localhost:1313/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/premiere/probas/conditionnelle/" class="">
+      1) Probas conditionnelles</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/premiere/probas/tableaux/" class="">
+      2) Tableaux croisés</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/premiere/probas/lois/" class="">
+      3) Variables aléatoires</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/premiere/probas/devoirs/" class="">
+      4) Sujets d&#39;entraînement</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-150597735392203b65f9bc76b83ad53c" class="toggle"  />
+    <label for="section-150597735392203b65f9bc76b83ad53c" class="flex">
+      <a role="button" class="">
+        Python</a>
+      <img src="http://localhost:1313/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/premiere/python/base/" class="">
+      1) Bases de programmation</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/premiere/python/devoirs/" class="">
+      2) Sujets d&#39;entraînement</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-a3996586209fdd2bdb0f5c22461cfd73" class="toggle"  />
+    <label for="section-a3996586209fdd2bdb0f5c22461cfd73" class="flex">
+      <a role="button" class="">
+        Suites</a>
+      <img src="http://localhost:1313/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/premiere/suites/generalites/" class="">
+      1) Généralités</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/premiere/suites/arithmetiques/" class="">
+      2) Suites arithmétiques</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/premiere/suites/geometriques/" class="">
+      3) Suites géométriques</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/premiere/suites/devoirs/" class="">
+      4) Sujets d&#39;entraînement</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-36dd4f009001c97be3c0c34cf1b3bb66" class="toggle"  />
+    <label for="section-36dd4f009001c97be3c0c34cf1b3bb66" class="flex">
+      <a role="button" class="">
+        Trigonométrie</a>
+      <img src="http://localhost:1313/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/premiere/trigo/cercle/" class="">
+      1) Cercle trigonométrique</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/premiere/trigo/equations/" class="">
+      2) Calculs et équations</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/premiere/trigo/fonction/" class="">
+      3) Fonctions trigo</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/premiere/trigo/devoirs/" class="">
+      4) Sujets d&#39;entraînement</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a>
+      Seconde</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a>
+      Terminale</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a>
+      Troisième</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-f8b4d2eb2464212282c8f9b2ddd41ddb" class="toggle"  />
+    <label for="section-f8b4d2eb2464212282c8f9b2ddd41ddb" class="flex">
+      <a role="button" class="">
+        Physique-chimie</a>
+      <img src="http://localhost:1313/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a>
+      Première</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a>
+      Seconde</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-9419beda789d29eda1a7453174b75d11" class="toggle"  />
+    <label for="section-9419beda789d29eda1a7453174b75d11" class="flex">
+      <a role="button" class="">
+        Terminale</a>
+      <img src="http://localhost:1313/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-cb67a0da7c0d8f4d615183c308c305bd" class="toggle"  />
+    <label for="section-cb67a0da7c0d8f4d615183c308c305bd" class="flex">
+      <a role="button" class="">
+        Chimie</a>
+      <img src="http://localhost:1313/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/physique/terminale/acidebase/couples/" class="">
+      1) Couples acide/base</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/physique/terminale/acidebase/cinetique/" class="">
+      2) Cinétique et équilibre</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/physique/terminale/acidebase/acidite/" class="">
+      3) Constante d&#39;acidité Ka</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/physique/terminale/acidebase/force/" class="">
+      4) Force des acides/bases</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/physique/terminale/acidebase/suivi/" class="">
+      5) Méthodes de suivi</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-939aad91b7101a785670fc0128533c7c" class="toggle"  />
+    <label for="section-939aad91b7101a785670fc0128533c7c" class="flex">
+      <a role="button" class="">
+        Troisième</a>
+      <img src="http://localhost:1313/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-fc2235f8a1fc43c9b276fdcb369ee292" class="toggle"  />
+    <label for="section-fc2235f8a1fc43c9b276fdcb369ee292" class="flex">
+      <a role="button" class="">
+        Énergie</a>
+      <img src="http://localhost:1313/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/physique/troisieme/energie/formes/" class="">
+      1) Différentes formes d&#39;énergie</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/physique/troisieme/energie/conversions/" class="">
+      2) Transferts et conversions</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/physique/troisieme/energie/centrale/" class="">
+      3) Les centrales électriques</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/physique/troisieme/energie/elec/" class="">
+      4) L&#39;électricité</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-52c89bd8f3d3a892fd697987a7683b80" class="toggle"  />
+    <label for="section-52c89bd8f3d3a892fd697987a7683b80" class="flex">
+      <a role="button" class="">
+        Ondes</a>
+      <img src="http://localhost:1313/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-b7cd7a903053014938197441be6cac9c" class="toggle" checked />
+    <label for="section-b7cd7a903053014938197441be6cac9c" class="flex">
+      <a role="button" class="">
+        Anglais</a>
+      <img src="http://localhost:1313/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-f4ddcde993f9642ae91e6c3ec1142721" class="toggle" checked />
+    <label for="section-f4ddcde993f9642ae91e6c3ec1142721" class="flex">
+      <a role="button" class="">
+        Vocabulaire</a>
+      <img src="http://localhost:1313/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-5cdec767d0fbcd850b470a6f35462099" class="toggle"  />
+    <label for="section-5cdec767d0fbcd850b470a6f35462099" class="flex">
+      <a role="button" class="">
+        Idioms</a>
+      <img src="http://localhost:1313/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/anglais/vocabulaire/idiomes/animals/" class="">
+      1) Animals</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/anglais/vocabulaire/idiomes/bodyparts/" class="">
+      2) Body parts</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/anglais/vocabulaire/idiomes/food/" class="">
+      3) Food</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/anglais/vocabulaire/idiomes/items/" class="">
+      4) Items</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/anglais/vocabulaire/idiomes/time/" class="">
+      5) Time</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/anglais/vocabulaire/idiomes/weather/" class="">
+      6) Weather</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/anglais/vocabulaire/idiomes/water/" class="">
+      7) Water</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/anglais/vocabulaire/idiomes/various/" class="">
+      8) Various</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-666301d40065af6d89cb26c65849e06d" class="toggle" checked />
+    <label for="section-666301d40065af6d89cb26c65849e06d" class="flex">
+      <a role="button" class="">
+        Irregular verbs</a>
+      <img src="http://localhost:1313/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/anglais/vocabulaire/irregular/midlevel/" class="">
+      2) Medium level</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/anglais/vocabulaire/irregular/exercices/" class="active">
+      Exercice interactif - Verbes irréguliers</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+
+
+
+  </div>
+</aside>
+ 
+
+    <div class="book-page">
+      <header class="book-header hidden">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="http://localhost:1313/icons/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <h3>Exercice interactif - Verbes irréguliers</h3>
+
+  <label for="toc-control">
+    
+    <img src="http://localhost:1313/icons/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#-entraînement-aléatoire">🎲 Entraînement aléatoire</a></li>
+    <li><a href="#-liste-complète-des-verbes">📚 Liste complète des verbes</a></li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown book-article"><h2 id="-entraînement-aléatoire">🎲 Entraînement aléatoire<a class="anchor" href="#-entra%c3%aenement-al%c3%a9atoire">#</a></h2>
+<div id="verb-trainer">
+  <div style="text-align: center; padding: 2rem; background-color: #f5f5f5; border-radius: 8px; margin: 2rem 0;">
+    <h3 id="question" style="color: #1976d2; font-size: 1.5em;">Cliquez sur "Nouveau verbe" pour commencer</h3>
+    <p id="hint" style="font-size: 1.2em; margin: 1rem 0;"></p>
+<pre><code>&lt;div style=&quot;margin: 2rem 0;&quot;&gt;
+  &lt;input type=&quot;text&quot; id=&quot;answer&quot; placeholder=&quot;Votre réponse...&quot; style=&quot;padding: 0.5rem; font-size: 1.1em; width: 250px; border: 2px solid #ddd; border-radius: 4px;&quot;&gt;
+&lt;/div&gt;
+
+&lt;div style=&quot;margin: 1rem 0;&quot;&gt;
+  &lt;button onclick=&quot;checkAnswer()&quot; style=&quot;padding: 0.75rem 1.5rem; font-size: 1em; background-color: #4caf50; color: white; border: none; border-radius: 4px; cursor: pointer; margin-right: 0.5rem;&quot;&gt;Vérifier&lt;/button&gt;
+  &lt;button onclick=&quot;newVerb()&quot; style=&quot;padding: 0.75rem 1.5rem; font-size: 1em; background-color: #1976d2; color: white; border: none; border-radius: 4px; cursor: pointer; margin-right: 0.5rem;&quot;&gt;Nouveau verbe&lt;/button&gt;
+  &lt;button onclick=&quot;showAnswer()&quot; style=&quot;padding: 0.75rem 1.5rem; font-size: 1em; background-color: #ff9800; color: white; border: none; border-radius: 4px; cursor: pointer;&quot;&gt;Voir la réponse&lt;/button&gt;
+&lt;/div&gt;
+
+&lt;p id=&quot;result&quot; style=&quot;font-size: 1.2em; font-weight: bold; margin-top: 1rem;&quot;&gt;&lt;/p&gt;
+&lt;p id=&quot;score&quot; style=&quot;font-size: 1em; color: #666;&quot;&gt;Score : &lt;span id=&quot;correct&quot;&gt;0&lt;/span&gt; / &lt;span id=&quot;total&quot;&gt;0&lt;/span&gt;&lt;/p&gt;
+</code></pre>
+  </div>
+</div>
+<script>
+const verbs = [
+  // Groupe AAA
+  {base: "bet", past: "bet", pp: "bet", fr: "parier"},
+  {base: "cost", past: "cost", pp: "cost", fr: "coûter"},
+  {base: "cut", past: "cut", pp: "cut", fr: "couper"},
+  {base: "hit", past: "hit", pp: "hit", fr: "frapper"},
+  {base: "hurt", past: "hurt", pp: "hurt", fr: "blesser"},
+  {base: "let", past: "let", pp: "let", fr: "laisser"},
+  {base: "put", past: "put", pp: "put", fr: "mettre"},
+  {base: "shut", past: "shut", pp: "shut", fr: "fermer"},
+  
+  // Groupe ABB
+  {base: "bring", past: "brought", pp: "brought", fr: "apporter"},
+  {base: "buy", past: "bought", pp: "bought", fr: "acheter"},
+  {base: "catch", past: "caught", pp: "caught", fr: "attraper"},
+  {base: "fight", past: "fought", pp: "fought", fr: "se battre"},
+  {base: "teach", past: "taught", pp: "taught", fr: "enseigner"},
+  {base: "think", past: "thought", pp: "thought", fr: "penser"},
+  {base: "feel", past: "felt", pp: "felt", fr: "sentir"},
+  {base: "keep", past: "kept", pp: "kept", fr: "garder"},
+  {base: "leave", past: "left", pp: "left", fr: "partir"},
+  {base: "mean", past: "meant", pp: "meant", fr: "signifier"},
+  {base: "sleep", past: "slept", pp: "slept", fr: "dormir"},
+  {base: "spend", past: "spent", pp: "spent", fr: "dépenser"},
+  {base: "build", past: "built", pp: "built", fr: "construire"},
+  {base: "send", past: "sent", pp: "sent", fr: "envoyer"},
+  
+  // Groupe ABC - Pattern i→a→u
+  {base: "begin", past: "began", pp: "begun", fr: "commencer"},
+  {base: "drink", past: "drank", pp: "drunk", fr: "boire"},
+  {base: "ring", past: "rang", pp: "rung", fr: "sonner"},
+  {base: "sing", past: "sang", pp: "sung", fr: "chanter"},
+  {base: "sink", past: "sank", pp: "sunk", fr: "couler"},
+  {base: "swim", past: "swam", pp: "swum", fr: "nager"},
+  
+  // Pattern ow→ew→own
+  {base: "blow", past: "blew", pp: "blown", fr: "souffler"},
+  {base: "grow", past: "grew", pp: "grown", fr: "grandir"},
+  {base: "know", past: "knew", pp: "known", fr: "savoir/connaître"},
+  {base: "throw", past: "threw", pp: "thrown", fr: "lancer"},
+  {base: "fly", past: "flew", pp: "flown", fr: "voler"},
+  
+  // Pattern ea→o→o
+  {base: "break", past: "broke", pp: "broken", fr: "casser"},
+  {base: "speak", past: "spoke", pp: "spoken", fr: "parler"},
+  {base: "steal", past: "stole", pp: "stolen", fr: "voler"},
+  {base: "choose", past: "chose", pp: "chosen", fr: "choisir"},
+  {base: "freeze", past: "froze", pp: "frozen", fr: "geler"},
+  
+  // Les plus courants
+  {base: "be", past: "was/were", pp: "been", fr: "être"},
+  {base: "have", past: "had", pp: "had", fr: "avoir"},
+  {base: "do", past: "did", pp: "done", fr: "faire"},
+  {base: "go", past: "went", pp: "gone", fr: "aller"},
+  {base: "see", past: "saw", pp: "seen", fr: "voir"},
+  {base: "get", past: "got", pp: "got/gotten", fr: "obtenir"},
+  {base: "make", past: "made", pp: "made", fr: "faire/fabriquer"},
+  {base: "take", past: "took", pp: "taken", fr: "prendre"},
+  {base: "come", past: "came", pp: "come", fr: "venir"},
+  {base: "give", past: "gave", pp: "given", fr: "donner"},
+  {base: "find", past: "found", pp: "found", fr: "trouver"},
+  {base: "tell", past: "told", pp: "told", fr: "dire/raconter"},
+  {base: "become", past: "became", pp: "become", fr: "devenir"},
+  {base: "leave", past: "left", pp: "left", fr: "partir/laisser"},
+  {base: "understand", past: "understood", pp: "understood", fr: "comprendre"},
+  {base: "run", past: "ran", pp: "run", fr: "courir"},
+  {base: "stand", past: "stood", pp: "stood", fr: "se tenir debout"},
+  {base: "fall", past: "fell", pp: "fallen", fr: "tomber"},
+  {base: "eat", past: "ate", pp: "eaten", fr: "manger"},
+  {base: "write", past: "wrote", pp: "written", fr: "écrire"},
+  {base: "sit", past: "sat", pp: "sat", fr: "s'asseoir"},
+  {base: "lose", past: "lost", pp: "lost", fr: "perdre"},
+  {base: "pay", past: "paid", pp: "paid", fr: "payer"},
+  {base: "meet", past: "met", pp: "met", fr: "rencontrer"},
+  {base: "read", past: "read", pp: "read", fr: "lire"},
+  {base: "sell", past: "sold", pp: "sold", fr: "vendre"},
+  {base: "win", past: "won", pp: "won", fr: "gagner"},
+  {base: "wear", past: "wore", pp: "worn", fr: "porter (vêtement)"},
+  {base: "hear", past: "heard", pp: "heard", fr: "entendre"},
+  {base: "draw", past: "drew", pp: "drawn", fr: "dessiner"},
+  {base: "hold", past: "held", pp: "held", fr: "tenir"},
+  {base: "forget", past: "forgot", pp: "forgotten", fr: "oublier"},
+  {base: "drive", past: "drove", pp: "driven", fr: "conduire"},
+  {base: "ride", past: "rode", pp: "ridden", fr: "monter (vélo/cheval)"},
+  {base: "hide", past: "hid", pp: "hidden", fr: "cacher"},
+  {base: "lie", past: "lay", pp: "lain", fr: "être allongé"},
+  {base: "rise", past: "rose", pp: "risen", fr: "se lever/monter"},
+];
+
+let currentVerb = null;
+let questionType = null; // 'past' ou 'pp'
+let correctCount = 0;
+let totalCount = 0;
+
+function newVerb() {
+  // Choisir un verbe aléatoire
+  currentVerb = verbs[Math.floor(Math.random() * verbs.length)];
+  
+  // Choisir aléatoirement entre prétérit ou participe passé
+  questionType = Math.random() < 0.5 ? 'past' : 'pp';
+  
+  const questionText = questionType === 'past' 
+    ? `Quel est le <strong>prétérit</strong> de "${currentVerb.base}" ?`
+    : `Quel est le <strong>participe passé</strong> de "${currentVerb.base}" ?`;
+  
+  document.getElementById('question').innerHTML = questionText;
+  document.getElementById('hint').textContent = `(${currentVerb.fr})`;
+  document.getElementById('answer').value = '';
+  document.getElementById('result').textContent = '';
+  document.getElementById('answer').focus();
+}
+
+function checkAnswer() {
+  if (!currentVerb) {
+    alert('Cliquez d\'abord sur "Nouveau verbe" !');
+    return;
+  }
+  
+  const userAnswer = document.getElementById('answer').value.trim().toLowerCase();
+  const correctAnswer = questionType === 'past' ? currentVerb.past : currentVerb.pp;
+  
+  // Gérer les variantes (ex: got/gotten)
+  const correctAnswers = correctAnswer.split('/').map(a => a.toLowerCase());
+  
+  totalCount++;
+  
+  if (correctAnswers.includes(userAnswer)) {
+    correctCount++;
+    document.getElementById('result').innerHTML = '✅ <span style="color: #4caf50;">Correct !</span>';
+  } else {
+    document.getElementById('result').innerHTML = `❌ <span style="color: #f44336;">Incorrect. La bonne réponse est : <strong>${correctAnswer}</strong></span>`;
+  }
+  
+  document.getElementById('correct').textContent = correctCount;
+  document.getElementById('total').textContent = totalCount;
+}
+
+function showAnswer() {
+  if (!currentVerb) {
+    alert('Cliquez d\'abord sur "Nouveau verbe" !');
+    return;
+  }
+  
+  const correctAnswer = questionType === 'past' ? currentVerb.past : currentVerb.pp;
+  document.getElementById('result').innerHTML = `💡 La réponse est : <strong style="color: #ff9800;">${correctAnswer}</strong>`;
+}
+
+// Permettre de valider avec la touche Entrée
+document.addEventListener('DOMContentLoaded', function() {
+  const answerInput = document.getElementById('answer');
+  if (answerInput) {
+    answerInput.addEventListener('keypress', function(e) {
+      if (e.key === 'Enter') {
+        checkAnswer();
+      }
+    });
+  }
+});
+</script>
+<hr>
+<h2 id="-liste-complète-des-verbes">📚 Liste complète des verbes<a class="anchor" href="#-liste-compl%c3%a8te-des-verbes">#</a></h2>
+<p>Pour réviser la liste complète, consultez la <a href="../verbes-irreguliers/">page des verbes irréguliers</a>.</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+<div>
+
+</div>
+
+<div>
+
+</div>
+
+</div>
+
+
+
+
+
+  
+  
+  
+  <div class="flex flex-wrap justify-between">
+    <span>
+    
+      <a href="http://localhost:1313/docs/anglais/vocabulaire/irregular/midlevel/" class="flex align-center">
+        <img src="http://localhost:1313/icons/backward.svg" class="book-icon" alt="Backward" />
+        <span>2) Medium level</span>
+      </a>
+    
+    </span>
+    <span>
+    
+    </span>
+  </div>
+  
+
+
+ 
+        
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+        <script>
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll(".book-menu li").forEach(function (li) {
+    const link = li.querySelector(":scope > a");
+    const sublist = li.querySelector(":scope > ul");
+
+    if (link && sublist) {
+      
+      sublist.style.display = "none";
+      link.classList.add("menu-toggle");
+
+      
+      link.addEventListener("click", function (e) {
+        e.preventDefault();
+        const isOpen = sublist.style.display === "block";
+        sublist.style.display = isOpen ? "none" : "block";
+        link.classList.toggle("open", !isOpen);
+      });
+    }
+  });
+});
+</script>
+
+
+
+
+        
+  
+ 
+        
+  
+  
+    <script>(function(){document.querySelectorAll("pre:has(code)").forEach(e=>{e.addEventListener("click",e.focus),e.addEventListener("copy",function(t){if(t.preventDefault(),navigator.clipboard){const t=window.getSelection().toString()||e.textContent;navigator.clipboard.writeText(t)}})})})()</script>
+  
+
+      </footer>
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+  
+  <aside class="book-toc">
+    <div class="book-toc-content">
+      
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#-entraînement-aléatoire">🎲 Entraînement aléatoire</a></li>
+    <li><a href="#-liste-complète-des-verbes">📚 Liste complète des verbes</a></li>
+  </ul>
+</nav>
+
+
+
+    </div>
+  </aside>
+  
+ 
+  </main>
+
+  
+  <script>
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll(".book-menu li").forEach(function (li) {
+    const link = li.querySelector(":scope > a");
+    const sublist = li.querySelector(":scope > ul");
+
+    if (link && sublist) {
+      
+      sublist.style.display = "none";
+      link.classList.add("menu-toggle");
+
+      
+      link.addEventListener("click", function (e) {
+        e.preventDefault();
+        const isOpen = sublist.style.display === "block";
+        sublist.style.display = isOpen ? "none" : "block";
+        link.classList.toggle("open", !isOpen);
+      });
+    }
+  });
+});
+</script>
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
