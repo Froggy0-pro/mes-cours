@@ -1,5 +1,5 @@
 ---
-title: "Énergie"
+title: "L'énergie"
 bookCollapseSection: true
 weight: 2
 ---

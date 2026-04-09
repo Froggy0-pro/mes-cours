@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Géométrie on Mes cours</title>
+    <title>4) Géométrie on Mes cours</title>
     <link>http://localhost:1313/docs/maths/premiere/geometrie/</link>
-    <description>Recent content in Géométrie on Mes cours</description>
+    <description>Recent content in 4) Géométrie on Mes cours</description>
     <generator>Hugo</generator>
     <language>fr-fr</language>
     <atom:link href="http://localhost:1313/docs/maths/premiere/geometrie/index.xml" rel="self" type="application/rss+xml" />
@@ -12,28 +12,21 @@
       <link>http://localhost:1313/docs/maths/premiere/geometrie/vecteurs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/docs/maths/premiere/geometrie/vecteurs/</guid>
-      <description>&lt;h2 id=&#34;définition&#34;&gt;Définition&lt;a class=&#34;anchor&#34; href=&#34;#d%c3%a9finition&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Une suite arithmétique est une suite de nombres&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;exemple&#34;&gt;Exemple&lt;a class=&#34;anchor&#34; href=&#34;#exemple&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Soit la suite définie par&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;exercices&#34;&gt;Exercices&lt;a class=&#34;anchor&#34; href=&#34;#exercices&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Calculer le terme u₁₀&amp;hellip;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+      <description>&lt;h2 id=&#34;définition-et-notation&#34;&gt;Définition et notation&lt;a class=&#34;anchor&#34; href=&#34;#d%c3%a9finition-et-notation&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Un &lt;strong&gt;vecteur&lt;/strong&gt; est défini par :&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Une &lt;strong&gt;direction&lt;/strong&gt; (droite support)&lt;/li&gt;&#xA;&lt;li&gt;Un &lt;strong&gt;sens&lt;/strong&gt; (orientation sur cette droite)&lt;/li&gt;&#xA;&lt;li&gt;Une &lt;strong&gt;norme&lt;/strong&gt; (longueur)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Notation :&lt;/strong&gt; $\vec{AB}$ désigne le vecteur d&amp;rsquo;origine $A$ et d&amp;rsquo;extrémité $B$.&lt;/p&gt;&#xA;&lt;p&gt;Deux vecteurs sont &lt;strong&gt;égaux&lt;/strong&gt; s&amp;rsquo;ils ont même direction, même sens et même norme.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Vecteur nul :&lt;/strong&gt; $\vec{0}$ a une norme nulle (tous ses points sont confondus).&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;coordonnées-dun-vecteur&#34;&gt;Coordonnées d&amp;rsquo;un vecteur&lt;a class=&#34;anchor&#34; href=&#34;#coordonn%c3%a9es-dun-vecteur&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Dans un repère $(O; \vec{i}, \vec{j})$, si $A(x_A; y_A)$ et $B(x_B; y_B)$, alors :&lt;/p&gt;</description>
     </item>
     <item>
-      <title>2) Équations droite/cercle</title>
-      <link>http://localhost:1313/docs/maths/premiere/geometrie/equations/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/maths/premiere/geometrie/equations/</guid>
-      <description>&lt;h2 id=&#34;définition&#34;&gt;Définition&lt;a class=&#34;anchor&#34; href=&#34;#d%c3%a9finition&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Une suite arithmétique est une suite de nombres&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;exemple&#34;&gt;Exemple&lt;a class=&#34;anchor&#34; href=&#34;#exemple&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Soit la suite définie par&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;exercices&#34;&gt;Exercices&lt;a class=&#34;anchor&#34; href=&#34;#exercices&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Calculer le terme u₁₀&amp;hellip;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
-    </item>
-    <item>
-      <title>3) Produit scalaire</title>
+      <title>2) Produit scalaire</title>
       <link>http://localhost:1313/docs/maths/premiere/geometrie/scalaire/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/docs/maths/premiere/geometrie/scalaire/</guid>
-      <description>&lt;h2 id=&#34;définition&#34;&gt;Définition&lt;a class=&#34;anchor&#34; href=&#34;#d%c3%a9finition&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Une suite arithmétique est une suite de nombres&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;exemple&#34;&gt;Exemple&lt;a class=&#34;anchor&#34; href=&#34;#exemple&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Soit la suite définie par&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;exercices&#34;&gt;Exercices&lt;a class=&#34;anchor&#34; href=&#34;#exercices&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Calculer le terme u₁₀&amp;hellip;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+      <description>&lt;h2 id=&#34;définition-avec-le-cosinus&#34;&gt;Définition avec le cosinus&lt;a class=&#34;anchor&#34; href=&#34;#d%c3%a9finition-avec-le-cosinus&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Le &lt;strong&gt;produit scalaire&lt;/strong&gt; de deux vecteurs $\vec{u}$ et $\vec{v}$ est un &lt;strong&gt;nombre réel&lt;/strong&gt; noté $\vec{u} \cdot \vec{v}$ défini par :&lt;/p&gt;&#xA;&lt;p&gt;$$&#xA;\boxed{\vec{u} \cdot \vec{v} = |\vec{u}| \times |\vec{v}| \times \cos(\vec{u}, \vec{v})}&#xA;$$&lt;/p&gt;&#xA;&lt;p&gt;où $(\vec{u}, \vec{v})$ est l&amp;rsquo;&lt;strong&gt;angle&lt;/strong&gt; entre les deux vecteurs.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Cas particuliers :&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Si $\vec{u}$ et $\vec{v}$ sont &lt;strong&gt;orthogonaux&lt;/strong&gt; : $\vec{u} \cdot \vec{v} = 0$ (car $\cos 90° = 0$)&lt;/li&gt;&#xA;&lt;li&gt;Si $\vec{u}$ et $\vec{v}$ sont &lt;strong&gt;colinéaires de même sens&lt;/strong&gt; : $\vec{u} \cdot \vec{v} = |\vec{u}| \times |\vec{v}|$ (car $\cos 0° = 1$)&lt;/li&gt;&#xA;&lt;li&gt;Si $\vec{u}$ et $\vec{v}$ sont &lt;strong&gt;colinéaires de sens opposés&lt;/strong&gt; : $\vec{u} \cdot \vec{v} = -|\vec{u}| \times |\vec{v}|$ (car $\cos 180° = -1$)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Exemple :&lt;/strong&gt; Si $|\vec{u}| = 3$, $|\vec{v}| = 5$ et l&amp;rsquo;angle entre eux vaut $60°$ :&lt;/p&gt;</description>
     </item>
     <item>
-      <title>4) Sujets d&#39;entraînement</title>
-      <link>http://localhost:1313/docs/maths/premiere/geometrie/devoirs/</link>
+      <title>3) Équations cartésiennes</title>
+      <link>http://localhost:1313/docs/maths/premiere/geometrie/equations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/maths/premiere/geometrie/devoirs/</guid>
-      <description>&lt;h2 id=&#34;définition&#34;&gt;Définition&lt;a class=&#34;anchor&#34; href=&#34;#d%c3%a9finition&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Une suite arithmétique est une suite de nombres&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;exemple&#34;&gt;Exemple&lt;a class=&#34;anchor&#34; href=&#34;#exemple&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Soit la suite définie par&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;exercices&#34;&gt;Exercices&lt;a class=&#34;anchor&#34; href=&#34;#exercices&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Calculer le terme u₁₀&amp;hellip;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+      <guid>http://localhost:1313/docs/maths/premiere/geometrie/equations/</guid>
+      <description>&lt;h2 id=&#34;équation-cartésienne-dune-droite&#34;&gt;Équation cartésienne d&amp;rsquo;une droite&lt;a class=&#34;anchor&#34; href=&#34;#%c3%a9quation-cart%c3%a9sienne-dune-droite&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;forme-générale&#34;&gt;Forme générale&lt;a class=&#34;anchor&#34; href=&#34;#forme-g%c3%a9n%c3%a9rale&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;Dans un repère, toute droite admet une &lt;strong&gt;équation cartésienne&lt;/strong&gt; de la forme :&lt;/p&gt;&#xA;&lt;p&gt;$$&#xA;\boxed{ax + by + c = 0}&#xA;$$&lt;/p&gt;&#xA;&lt;p&gt;où $a$, $b$ et $c$ sont des nombres réels avec $(a; b) \neq (0; 0)$.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Vecteur directeur :&lt;/strong&gt; Une droite d&amp;rsquo;équation $ax + by + c = 0$ admet $\vec{u} \begin{pmatrix} -b \ a \end{pmatrix}$ comme vecteur directeur.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Vecteur normal :&lt;/strong&gt; Un &lt;strong&gt;vecteur normal&lt;/strong&gt; à la droite est un vecteur orthogonal à tout vecteur directeur. Pour l&amp;rsquo;équation $ax + by + c = 0$, le vecteur $\vec{n} \begin{pmatrix} a \ b \end{pmatrix}$ est un vecteur normal.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -5,8 +5,6 @@ weight: 1
 
 ## Idiomes anglais courants
 
-lorem ipsum
-
 <div class="center">
 
 *Cliquez sur chaque idiome pour voir sa signification et des exemples*
@@ -16,159 +14,144 @@ lorem ipsum
 ### Body parts
 
 <details>
-<summary> Cost an arm and leg</summary>
+<summary>Out of hand</summary>
 
-**Traduction littérale :** Laisser le chat sortir du sac
+**Traduction littérale :** Hors de main
 
-**Signification :** Révéler un secret
+**Signification :** Hors de contrôle, incontrôlable
 
-**Exemple en contexte :**
-> "Sarah let the cat out of the bag about John's surprise birthday party."
-
-**💬 Dialogue :**
-- A: "How did everyone find out?"
-- B: "Tom let the cat out of the bag."
-
-**🇫🇷 Équivalent français :** Vendre la mèche
+**🇫🇷 Équivalent français :** Hors de contrôle / Échapper à tout contrôle
 
 </details>
 
 <details>
-<summary> Break a leg</summary>
+<summary>Cost an arm and a leg</summary>
 
-**Traduction littérale :** Retiens tes chevaux
+**Traduction littérale :** Coûter un bras et une jambe
 
-**Signification :** Attends, calme-toi, ne te précipite pas
+**Signification :** Coûter très cher
 
-**Exemple en contexte :**
-> "Hold your horses! We need to think this through."
-
-**🇫🇷 Équivalent français :** Du calme ! / Doucement !
+**🇫🇷 Équivalent français :** Coûter les yeux de la tête
 
 </details>
 
 <details>
-<summary> Pulling someone's leg</summary>
+<summary>Break a leg</summary>
 
-**Signification :** Juste à temps, au dernier moment
+**Traduction littérale :** Casse-toi une jambe
 
-**Exemple :**
-> "We arrived at the station in the nick of time and caught our train."
+**Signification :** Bonne chance ! (expression de théâtre)
 
-**🇫🇷 Équivalent :** Juste à temps / De justesse
-
-</details>
-
-<details>
-<summary> Cold feet</summary>
-
-**Traduction littérale :** Laisser le chat sortir du sac
-
-**Signification :** Révéler un secret
-
-**Exemple en contexte :**
-> "Sarah let the cat out of the bag about John's surprise birthday party."
-
-**💬 Dialogue :**
-- A: "How did everyone find out?"
-- B: "Tom let the cat out of the bag."
-
-**🇫🇷 Équivalent français :** Vendre la mèche
-
-</details>
-
-
-<details>
-<summary> See eye to eye</summary>
-
-**Signification :** Juste à temps, au dernier moment
-
-**Exemple :**
-> "We arrived at the station in the nick of time and caught our train."
-
-**🇫🇷 Équivalent :** Juste à temps / De justesse
-
-</details>
-
-
-<details>
-<summary> Eye for an eye</summary>
-
-**Signification :** Juste à temps, au dernier moment
-
-**Exemple :**
-> "We arrived at the station in the nick of time and caught our train."
-
-**🇫🇷 Équivalent :** Juste à temps / De justesse
+**🇫🇷 Équivalent français :** Merde ! (au théâtre)
 
 </details>
 
 <details>
-<summary> Eyes bigger than your stomach</summary>
+<summary>Pull someone's leg</summary>
 
-**Traduction littérale :** Laisser le chat sortir du sac
+**Traduction littérale :** Tirer la jambe de quelqu'un
 
-**Signification :** Révéler un secret
+**Signification :** Se moquer gentiment de quelqu'un, faire une blague
 
-**Exemple en contexte :**
-> "Sarah let the cat out of the bag about John's surprise birthday party."
-
-**💬 Dialogue :**
-- A: "How did everyone find out?"
-- B: "Tom let the cat out of the bag."
-
-**🇫🇷 Équivalent français :** Vendre la mèche
+**🇫🇷 Équivalent français :** Faire marcher quelqu'un / Charrier quelqu'un
 
 </details>
 
 <details>
-<summary> To be all ears</summary>
+<summary>Cold feet</summary>
 
-**Traduction littérale :** Retiens tes chevaux
+**Traduction littérale :** Pieds froids
 
-**Signification :** Attends, calme-toi, ne te précipite pas
+**Signification :** Avoir peur au dernier moment, hésiter
 
-**Exemple en contexte :**
-> "Hold your horses! We need to think this through."
-
-**🇫🇷 Équivalent français :** Du calme ! / Doucement !
+**🇫🇷 Équivalent français :** Avoir la frousse / Se dégonfler
 
 </details>
 
 <details>
-<summary> On the nose</summary>
+<summary>Give the cold shoulder</summary>
 
-**Traduction littérale :** Retiens tes chevaux
+**Traduction littérale :** Donner l'épaule froide
 
-**Signification :** Attends, calme-toi, ne te précipite pas
+**Signification :** Ignorer quelqu'un délibérément, snober
 
-**Exemple en contexte :**
-> "Hold your horses! We need to think this through."
-
-**🇫🇷 Équivalent français :** Du calme ! / Doucement !
+**🇫🇷 Équivalent français :** Battre froid à quelqu'un / Tourner le dos
 
 </details>
 
 <details>
-<summary> Sweet tooth</summary>
+<summary>See eye to eye</summary>
 
-**Signification :** Juste à temps, au dernier moment
+**Traduction littérale :** Se voir œil à œil
 
-**Exemple :**
-> "We arrived at the station in the nick of time and caught our train."
+**Signification :** Être d'accord, partager le même point de vue
 
-**🇫🇷 Équivalent :** Juste à temps / De justesse
+**🇫🇷 Équivalent français :** Être sur la même longueur d'onde / Être du même avis
 
 </details>
 
 <details>
-<summary> Sticks and stones may break my bones</summary>
+<summary>Eye for an eye</summary>
 
-**Signification :** Juste à temps, au dernier moment
+**Traduction littérale :** Œil pour œil
 
-**Exemple :**
-> "We arrived at the station in the nick of time and caught our train."
+**Signification :** Vengeance proportionnelle, loi du talion
 
-**🇫🇷 Équivalent :** Juste à temps / De justesse
+**🇫🇷 Équivalent français :** Œil pour œil, dent pour dent
+
+</details>
+
+<details>
+<summary>Eyes bigger than your stomach</summary>
+
+**Traduction littérale :** Yeux plus gros que ton estomac
+
+**Signification :** Prendre trop de nourriture qu'on ne peut pas finir
+
+**🇫🇷 Équivalent français :** Avoir les yeux plus gros que le ventre
+
+</details>
+
+<details>
+<summary>Be all ears</summary>
+
+**Traduction littérale :** Être tout oreilles
+
+**Signification :** Écouter attentivement
+
+**🇫🇷 Équivalent français :** Être tout ouïe
+
+</details>
+
+<details>
+<summary>On the nose</summary>
+
+**Traduction littérale :** Sur le nez
+
+**Signification :** Exactement, précisément juste
+
+**🇫🇷 Équivalent français :** Pile-poil / Dans le mille
+
+</details>
+
+<details>
+<summary>Sweet tooth</summary>
+
+**Traduction littérale :** Dent sucrée
+
+**Signification :** Aimer les sucreries
+
+**🇫🇷 Équivalent français :** Avoir un faible pour les sucreries / Être gourmand(e)
+
+</details>
+
+<details>
+<summary>Sticks and stones may break my bones</summary>
+
+**Traduction littérale :** Les bâtons et les pierres peuvent me casser les os
+
+**Signification :** Les mots ne peuvent pas me blesser (suite : "but words will never hurt me")
+
+**🇫🇷 Équivalent français :** Les paroles s'envolent / Ce ne sont que des mots
 
 </details>

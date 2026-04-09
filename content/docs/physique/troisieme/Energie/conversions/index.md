@@ -58,15 +58,52 @@ flowchart LR
 ```
 
 <details>
-<summary>Exercice</summary>
+<summary>Exercice 1 : Calcul de rendement</summary>
 
-Voir les chaînes énergétiques de l'onglet centrales électriques
+Un moteur électrique consomme 250 J d'énergie électrique et produit 200 J d'énergie mécanique.
+
+1. Quelle est l'énergie dissipée ?
+2. Quel est le rendement du moteur ?
 
 </details>
 
 <details>
-<summary>Solution</summary>
+<summary>Solution exercice 1</summary>
 
-À compléter
+1. $E_{\text{dissipée}} = E_{\text{consommée}} - E_{\text{utile}} = 250 - 200 = 50$ J
+
+2. $\eta = \frac{E_{\text{utile}}}{E_{\text{consommée}}} = \frac{200}{250} = 0{,}8 = 80$%
+
+</details>
+
+<details>
+<summary>Exercice 2 : Chaîne énergétique d'un four</summary>
+
+Un four électrique consomme 2000 J. Son rendement est de 75%.
+
+1. Quelle énergie utile (thermique) produit-il ?
+2. Quelle énergie est dissipée ?
+3. Dessinez la chaîne énergétique.
+
+</details>
+
+<details>
+<summary>Solution exercice 2</summary>
+
+1. $E_{\text{utile}} = \eta \times E_{\text{consommée}} = 0{,}75 \times 2000 = 1500$ J
+
+2. $E_{\text{dissipée}} = 2000 - 1500 = 500$ J
+
+3. Chaîne énergétique :
+```mermaid
+flowchart LR
+    A[Réseau électrique] -->|Énergie électrique : 2000 J| B[Four]
+    B -->|Énergie thermique utile : 1500 J| C[Aliments]
+    B -->|Énergie thermique perdue : 500 J| D[Environnement]
+    style A fill:#e3f2fd,stroke:#1565c0,stroke-width:2px
+    style B fill:#fff3e0,stroke:#ef6c00,stroke-width:2px
+    style C fill:#fffde7,stroke:#f9a825
+    style D fill:#fbe9e7,stroke:#d84315
+```
 
 </details>

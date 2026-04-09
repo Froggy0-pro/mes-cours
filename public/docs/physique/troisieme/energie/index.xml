@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Énergie on Mes cours</title>
+    <title>L&#39;énergie on Mes cours</title>
     <link>http://localhost:1313/docs/physique/troisieme/energie/</link>
-    <description>Recent content in Énergie on Mes cours</description>
+    <description>Recent content in L&#39;énergie on Mes cours</description>
     <generator>Hugo</generator>
     <language>fr-fr</language>
     <atom:link href="http://localhost:1313/docs/physique/troisieme/energie/index.xml" rel="self" type="application/rss+xml" />
@@ -12,7 +12,7 @@
       <link>http://localhost:1313/docs/physique/troisieme/energie/formes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/docs/physique/troisieme/energie/formes/</guid>
-      <description>&lt;h2 id=&#34;définition&#34;&gt;Définition&lt;a class=&#34;anchor&#34; href=&#34;#d%c3%a9finition&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;L&amp;rsquo;énergie&lt;/strong&gt; est la capacité d&amp;rsquo;un objet ou d&amp;rsquo;un système à agir sur son environnement. Elle existe sous de multiples formes et permet de produire un mouvement, de la chaleur, une transformation&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;En physique, on a souvent besoin de calculer l&amp;rsquo;énergie d&amp;rsquo;un système. On la note &lt;strong&gt;E&lt;/strong&gt; et elle a pour unité principale le &lt;strong&gt;Joule (J)&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;sources-dénergie&#34;&gt;Sources d&amp;rsquo;énergie&lt;a class=&#34;anchor&#34; href=&#34;#sources-d%c3%a9nergie&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Il est possible d&amp;rsquo;extraire de l&amp;rsquo;énergie de différentes sources afin de l&amp;rsquo;exploiter comme on le souhaite. Certaines de ces ressources sont inépuisables (le vent, le Soleil, les marées, etc.), elles sont donc dites &lt;strong&gt;renouvelables&lt;/strong&gt;. À l&amp;rsquo;inverse, le charbon, le pétrole ou le gaz naturel, qui sont des sources d&amp;rsquo;énergie &lt;strong&gt;fossiles&lt;/strong&gt;, n&amp;rsquo;existent sur Terre qu&amp;rsquo;en quantité limitée. Elles sont donc dites &lt;strong&gt;non renouvelables&lt;/strong&gt;.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;définition&#34;&gt;Définition&lt;a class=&#34;anchor&#34; href=&#34;#d%c3%a9finition&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;L&amp;rsquo;énergie&lt;/strong&gt; est la capacité d&amp;rsquo;un objet ou d&amp;rsquo;un système à agir sur son environnement. C&amp;rsquo;est une grandeur mesurable notée &lt;strong&gt;$E$&lt;/strong&gt; et elle a pour unité principale le &lt;strong&gt;Joule (J)&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Il est possible d&amp;rsquo;extraire de l&amp;rsquo;énergie de différentes sources afin de l&amp;rsquo;exploiter comme on le souhaite. Certaines de ces ressources sont inépuisables, comme &lt;em&gt;le vent, le Soleil ou les marées&lt;/em&gt;, elles sont donc dites &lt;strong&gt;renouvelables&lt;/strong&gt;. À l&amp;rsquo;inverse, &lt;em&gt;le charbon, le pétrole ou le gaz naturel&lt;/em&gt;, qui sont des sources d&amp;rsquo;énergie &lt;strong&gt;fossiles&lt;/strong&gt;, n&amp;rsquo;existent sur Terre qu&amp;rsquo;en quantité limitée. Elles sont donc dites &lt;strong&gt;non renouvelables&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>2) Transferts et conversions</title>
@@ -33,7 +33,7 @@
       <link>http://localhost:1313/docs/physique/troisieme/energie/elec/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/docs/physique/troisieme/energie/elec/</guid>
-      <description>&lt;h2 id=&#34;définition&#34;&gt;Définition&lt;a class=&#34;anchor&#34; href=&#34;#d%c3%a9finition&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;L&amp;rsquo;énergie&lt;/strong&gt; est la capacité d&amp;rsquo;un objet ou d&amp;rsquo;un système à agir sur son environnement. Elle existe sous de multiples formes et permet de produire un mouvement, de la chaleur, une transformation&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;En physique, on a souvent besoin de calculer l&amp;rsquo;énergie d&amp;rsquo;un système. On la note &lt;strong&gt;E&lt;/strong&gt; et elle a pour unité le &lt;strong&gt;Joule (J)&lt;/strong&gt; ou le &lt;strong&gt;Watt-heure (Wh)&lt;/strong&gt;.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;tension-électrique&#34;&gt;Tension électrique&lt;a class=&#34;anchor&#34; href=&#34;#tension-%c3%a9lectrique&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;La &lt;strong&gt;tension électrique&lt;/strong&gt; représente la différence de potentiel entre deux points d&amp;rsquo;un circuit. Elle traduit la &amp;ldquo;force&amp;rdquo; qui pousse les électrons à circuler. On la note &lt;strong&gt;U&lt;/strong&gt; et elle se mesure en &lt;strong&gt;Volt (V)&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;u&gt;&lt;strong&gt;Pour mesurer une tension&lt;/strong&gt;, on utilise un &lt;strong&gt;voltmètre&lt;/strong&gt; que l&amp;rsquo;on branche en &lt;strong&gt;dérivation&lt;/strong&gt; (parallèle) aux bornes du dipôle.&lt;/u&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Exemples de tensions courantes :&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Pile standard : 1,5 V ou 9 V&lt;/li&gt;&#xA;&lt;li&gt;Prise domestique : 230 V&lt;/li&gt;&#xA;&lt;li&gt;Batterie de voiture : 12 V&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;loi-dadditivité-des-tensions&#34;&gt;Loi d&amp;rsquo;additivité des tensions&lt;a class=&#34;anchor&#34; href=&#34;#loi-dadditivit%c3%a9-des-tensions&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;Dans un circuit en série, &lt;strong&gt;la tension totale est égale à la somme des tensions&lt;/strong&gt; aux bornes de chaque dipôle :&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

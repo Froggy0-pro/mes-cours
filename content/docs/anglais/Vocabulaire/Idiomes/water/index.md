@@ -5,49 +5,54 @@ weight: 1
 
 ## Idiomes anglais courants
 
-lorem ipsum
-
 <div class="center">
 
 *Cliquez sur chaque idiome pour voir sa signification et des exemples*
 
 </div>
 
-
 ### Water
 
 <details>
-<summary> Blood is thicker than water</summary>
+<summary>Blood is thicker than water</summary>
 
-**Signification :** Juste à temps, au dernier moment
+**Traduction littérale :** Le sang est plus épais que l'eau
 
-**Exemple :**
-> "We arrived at the station in the nick of time and caught our train."
+**Signification :** Les liens familiaux sont plus forts que les autres relations
 
-**🇫🇷 Équivalent :** Juste à temps / De justesse
-
-</details>
-
-<details>
-<summary> Cry me a river</summary>
-
-**Signification :** Juste à temps, au dernier moment
-
-**Exemple :**
-> "We arrived at the station in the nick of time and caught our train."
-
-**🇫🇷 Équivalent :** Juste à temps / De justesse
+**🇫🇷 Équivalent français :** La voix du sang / Les liens du sang sont les plus forts
 
 </details>
 
 <details>
-<summary> To break the ice</summary>
+<summary>Cry me a river</summary>
 
-**Signification :** Juste à temps, au dernier moment
+**Traduction littérale :** Pleure-moi une rivière
 
-**Exemple :**
-> "We arrived at the station in the nick of time and caught our train."
+**Signification :** Expression sarcastique pour dire qu'on ne compatit pas (arrête de te plaindre)
 
-**🇫🇷 Équivalent :** Juste à temps / De justesse
+**🇫🇷 Équivalent français :** Tu me fends le cœur (ironique) / Arrête de pleurnicher
+
+</details>
+
+<details>
+<summary>Break the ice</summary>
+
+**Traduction littérale :** Briser la glace
+
+**Signification :** Créer une atmosphère plus détendue, entamer la conversation
+
+**🇫🇷 Équivalent français :** Briser la glace
+
+</details>
+
+<details>
+<summary>On thin ice</summary>
+
+**Traduction littérale :** Sur de la glace fine
+
+**Signification :** Être dans une situation dangereuse ou délicate
+
+**🇫🇷 Équivalent français :** Être sur un terrain glissant / Marcher sur des œufs
 
 </details>

@@ -5,74 +5,76 @@ weight: 1
 
 ## Idiomes anglais courants
 
-lorem ipsum
-
 <div class="center">
 
 *Cliquez sur chaque idiome pour voir sa signification et des exemples*
 
 </div>
 
-
 ### Time
 
 <details>
-<summary> Better late than never</summary>
+<summary>Better late than never</summary>
 
-**Signification :** Juste à temps, au dernier moment
+**Traduction littérale :** Mieux vaut tard que jamais
 
-**Exemple :**
-> "We arrived at the station in the nick of time and caught our train."
+**Signification :** Il vaut mieux faire quelque chose en retard que pas du tout
 
-**🇫🇷 Équivalent :** Juste à temps / De justesse
-
-</details>
-
-<details>
-<summary> Time flies</summary>
-
-**Signification :** Juste à temps, au dernier moment
-
-**Exemple :**
-> "We arrived at the station in the nick of time and caught our train."
-
-**🇫🇷 Équivalent :** Juste à temps / De justesse
+**🇫🇷 Équivalent français :** Mieux vaut tard que jamais
 
 </details>
 
 <details>
-<summary> Good things come to those who wait</summary>
+<summary>Time flies</summary>
 
-**Signification :** Juste à temps, au dernier moment
+**Traduction littérale :** Le temps vole
 
-**Exemple :**
-> "We arrived at the station in the nick of time and caught our train."
+**Signification :** Le temps passe vite
 
-**🇫🇷 Équivalent :** Juste à temps / De justesse
+**🇫🇷 Équivalent français :** Le temps passe vite / Le temps file
 
 </details>
 
 <details>
-<summary> Slow and steady wins the race</summary>
+<summary>Good things come to those who wait</summary>
 
-**Signification :** Juste à temps, au dernier moment
+**Traduction littérale :** Les bonnes choses viennent à ceux qui attendent
 
-**Exemple :**
-> "We arrived at the station in the nick of time and caught our train."
+**Signification :** La patience est récompensée
 
-**🇫🇷 Équivalent :** Juste à temps / De justesse
+**🇫🇷 Équivalent français :** Tout vient à point à qui sait attendre
 
 </details>
 
+<details>
+<summary>Slow and steady wins the race</summary>
+
+**Traduction littérale :** Lent et régulier gagne la course
+
+**Signification :** La persévérance et la régularité mènent au succès
+
+**🇫🇷 Équivalent français :** Rien ne sert de courir, il faut partir à point
+
+</details>
 
 <details>
-<summary> In the nick of time</summary>
+<summary>In the nick of time</summary>
+
+**Traduction littérale :** Dans l'entaille du temps
 
 **Signification :** Juste à temps, au dernier moment
 
-**Exemple :**
-> "We arrived at the station in the nick of time and caught our train."
+**🇫🇷 Équivalent français :** Juste à temps / De justesse
 
-**🇫🇷 Équivalent :** Juste à temps / De justesse
+</details>
+
+<details>
+<summary>Call it a day</summary>
+
+**Traduction littérale :** Appeler ça un jour
+
+**Signification :** Arrêter de travailler pour la journée
+
+**🇫🇷 Équivalent français :** S'arrêter là pour aujourd'hui / Lever le camp
 
 </details>

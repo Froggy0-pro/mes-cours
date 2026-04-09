@@ -1,0 +1,1677 @@
+<!DOCTYPE html>
+<html lang="fr-fr" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Quantité de matière et mole# Lorsque l’on veut compter un grand nombre d’entités de manière plus efficace, il n’est pas rare de les regrouper par paquets du même nombre et de plutôt compter ces paquets. Par exemple, on regroupe historiquement les oeufs par douzaines. Une douzaine d’oeuf est un paquet comprenant 12 oeufs, ainsi si j’ai 36 oeufs sur les bras, je peux dire plus simplement que j’en ai 3 douzaines. Et bien on fait pareil avec les espèces chimiques! Cependant, plutôt que de les regrouper par paquets de 12, on les regroupe par paquets de $6.02*10^{23}$. Ce nombre s’appelle la constante d’Avogadro, qu’on note $N_A$ et on appelle un paquet de cette taille une mole de matière.
+">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/docs/physique/seconde/chimie/mole/">
+  <meta property="og:site_name" content="Mes cours">
+  <meta property="og:title" content="1) La mole - formulaire">
+  <meta property="og:description" content="Quantité de matière et mole# Lorsque l’on veut compter un grand nombre d’entités de manière plus efficace, il n’est pas rare de les regrouper par paquets du même nombre et de plutôt compter ces paquets. Par exemple, on regroupe historiquement les oeufs par douzaines. Une douzaine d’oeuf est un paquet comprenant 12 oeufs, ainsi si j’ai 36 oeufs sur les bras, je peux dire plus simplement que j’en ai 3 douzaines. Et bien on fait pareil avec les espèces chimiques! Cependant, plutôt que de les regrouper par paquets de 12, on les regroupe par paquets de $6.02*10^{23}$. Ce nombre s’appelle la constante d’Avogadro, qu’on note $N_A$ et on appelle un paquet de cette taille une mole de matière.">
+  <meta property="og:locale" content="fr_fr">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="docs">
+
+
+  <meta itemprop="name" content="1) La mole - formulaire">
+  <meta itemprop="description" content="Quantité de matière et mole# Lorsque l’on veut compter un grand nombre d’entités de manière plus efficace, il n’est pas rare de les regrouper par paquets du même nombre et de plutôt compter ces paquets. Par exemple, on regroupe historiquement les oeufs par douzaines. Une douzaine d’oeuf est un paquet comprenant 12 oeufs, ainsi si j’ai 36 oeufs sur les bras, je peux dire plus simplement que j’en ai 3 douzaines. Et bien on fait pareil avec les espèces chimiques! Cependant, plutôt que de les regrouper par paquets de 12, on les regroupe par paquets de $6.02*10^{23}$. Ce nombre s’appelle la constante d’Avogadro, qu’on note $N_A$ et on appelle un paquet de cette taille une mole de matière.">
+  <meta itemprop="wordCount" content="883">
+
+<title>1) La mole - formulaire | Mes cours</title>
+<link rel="icon" href="http://localhost:1313/favicon.png" >
+<link rel="manifest" href="http://localhost:1313/manifest.json">
+<link rel="canonical" href="http://localhost:1313/docs/physique/seconde/chimie/mole/">
+<link rel="stylesheet" href="http://localhost:1313/book.min.7e3f11d5a21359d22c624b572878d7b4815568272a8c2384e5eff87151627a86.css" integrity="sha256-fj8R1aITWdIsYktXKHjXtIFVaCcqjCOE5e/4cVFieoY=" crossorigin="anonymous">
+
+
+  <script defer src="http://localhost:1313/fuse.min.js"></script>
+  <script defer src="http://localhost:1313/en.search.min.f5ab149ffc11b99f8ee12e14d19f9ca03d2fa1413d2344385935a259bd94c777.js" integrity="sha256-9asUn/wRuZ&#43;O4S4U0Z&#43;coD0voUE9I0Q4WTWiWb2Ux3c=" crossorigin="anonymous"></script>
+
+
+
+  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/mhchem.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body, {
+  delimiters: [
+    {left: '$$', right: '$$', display: true},
+    {left: '$', right: '$', display: false}
+  ]
+});"></script>
+
+</head>
+<body dir="ltr" class="book-kind-page book-type-docs">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    
+<aside class="book-menu">
+  <div class="book-menu-content">
+    
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="http://localhost:1313/"><span>Mes cours</span>
+  </a>
+</h2>
+
+
+<div class="book-search hidden">
+  <input id="book-search-input" type="text" 
+    placeholder="Search"
+    aria-label="Search"
+    maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-f69cdcbbbdd3c35e1afd61029681440a" class="toggle"  />
+    <label for="section-f69cdcbbbdd3c35e1afd61029681440a" class="flex">
+      <a role="button" class="">
+        Maths</a>
+      <img src="http://localhost:1313/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a>
+      Post bac</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-4e784de060d4f2d33eae65bf7e21207d" class="toggle"  />
+    <label for="section-4e784de060d4f2d33eae65bf7e21207d" class="flex">
+      <a role="button" class="">
+        Première</a>
+      <img src="http://localhost:1313/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-79f63f6d39e0104fc4f2dceefd1a3a8b" class="toggle"  />
+    <label for="section-79f63f6d39e0104fc4f2dceefd1a3a8b" class="flex">
+      <a role="button" class="">
+        1) Polynômes</a>
+      <img src="http://localhost:1313/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/premiere/polynomes/second/" class="">
+      1) Second degré</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/premiere/polynomes/secondplus/" class="">
+      2) Applications diverses</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/premiere/polynomes/troisieme/" class="">
+      3) Troisième degré</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-7b0772488c7cbd7102bbeb6115e97687" class="toggle"  />
+    <label for="section-7b0772488c7cbd7102bbeb6115e97687" class="flex">
+      <a role="button" class="">
+        4) Géométrie</a>
+      <img src="http://localhost:1313/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/premiere/geometrie/vecteurs/" class="">
+      1) Rappels sur les vecteurs</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/premiere/geometrie/scalaire/" class="">
+      2) Produit scalaire</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/premiere/geometrie/equations/" class="">
+      3) Équations cartésiennes</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-ad947d7977f5cc36adee80e1d7344253" class="toggle"  />
+    <label for="section-ad947d7977f5cc36adee80e1d7344253" class="flex">
+      <a role="button" class="">
+        Dérivation</a>
+      <img src="http://localhost:1313/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/premiere/derivation/variation/var/" class="">
+      1) Taux de variation</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/premiere/derivation/usuelles/usu/" class="">
+      2) Dérivées usuelles</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/premiere/derivation/fonctions/fonc/" class="">
+      3) Sens de variation</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-5c750ef3bc2f9de76436469c87343288" class="toggle"  />
+    <label for="section-5c750ef3bc2f9de76436469c87343288" class="flex">
+      <a role="button" class="">
+        Exponentielle</a>
+      <img src="http://localhost:1313/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/premiere/exponentielle/fonction/" class="">
+      1) Fonction exponentielle</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-cfa8a488b59b392b6b51d4c4b08a2326" class="toggle"  />
+    <label for="section-cfa8a488b59b392b6b51d4c4b08a2326" class="flex">
+      <a role="button" class="">
+        Probabilités</a>
+      <img src="http://localhost:1313/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/premiere/probas/conditionnelle/" class="">
+      1) Probas conditionnelles</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/premiere/probas/tableaux/" class="">
+      2) Tableaux croisés</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/premiere/probas/lois/" class="">
+      3) Variables aléatoires</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-150597735392203b65f9bc76b83ad53c" class="toggle"  />
+    <label for="section-150597735392203b65f9bc76b83ad53c" class="flex">
+      <a role="button" class="">
+        Python</a>
+      <img src="http://localhost:1313/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/premiere/python/base/" class="">
+      1) Bases de programmation</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-a3996586209fdd2bdb0f5c22461cfd73" class="toggle"  />
+    <label for="section-a3996586209fdd2bdb0f5c22461cfd73" class="flex">
+      <a role="button" class="">
+        Suites</a>
+      <img src="http://localhost:1313/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/premiere/suites/generalites/" class="">
+      1) Généralités</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/premiere/suites/arithmetiques/" class="">
+      2) Suites arithmétiques</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/premiere/suites/geometriques/" class="">
+      3) Suites géométriques</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-36dd4f009001c97be3c0c34cf1b3bb66" class="toggle"  />
+    <label for="section-36dd4f009001c97be3c0c34cf1b3bb66" class="flex">
+      <a role="button" class="">
+        Trigonométrie</a>
+      <img src="http://localhost:1313/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/premiere/trigo/cercle/" class="">
+      1) Cercle trigonométrique</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/premiere/trigo/equations/" class="">
+      2) Calculs et équations</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/premiere/trigo/fonction/" class="">
+      3) Fonctions trigo</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a>
+      Seconde</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a>
+      Terminale</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a>
+      Troisième</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-f8b4d2eb2464212282c8f9b2ddd41ddb" class="toggle" checked />
+    <label for="section-f8b4d2eb2464212282c8f9b2ddd41ddb" class="flex">
+      <a role="button" class="">
+        Physique-chimie</a>
+      <img src="http://localhost:1313/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a>
+      Première</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-3a36637f6f579d423cf67350b4e6280c" class="toggle" checked />
+    <label for="section-3a36637f6f579d423cf67350b4e6280c" class="flex">
+      <a role="button" class="">
+        Seconde</a>
+      <img src="http://localhost:1313/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-de11b21ff8988e9b33a4a863ffccd41f" class="toggle" checked />
+    <label for="section-de11b21ff8988e9b33a4a863ffccd41f" class="flex">
+      <a role="button" class="">
+        Chimie</a>
+      <img src="http://localhost:1313/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/physique/seconde/chimie/mole/" class="active">
+      1) La mole - formulaire</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/physique/seconde/chimie/configuration/" class="">
+      2) Configuration électronique</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/physique/seconde/chimie/lewis/" class="">
+      3) Schéma de Lewis</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/physique/seconde/chimie/solide/" class="">
+      4) Solides ioniques</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-9419beda789d29eda1a7453174b75d11" class="toggle"  />
+    <label for="section-9419beda789d29eda1a7453174b75d11" class="flex">
+      <a role="button" class="">
+        Terminale</a>
+      <img src="http://localhost:1313/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-cb67a0da7c0d8f4d615183c308c305bd" class="toggle"  />
+    <label for="section-cb67a0da7c0d8f4d615183c308c305bd" class="flex">
+      <a role="button" class="">
+        Chimie</a>
+      <img src="http://localhost:1313/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/physique/terminale/acidebase/couples/" class="">
+      1) Couples acide/base</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/physique/terminale/acidebase/cinetique/" class="">
+      2) Cinétique et équilibre</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/physique/terminale/acidebase/acidite/" class="">
+      3) Constante d&#39;acidité Ka</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/physique/terminale/acidebase/force/" class="">
+      4) Force des acides/bases</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/physique/terminale/acidebase/suivi/" class="">
+      5) Méthodes de suivi</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-939aad91b7101a785670fc0128533c7c" class="toggle"  />
+    <label for="section-939aad91b7101a785670fc0128533c7c" class="flex">
+      <a role="button" class="">
+        Troisième</a>
+      <img src="http://localhost:1313/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-fc2235f8a1fc43c9b276fdcb369ee292" class="toggle"  />
+    <label for="section-fc2235f8a1fc43c9b276fdcb369ee292" class="flex">
+      <a role="button" class="">
+        L&#39;énergie</a>
+      <img src="http://localhost:1313/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/physique/troisieme/energie/formes/" class="">
+      1) Différentes formes d&#39;énergie</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/physique/troisieme/energie/conversions/" class="">
+      2) Transferts et conversions</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/physique/troisieme/energie/centrale/" class="">
+      3) Les centrales électriques</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/physique/troisieme/energie/elec/" class="">
+      4) L&#39;électricité</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-d58730bb16972aa5750be8674f590f2c" class="toggle"  />
+    <label for="section-d58730bb16972aa5750be8674f590f2c" class="flex">
+      <a role="button" class="">
+        La matière</a>
+      <img src="http://localhost:1313/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/physique/troisieme/mati%C3%A8re/atome/" class="">
+      1) L&#39;atome</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/physique/troisieme/mati%C3%A8re/mol%C3%A9cules/" class="">
+      2) Molécules et ions</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/physique/troisieme/mati%C3%A8re/miscibilit%C3%A9/" class="">
+      3) Mélanges liquides</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/physique/troisieme/mati%C3%A8re/transformations/" class="">
+      4) Transformations</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-52c89bd8f3d3a892fd697987a7683b80" class="toggle"  />
+    <label for="section-52c89bd8f3d3a892fd697987a7683b80" class="flex">
+      <a role="button" class="">
+        Les ondes</a>
+      <img src="http://localhost:1313/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-b7cd7a903053014938197441be6cac9c" class="toggle"  />
+    <label for="section-b7cd7a903053014938197441be6cac9c" class="flex">
+      <a role="button" class="">
+        Anglais</a>
+      <img src="http://localhost:1313/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-f4ddcde993f9642ae91e6c3ec1142721" class="toggle"  />
+    <label for="section-f4ddcde993f9642ae91e6c3ec1142721" class="flex">
+      <a role="button" class="">
+        Vocabulaire</a>
+      <img src="http://localhost:1313/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-5cdec767d0fbcd850b470a6f35462099" class="toggle"  />
+    <label for="section-5cdec767d0fbcd850b470a6f35462099" class="flex">
+      <a role="button" class="">
+        Idioms</a>
+      <img src="http://localhost:1313/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/anglais/vocabulaire/idiomes/animals/" class="">
+      1) Animals</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/anglais/vocabulaire/idiomes/bodyparts/" class="">
+      2) Body parts</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/anglais/vocabulaire/idiomes/food/" class="">
+      3) Food</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/anglais/vocabulaire/idiomes/items/" class="">
+      4) Items</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/anglais/vocabulaire/idiomes/time/" class="">
+      5) Time</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/anglais/vocabulaire/idiomes/weather/" class="">
+      6) Weather</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/anglais/vocabulaire/idiomes/water/" class="">
+      7) Water</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/anglais/vocabulaire/idiomes/various/" class="">
+      8) Various</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-666301d40065af6d89cb26c65849e06d" class="toggle"  />
+    <label for="section-666301d40065af6d89cb26c65849e06d" class="flex">
+      <a role="button" class="">
+        Irregular verbs</a>
+      <img src="http://localhost:1313/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/anglais/vocabulaire/irregular/midlevel/" class="">
+      2) Medium level</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+
+
+
+  </div>
+</aside>
+ 
+
+    <div class="book-page">
+      <header class="book-header hidden">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="http://localhost:1313/icons/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <h3>1) La mole - formulaire</h3>
+
+  <label for="toc-control">
+    
+    <img src="http://localhost:1313/icons/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#quantité-de-matière-et-mole">Quantité de matière et mole</a></li>
+    <li><a href="#relation-avec-la-masse">Relation avec la masse</a></li>
+    <li><a href="#masse-molaire-et-masse-volumique">Masse molaire et masse volumique</a></li>
+    <li><a href="#concentration-en-quantité-de-matière-et-en-masse">Concentration en quantité de matière et en masse</a></li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown book-article"><h2 id="quantité-de-matière-et-mole">Quantité de matière et mole<a class="anchor" href="#quantit%c3%a9-de-mati%c3%a8re-et-mole">#</a></h2>
+<p>Lorsque l&rsquo;on veut compter un grand nombre d&rsquo;entités de manière plus efficace, il n&rsquo;est pas rare de les regrouper par paquets du même nombre et de plutôt compter ces paquets. Par exemple, on regroupe historiquement les oeufs par douzaines. Une douzaine d&rsquo;oeuf est un paquet comprenant 12 oeufs, ainsi si j&rsquo;ai 36 oeufs sur les bras, je peux dire plus simplement que j&rsquo;en ai 3 douzaines. Et bien on fait pareil avec les espèces chimiques! Cependant, plutôt que de les regrouper par paquets de 12, on les regroupe par paquets de $6.02*10^{23}$. Ce nombre s&rsquo;appelle la <strong>constante d&rsquo;Avogadro</strong>, qu&rsquo;on note $N_A$ et on appelle un paquet de cette taille <strong>une mole</strong> de matière.</p>
+<p>On définit alors une grandeur physique, la <strong>quantité de matière</strong>, qui permet de rendre compte du nombre d&rsquo;entités chimiques dans un échantillon. Elle est notée $n$ et s’exprime en <strong>moles (mol)</strong>.</p>
+<p>Ainsi, si j&rsquo;ai par exemple un récipient contenant $0.5$ mol d&rsquo;eau, cela signifie que j&rsquo;ai la moitié d&rsquo;une mole de molécules d&rsquo;eau dans ce récipient, soit $3.01*10^{23}$ molécules d&rsquo;eau.</p>
+<p>On peut relier facilement la quantité de matière $n$ au nombre d’entités $N$ et à la constante d&rsquo;Avogadro: $\boxed{n = \frac{N}{N_A}}$ ou encore $\boxed{N = n \times N_A}$ avec :</p>
+<ul>
+<li>$n$ : quantité de matière (en $mol$)</li>
+<li>$N$ : nombre d’entités (sans unité)</li>
+<li>$N_A$ : constante d’Avogadro (en $mol^{-1}$)</li>
+</ul>
+<h2 id="relation-avec-la-masse">Relation avec la masse<a class="anchor" href="#relation-avec-la-masse">#</a></h2>
+<p>Bien entendu, la masse d&rsquo;un échantillon dépend de sa quantité de matière: plus il y a d&rsquo;entités chimiques dans l&rsquo;échantillon, plus il est lourd!</p>
+<p>Un atome ne contenant que des protons, des neutrons et des électrons, sa masse correspond à la somme des masses de tous ces éléments: $\boxed{m_{atome} = nb_{protons} * m_{proton} + nb_{neutrons} * m_{neutron} + nb_{électrons} * m_{électron}}$</p>
+<div style="margin: 1.5rem 2rem;">
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: center">Particule</th>
+          <th style="text-align: center">Masse (kg)</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center"><strong>Proton</strong></td>
+          <td style="text-align: center">$1{,}67 \times 10^{-27}$</td>
+      </tr>
+      <tr>
+          <td style="text-align: center"><strong>Neutron</strong></td>
+          <td style="text-align: center">$1{,}67 \times 10^{-27}$</td>
+      </tr>
+      <tr>
+          <td style="text-align: center"><strong>Électron</strong></td>
+          <td style="text-align: center">$9{,}11 \times 10^{-31}$</td>
+      </tr>
+  </tbody>
+</table>
+</div>
+<p>On peut d&rsquo;ailleurs se simplifier la vie car:</p>
+<ul>
+<li>la masse d&rsquo;un proton et d&rsquo;un neutron est quasiment identique, on peut donc les rassembler et utiliser la masse du nucléon,</li>
+<li>la masse des électrons est très faible par rapport à celle des nucléons, on peut donc la négliger dans le calcul.</li>
+</ul>
+<p>Au final, la masse d&rsquo;un atome vaut: $\boxed{m_{atome} = nb_{nucléons} * m_{nucléon}}$</p>
+<p><u>Remarque</u>: C&rsquo;est pour cela que le nombre de nucléons, noté $A$ dans l&rsquo;écriture ${^{A}_{Z}X}$, s&rsquo;appelle le nombre de masse!</p>
+<p>Pour trouver la masse d&rsquo;une molécule, rien de plus simple, il suffit d&rsquo;additionner les masses de chacun de ses atomes.</p>
+<p>Et enfin, on peut trouver le nombre d&rsquo;entités d&rsquo;un échantillon de corps pur si on connaît sa masse. On calcule d&rsquo;abord la masse d&rsquo;une seule entité comme vu précédemment, puis on trouve : $\boxed{N = \frac{m_{échantillon}}{m_{entité}}}$</p>
+<p><u>Exemple</u>: J&rsquo;étudie une bague en or pur pesant $10g$. Dans le tableau périodique je trouve pour l&rsquo;or ${^{197}_{79}A_u}$, un atome contient donc 197 nucléons, ce qui signifie qu&rsquo;il pèse $197 * 1.67 * 10^{-27} = 3.29 * 10^{-25}kg$</p>
+<p>J&rsquo;ai donc $N = \frac{10 * 10^{-3}}{3.29 * 10^{-25}} = 3.04 * 10^{22}$ atomes d&rsquo;or dans cette bague. Notons que j&rsquo;ai converti les $g$ en $kg$ car il faut que les deux masses soient dans la même unité.</p>
+<h2 id="masse-molaire-et-masse-volumique">Masse molaire et masse volumique<a class="anchor" href="#masse-molaire-et-masse-volumique">#</a></h2>
+<p>La <strong>masse molaire</strong> $M$ correspond à la masse d’une mole d’une espèce chimique. Elle s’exprime en <strong>g/mol</strong>. Il s&rsquo;agit d&rsquo;une grandeur très pratique car 1 mole de nucléons pèse $1g$, la masse molaire d&rsquo;un atome est donc identique à son nombre de masse.</p>
+<p><u>Exemples</u> :</p>
+<ul>
+<li>Hydrogène ${^{1}_{1}H}$: $M(H) = 1 g/mol$</li>
+<li>Carbone ${^{12}_{6}C}$: $M(C) = 12 g/mol$</li>
+<li>Oxygène ${^{16}_{8}O}$: $M(O) = 16 g/mol$</li>
+</ul>
+<p>Encore une fois, pour avoir la masse molaire d&rsquo;une molécule, on additionne simplement les masses molaires de ses atomes, par exemple : $M(H_2O) = 2 * M(H) + 1 * M(O) = 2 + 16 = 18 g/mol$</p>
+<p>On peut facilement relier la masse $m$ (en $g$), la masse molaire $M$ (en $g/mol$) et la quantité de matière $n$ (en $mol$): $\boxed{n = \frac{m}{M}}$ qu&rsquo;on peut aussi utiliser dans le sens $\boxed{m = n \times M}$</p>
+<p>Rappelons aussi les formules reliant la masse volumique $\rho$ (en $g/L$), la masse $m$ (en $g$) et le volume $V$ (en $L$) $\boxed{\rho = \frac{m}{V}}$, soit également $\boxed{V = \frac{m}{\rho}}$ ou encore $\boxed{m = \rho*V}$</p>
+<p><u>Rappel</u>: $1L=1dm^3$ et $1m^3=1000dm^3$ donc $1m^3=1000L$</p>
+<h2 id="concentration-en-quantité-de-matière-et-en-masse">Concentration en quantité de matière et en masse<a class="anchor" href="#concentration-en-quantit%c3%a9-de-mati%c3%a8re-et-en-masse">#</a></h2>
+<p>Pour finir, dans une solution, on définit la concentration, qui correspond respectivement à la quantité de matière ou à la masse d&rsquo;une espèce présente dans le volume de solution.</p>
+<p>Pour la concentration en quantité de matière $C$ (en $mol/L$), on a : $\boxed{C = \frac{n}{V}}$ ce qui donne $\boxed{n = C*V}$</p>
+<p>Pour la concentration massique $C_m$ (en $g/L$), on a : $\boxed{C_m = \frac{m}{V}}$ ce qui donne $\boxed{m = C_m*V}$</p>
+<p>On peut facilement passer de l&rsquo;une à l&rsquo;autre grâce à la masse molaire, en effet: $\boxed{C = \frac{C_m}{M}}$ soit $\boxed{C_m = C*M}$</p>
+<details>
+<summary>Exercice</summary>
+<ol>
+<li>Calculer la quantité de matière dans $18g$ d’eau.</li>
+<li>Combien y a-t-il de molécules dans $1 , mol$ ?</li>
+<li>Calculer la masse de $0{,}5 , mol$ de dioxygène $O_2$.</li>
+<li>Quelle est la quantité de matière dans $2L$ d’une solution à $0{,}1 , mol/L$ ?</li>
+</ol>
+</details>
+<details>
+<summary>Solution</summary>
+<ol>
+<li>$n = \frac{18}{18} = 1 , mol$</li>
+<li>$6{,}02 \times 10^{23}$ molécules</li>
+<li>$M(O_2) = 32 , g/mol \Rightarrow m = 0{,}5 \times 32 = 16g$</li>
+<li>$n = 0{,}1 \times 2 = 0{,}2 , mol$</li>
+</ol>
+</details></article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+<div>
+
+</div>
+
+<div>
+
+</div>
+
+</div>
+
+
+
+
+
+  
+  
+  
+  <div class="flex flex-wrap justify-between">
+    <span>
+    
+      <a href="http://localhost:1313/docs/maths/premiere/trigo/fonction/" class="flex align-center">
+        <img src="http://localhost:1313/icons/backward.svg" class="book-icon" alt="Backward" />
+        <span>3) Fonctions trigo</span>
+      </a>
+    
+    </span>
+    <span>
+    
+      <a href="http://localhost:1313/docs/physique/seconde/chimie/configuration/" class="flex align-center">
+        <span>2) Configuration électronique</span>
+        <img src="http://localhost:1313/icons/forward.svg" class="book-icon" alt="Forward" />
+      </a>
+    
+    </span>
+  </div>
+  
+
+
+ 
+        
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+        <script>
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll(".book-menu li").forEach(function (li) {
+    const link = li.querySelector(":scope > a");
+    const sublist = li.querySelector(":scope > ul");
+
+    if (link && sublist) {
+      
+      sublist.style.display = "none";
+      link.classList.add("menu-toggle");
+
+      
+      link.addEventListener("click", function (e) {
+        e.preventDefault();
+        const isOpen = sublist.style.display === "block";
+        sublist.style.display = isOpen ? "none" : "block";
+        link.classList.toggle("open", !isOpen);
+      });
+    }
+  });
+});
+</script>
+
+
+
+
+        
+  
+ 
+        
+  
+  
+    <script>(function(){document.querySelectorAll("pre:has(code)").forEach(e=>{e.addEventListener("click",e.focus),e.addEventListener("copy",function(t){if(t.preventDefault(),navigator.clipboard){const t=window.getSelection().toString()||e.textContent;navigator.clipboard.writeText(t)}})})})()</script>
+  
+
+      </footer>
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+  
+  <aside class="book-toc">
+    <div class="book-toc-content">
+      
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#quantité-de-matière-et-mole">Quantité de matière et mole</a></li>
+    <li><a href="#relation-avec-la-masse">Relation avec la masse</a></li>
+    <li><a href="#masse-molaire-et-masse-volumique">Masse molaire et masse volumique</a></li>
+    <li><a href="#concentration-en-quantité-de-matière-et-en-masse">Concentration en quantité de matière et en masse</a></li>
+  </ul>
+</nav>
+
+
+
+    </div>
+  </aside>
+  
+ 
+  </main>
+
+  
+  <script>
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll(".book-menu li").forEach(function (li) {
+    const link = li.querySelector(":scope > a");
+    const sublist = li.querySelector(":scope > ul");
+
+    if (link && sublist) {
+      
+      sublist.style.display = "none";
+      link.classList.add("menu-toggle");
+
+      
+      link.addEventListener("click", function (e) {
+        e.preventDefault();
+        const isOpen = sublist.style.display === "block";
+        sublist.style.display = isOpen ? "none" : "block";
+        link.classList.toggle("open", !isOpen);
+      });
+    }
+  });
+});
+</script>
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

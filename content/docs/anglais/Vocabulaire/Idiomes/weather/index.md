@@ -5,110 +5,142 @@ weight: 1
 
 ## Idiomes anglais courants
 
-lorem ipsum
-
 <div class="center">
 
 *Cliquez sur chaque idiome pour voir sa signification et des exemples*
 
 </div>
 
-
 ### Weather
 
 <details>
-<summary> Under the weather</summary>
+<summary>Under the weather</summary>
 
-**Signification :** Juste à temps, au dernier moment
+**Traduction littérale :** Sous le temps
 
-**Exemple :**
-> "We arrived at the station in the nick of time and caught our train."
+**Signification :** Ne pas se sentir bien, être un peu malade
 
-**🇫🇷 Équivalent :** Juste à temps / De justesse
-
-</details>
-
-<details>
-<summary> A second wind</summary>
-
-**Signification :** Juste à temps, au dernier moment
-
-**Exemple :**
-> "We arrived at the station in the nick of time and caught our train."
-
-**🇫🇷 Équivalent :** Juste à temps / De justesse
+**🇫🇷 Équivalent français :** Être patraque / Ne pas être dans son assiette
 
 </details>
 
 <details>
-<summary> Get/catch wind of something</summary>
+<summary>A second wind</summary>
 
-**Signification :** Juste à temps, au dernier moment
+**Traduction littérale :** Un second vent
 
-**Exemple :**
-> "We arrived at the station in the nick of time and caught our train."
+**Signification :** Retrouver de l'énergie après la fatigue
 
-**🇫🇷 Équivalent :** Juste à temps / De justesse
-
-</details>
-
-<details>
-<summary> Having your head (up) in the clouds</summary>
-
-**Signification :** Juste à temps, au dernier moment
-
-**Exemple :**
-> "We arrived at the station in the nick of time and caught our train."
-
-**🇫🇷 Équivalent :** Juste à temps / De justesse
+**🇫🇷 Équivalent français :** Retrouver un second souffle
 
 </details>
 
 <details>
-<summary> Raining on someone's parade</summary>
+<summary>Get/catch wind of something</summary>
 
-**Signification :** Juste à temps, au dernier moment
+**Traduction littérale :** Attraper le vent de quelque chose
 
-**Exemple :**
-> "We arrived at the station in the nick of time and caught our train."
+**Signification :** Entendre parler de quelque chose, avoir vent de
 
-**🇫🇷 Équivalent :** Juste à temps / De justesse
-
-</details>
-
-
-<details>
-<summary> Steal someone's thunder</summary>
-
-**Signification :** Juste à temps, au dernier moment
-
-**Exemple :**
-> "We arrived at the station in the nick of time and caught our train."
-
-**🇫🇷 Équivalent :** Juste à temps / De justesse
+**🇫🇷 Équivalent français :** Avoir vent de quelque chose
 
 </details>
 
 <details>
-<summary> Shoot for the stars</summary>
+<summary>Throw caution to the wind</summary>
 
-**Signification :** Juste à temps, au dernier moment
+**Traduction littérale :** Jeter la prudence au vent
 
-**Exemple :**
-> "We arrived at the station in the nick of time and caught our train."
+**Signification :** Agir sans réfléchir aux conséquences, prendre des risques
 
-**🇫🇷 Équivalent :** Juste à temps / De justesse
+**🇫🇷 Équivalent français :** Jeter la prudence aux orties / Se jeter à l'eau
 
 </details>
 
 <details>
-<summary> Once in a blue moon</summary>
+<summary>Have your head (up) in the clouds</summary>
 
-**Signification :** Juste à temps, au dernier moment
+**Traduction littérale :** Avoir la tête dans les nuages
 
-**Exemple :**
-> "We arrived at the station in the nick of time and caught our train."
+**Signification :** Être distrait, rêveur, déconnecté de la réalité
 
-**🇫🇷 Équivalent :** Juste à temps / De justesse
+**🇫🇷 Équivalent français :** Avoir la tête dans les nuages
+
+</details>
+
+<details>
+<summary>Rain on someone's parade</summary>
+
+**Traduction littérale :** Pleuvoir sur le défilé de quelqu'un
+
+**Signification :** Gâcher le plaisir ou l'enthousiasme de quelqu'un
+
+**🇫🇷 Équivalent français :** Casser l'ambiance / Jouer les rabat-joie
+
+</details>
+
+<details>
+<summary>Steal someone's thunder</summary>
+
+**Traduction littérale :** Voler le tonnerre de quelqu'un
+
+**Signification :** S'attribuer le mérite de quelqu'un d'autre
+
+**🇫🇷 Équivalent français :** Voler la vedette à quelqu'un
+
+</details>
+
+<details>
+<summary>A perfect storm</summary>
+
+**Traduction littérale :** Une tempête parfaite
+
+**Signification :** Une combinaison de circonstances qui créent une situation catastrophique
+
+**🇫🇷 Équivalent français :** Une tempête parfaite / Concours de circonstances catastrophiques
+
+</details>
+
+<details>
+<summary>The calm before the storm</summary>
+
+**Traduction littérale :** Le calme avant la tempête
+
+**Signification :** Une période de tranquillité avant des problèmes
+
+**🇫🇷 Équivalent français :** Le calme avant la tempête
+
+</details>
+
+<details>
+<summary>Weather the storm</summary>
+
+**Traduction littérale :** Affronter la tempête
+
+**Signification :** Survivre à une période difficile
+
+**🇫🇷 Équivalent français :** Surmonter l'épreuve / Tenir le coup
+
+</details>
+
+<details>
+<summary>Shoot for the stars</summary>
+
+**Traduction littérale :** Viser les étoiles
+
+**Signification :** Avoir de grandes ambitions
+
+**🇫🇷 Équivalent français :** Viser haut / Décrocher la lune
+
+</details>
+
+<details>
+<summary>Once in a blue moon</summary>
+
+**Traduction littérale :** Une fois pendant une lune bleue
+
+**Signification :** Très rarement, presque jamais
+
+**🇫🇷 Équivalent français :** Tous les 36 du mois
 
 </details>
