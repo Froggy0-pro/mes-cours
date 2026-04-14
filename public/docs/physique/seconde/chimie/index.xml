@@ -8,28 +8,28 @@
     <language>fr-fr</language>
     <atom:link href="http://localhost:1313/docs/physique/seconde/chimie/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>1) Configuration électronique</title>
+      <title>1) La mole - formulaire</title>
+      <link>http://localhost:1313/docs/physique/seconde/chimie/mole/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/physique/seconde/chimie/mole/</guid>
+      <description>&lt;h2 id=&#34;quantité-de-matière-et-mole&#34;&gt;Quantité de matière et mole&lt;a class=&#34;anchor&#34; href=&#34;#quantit%c3%a9-de-mati%c3%a8re-et-mole&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Lorsque l&amp;rsquo;on veut compter un grand nombre d&amp;rsquo;entités de manière plus efficace, il n&amp;rsquo;est pas rare de les regrouper par paquets du même nombre et de plutôt compter ces paquets. Par exemple, on regroupe historiquement les oeufs par douzaines. Une douzaine d&amp;rsquo;oeuf est un paquet comprenant 12 oeufs, ainsi si j&amp;rsquo;ai 36 oeufs sur les bras, je peux dire plus simplement que j&amp;rsquo;en ai 3 douzaines. Et bien on fait pareil avec les espèces chimiques! Cependant, plutôt que de les regrouper par paquets de 12, on les regroupe par paquets de $6.02*10^{23}$. Ce nombre s&amp;rsquo;appelle la &lt;strong&gt;constante d&amp;rsquo;Avogadro&lt;/strong&gt;, qu&amp;rsquo;on note $N_A$ et on appelle un paquet de cette taille &lt;strong&gt;une mole&lt;/strong&gt; de matière.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2) Configuration électronique</title>
       <link>http://localhost:1313/docs/physique/seconde/chimie/configuration/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/docs/physique/seconde/chimie/configuration/</guid>
       <description>&lt;h2 id=&#34;configuration-électronique&#34;&gt;Configuration électronique&lt;a class=&#34;anchor&#34; href=&#34;#configuration-%c3%a9lectronique&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Pour toutes les notions de base sur les atomes, ions et molécules, consulter les fiches de troisième.&lt;/p&gt;&#xA;&lt;p&gt;Les électrons d’un atome ne sont pas répartis au hasard : ils occupent des &lt;strong&gt;couches électroniques&lt;/strong&gt; autour du noyau. Ces couches sont numérotées et sont elles-mêmes constituées de &lt;strong&gt;sous-couches électroniques&lt;/strong&gt;, avec dans l&amp;rsquo;ordre de la plus proche à la plus éloignée du noyau:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;la couche 1, qui n&amp;rsquo;a qu&amp;rsquo;une sous-couche appelée s,&lt;/li&gt;&#xA;&lt;li&gt;la couche 2, qui a une sous-couche s et une sous-couche p,&lt;/li&gt;&#xA;&lt;li&gt;la couche 3, qui a également une sous-couche s et une sous-couche p (c&amp;rsquo;est ce qu&amp;rsquo;on considèrera en seconde en tout cas).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div class=&#34;center&#34;&gt;&#xD;&#xA;&lt;img src=&#34;http://localhost:1313/images/chimie/couches.png&#34; alt=&#34;Couche&#34; width=&#34;300&#34;&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;p&gt;Chaque sous-couche a une &lt;u&gt;capacité maximale d&amp;rsquo;accueil d&amp;rsquo;électrons&lt;/u&gt;: une &lt;strong&gt;sous-couche s&lt;/strong&gt; peut contenir jusqu&amp;rsquo;à &lt;strong&gt;2 électrons&lt;/strong&gt; tandis qu&amp;rsquo;une &lt;strong&gt;sous-couche p&lt;/strong&gt; peut en contenir jusqu&amp;rsquo;à &lt;strong&gt;6&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>1) Configuration électronique</title>
-      <link>http://localhost:1313/docs/physique/seconde/chimie/mole/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/physique/seconde/chimie/mole/</guid>
-      <description>&lt;h2 id=&#34;configuration-électronique&#34;&gt;Configuration électronique&lt;a class=&#34;anchor&#34; href=&#34;#configuration-%c3%a9lectronique&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Pour toutes les notions de base sur les atomes, ions et molécules, consulter les fiches de troisième.&lt;/p&gt;&#xA;&lt;p&gt;Les électrons d’un atome ne sont pas répartis au hasard : ils occupent des &lt;strong&gt;couches électroniques&lt;/strong&gt; autour du noyau. Ces couches sont numérotées et sont elles-mêmes constituées de &lt;strong&gt;sous-couches électroniques&lt;/strong&gt;, avec dans l&amp;rsquo;ordre de la plus proche à la plus éloignée du noyau:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;la couche 1, qui n&amp;rsquo;a qu&amp;rsquo;une sous-couche appelée s,&lt;/li&gt;&#xA;&lt;li&gt;la couche 2, qui a une sous-couche s et une sous-couche p,&lt;/li&gt;&#xA;&lt;li&gt;la couche 3, qui a également une sous-couche s et une sous-couche p (c&amp;rsquo;est ce qu&amp;rsquo;on considèrera en seconde en tout cas).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div class=&#34;center&#34;&gt;&#xD;&#xA;&lt;img src=&#34;http://localhost:1313/images/chimie/couches.png&#34; alt=&#34;Couche&#34; width=&#34;300&#34;&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;p&gt;Chaque sous-couche a une &lt;u&gt;capacité maximale d&amp;rsquo;accueil d&amp;rsquo;électrons&lt;/u&gt;: une &lt;strong&gt;sous-couche s&lt;/strong&gt; peut contenir jusqu&amp;rsquo;à &lt;strong&gt;2 électrons&lt;/strong&gt; tandis qu&amp;rsquo;une &lt;strong&gt;sous-couche p&lt;/strong&gt; peut en contenir jusqu&amp;rsquo;à &lt;strong&gt;6&lt;/strong&gt;.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>2) Schéma de Lewis</title>
+      <title>3) Schéma de Lewis</title>
       <link>http://localhost:1313/docs/physique/seconde/chimie/lewis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/docs/physique/seconde/chimie/lewis/</guid>
       <description>&lt;h2 id=&#34;électrons-de-valence-et-ions-préférentiels&#34;&gt;Électrons de valence et ions préférentiels&lt;a class=&#34;anchor&#34; href=&#34;#%c3%a9lectrons-de-valence-et-ions-pr%c3%a9f%c3%a9rentiels&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Afin d&amp;rsquo;être le plus stable possible, les atomes doivent avoir une &lt;u&gt;couche de valence pleine&lt;/u&gt;. De manière naturelle, ce n&amp;rsquo;est le cas que pour les éléments de la dernière colonne du tableau périodique (2 électrons de valence pour l&amp;rsquo;hélium et 8 pour les suivants), c&amp;rsquo;est d&amp;rsquo;ailleurs pourquoi ces atomes ne forment pas de molécules avec les autres. Pour cette raison, on appelle cette famille les &lt;strong&gt;gaz nobles&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>3) Solides ioniques</title>
+      <title>4) Solides ioniques</title>
       <link>http://localhost:1313/docs/physique/seconde/chimie/solide/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/docs/physique/seconde/chimie/solide/</guid>

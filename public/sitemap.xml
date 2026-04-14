@@ -3,18 +3,24 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/docs/anglais/vocabulaire/idiomes/animals/</loc>
-    <lastmod>2026-02-13T21:27:49+01:00</lastmod>
+    <lastmod>2026-04-09T17:21:32+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/physique/troisieme/energie/formes/</loc>
-    <lastmod>2026-02-08T21:42:07+01:00</lastmod>
+    <lastmod>2026-04-09T17:21:32+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/physique/troisieme/mati%C3%A8re/atome/</loc>
   </url><url>
+    <loc>http://localhost:1313/docs/physique/seconde/chimie/mole/</loc>
+    <lastmod>2026-04-09T17:21:32+02:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/docs/maths/premiere/polynomes/</loc>
-    <lastmod>2026-01-18T20:36:28+01:00</lastmod>
+    <lastmod>2026-04-09T17:21:32+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/anglais/vocabulaire/idiomes/bodyparts/</loc>
-    <lastmod>2026-02-13T21:27:49+01:00</lastmod>
+    <lastmod>2026-04-09T17:21:32+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/physique/seconde/chimie/configuration/</loc>
+    <lastmod>2026-04-09T17:21:32+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/anglais/vocabulaire/irregular/midlevel/</loc>
     <lastmod>2026-02-13T21:27:49+01:00</lastmod>
@@ -22,38 +28,44 @@
     <loc>http://localhost:1313/docs/physique/troisieme/mati%C3%A8re/mol%C3%A9cules/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/physique/troisieme/energie/conversions/</loc>
-    <lastmod>2026-01-25T21:25:40+01:00</lastmod>
+    <lastmod>2026-04-09T17:21:32+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/anglais/vocabulaire/idiomes/food/</loc>
-    <lastmod>2026-02-13T21:27:49+01:00</lastmod>
+    <lastmod>2026-04-09T17:21:32+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/physique/troisieme/energie/centrale/</loc>
     <lastmod>2026-02-08T21:42:07+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/physique/troisieme/mati%C3%A8re/miscibilit%C3%A9/</loc>
   </url><url>
+    <loc>http://localhost:1313/docs/physique/seconde/chimie/lewis/</loc>
+    <lastmod>2026-04-09T17:21:32+02:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/docs/maths/premiere/geometrie/</loc>
-    <lastmod>2026-01-18T20:36:28+01:00</lastmod>
+    <lastmod>2026-04-09T17:21:32+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/anglais/vocabulaire/idiomes/items/</loc>
-    <lastmod>2026-02-13T21:27:49+01:00</lastmod>
+    <lastmod>2026-04-09T17:21:32+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/physique/troisieme/energie/elec/</loc>
-    <lastmod>2026-01-25T21:25:40+01:00</lastmod>
+    <lastmod>2026-04-09T17:21:32+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/physique/seconde/chimie/solide/</loc>
+    <lastmod>2026-04-09T17:21:32+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/physique/troisieme/mati%C3%A8re/transformations/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/anglais/vocabulaire/idiomes/time/</loc>
-    <lastmod>2026-02-13T21:27:49+01:00</lastmod>
+    <lastmod>2026-04-09T17:21:32+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/anglais/vocabulaire/idiomes/weather/</loc>
-    <lastmod>2026-02-13T21:27:49+01:00</lastmod>
+    <lastmod>2026-04-09T17:21:32+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/anglais/vocabulaire/idiomes/water/</loc>
-    <lastmod>2026-02-13T21:27:49+01:00</lastmod>
+    <lastmod>2026-04-09T17:21:32+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/anglais/vocabulaire/idiomes/various/</loc>
-    <lastmod>2026-02-13T21:27:49+01:00</lastmod>
+    <lastmod>2026-04-09T17:21:32+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/maths/premiere/derivation/</loc>
     <lastmod>2026-01-18T20:36:28+01:00</lastmod>
@@ -73,16 +85,19 @@
     <loc>http://localhost:1313/docs/maths/premiere/trigo/</loc>
     <lastmod>2026-01-18T20:36:28+01:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/docs/physique/seconde/chimie/</loc>
+    <lastmod>2026-04-09T17:21:32+02:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/docs/physique/terminale/acidebase/</loc>
     <lastmod>2026-01-18T20:36:28+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/physique/troisieme/energie/</loc>
-    <lastmod>2026-01-25T21:25:40+01:00</lastmod>
+    <lastmod>2026-04-09T17:21:32+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/physique/troisieme/mati%C3%A8re/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/physique/troisieme/ondes/</loc>
-    <lastmod>2026-01-25T21:25:40+01:00</lastmod>
+    <lastmod>2026-04-09T17:21:32+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/maths/</loc>
     <lastmod>2026-01-18T20:36:28+01:00</lastmod>
@@ -103,7 +118,7 @@
     <lastmod>2026-01-18T20:36:28+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/physique/seconde/</loc>
-    <lastmod>2026-01-18T20:36:28+01:00</lastmod>
+    <lastmod>2026-04-09T17:21:32+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/maths/terminale/</loc>
     <lastmod>2026-01-18T20:36:28+01:00</lastmod>
@@ -148,10 +163,10 @@
     <lastmod>2026-01-17T20:49:05+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/maths/premiere/geometrie/vecteurs/</loc>
-    <lastmod>2026-01-17T20:49:05+01:00</lastmod>
+    <lastmod>2026-04-09T17:21:32+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/maths/premiere/polynomes/second/</loc>
-    <lastmod>2026-01-17T20:49:05+01:00</lastmod>
+    <lastmod>2026-04-09T17:21:32+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/maths/premiere/derivation/variation/var/</loc>
     <lastmod>2026-01-18T20:36:28+01:00</lastmod>
@@ -169,7 +184,7 @@
     <lastmod>2026-01-18T20:36:28+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/maths/premiere/geometrie/scalaire/</loc>
-    <lastmod>2026-01-17T20:49:05+01:00</lastmod>
+    <lastmod>2026-04-09T17:21:32+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/maths/premiere/suites/arithmetiques/</loc>
     <lastmod>2026-01-17T20:49:05+01:00</lastmod>
@@ -181,7 +196,7 @@
     <lastmod>2026-02-08T21:42:07+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/maths/premiere/geometrie/equations/</loc>
-    <lastmod>2026-01-17T20:49:05+01:00</lastmod>
+    <lastmod>2026-04-09T17:21:32+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/maths/premiere/trigo/fonction/</loc>
     <lastmod>2026-01-17T20:49:05+01:00</lastmod>
@@ -207,10 +222,10 @@
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/</loc>
-    <lastmod>2026-02-13T21:27:49+01:00</lastmod>
+    <lastmod>2026-04-09T17:21:32+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-02-13T21:27:49+01:00</lastmod>
+    <lastmod>2026-04-09T17:21:32+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
   </url>
