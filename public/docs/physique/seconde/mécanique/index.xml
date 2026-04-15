@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mécanique on Mes cours</title>
+    <link>http://localhost:1313/docs/physique/seconde/m%C3%A9canique/</link>
+    <description>Recent content in Mécanique on Mes cours</description>
+    <generator>Hugo</generator>
+    <language>fr-fr</language>
+    <atom:link href="http://localhost:1313/docs/physique/seconde/m%C3%A9canique/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>1) Description du mouvement</title>
+      <link>http://localhost:1313/docs/physique/seconde/m%C3%A9canique/mouvement/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/physique/seconde/m%C3%A9canique/mouvement/</guid>
+      <description>&lt;h2 id=&#34;décrire-un-mouvement&#34;&gt;Décrire un mouvement&lt;a class=&#34;anchor&#34; href=&#34;#d%c3%a9crire-un-mouvement&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Dans les exercices de mécanique, on étudie le mouvement d&amp;rsquo;un &lt;strong&gt;système&lt;/strong&gt; (un objet, une personne, etc.). Deux éléments importants pour décrire ce mouvement sont :&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;sa trajectoire : &lt;strong&gt;rectiligne&lt;/strong&gt; (tout droit), &lt;strong&gt;circulaire&lt;/strong&gt;/elliptique, ou pour toute autre trajectoire, curviligne,&lt;/li&gt;&#xA;&lt;li&gt;son accélération : &lt;strong&gt;accéléré&lt;/strong&gt;, &lt;strong&gt;ralenti/décéléré&lt;/strong&gt;, ou &lt;strong&gt;uniforme&lt;/strong&gt; (vitesse constante).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;L&amp;rsquo;analyse d&amp;rsquo;un mouvement dépend de la position relative de l&amp;rsquo;observateur et du système, on parle donc de &lt;strong&gt;relativité du mouvement&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;u&gt;Exemple&lt;/u&gt;: Un train transporte des passagers à une vitesse constante de $100km/h$. Du point de vue du sol, ceux-ci sont en mouvement rectiligne uniforme, car ils bougent avec le train. En revanche, du point de vue du train, les passagers sont immobiles puisque leur position dans le train ne change pas (en supposant qu&amp;rsquo;ils restent assis).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2) Forces et lois de Newton</title>
+      <link>http://localhost:1313/docs/physique/seconde/m%C3%A9canique/forces/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/physique/seconde/m%C3%A9canique/forces/</guid>
+      <description>&lt;h2 id=&#34;les-forces-extérieures&#34;&gt;Les forces extérieures&lt;a class=&#34;anchor&#34; href=&#34;#les-forces-ext%c3%a9rieures&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Le mouvement (ou l&amp;rsquo;immobilité) d&amp;rsquo;un système dépend des forces extérieures auxquelles il est soumis. Les forces sont représentées&lt;/p&gt;&#xA;&lt;h2 id=&#34;démarche-à-suivre&#34;&gt;Démarche à suivre&lt;a class=&#34;anchor&#34; href=&#34;#d%c3%a9marche-%c3%a0-suivre&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Dans tout problème de mécanique, il&lt;/p&gt;&#xA;&lt;div class=&#34;center&#34;&gt;&#xD;&#xA;&lt;img src=&#34;http://localhost:1313/images/chimie/son.png&#34; alt=&#34;Son&#34; width=&#34;700&#34;&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;p&gt;Connaître la période d&amp;rsquo;un son permet de déterminer sa &lt;strong&gt;fréquence&lt;/strong&gt; $f$, exprimée en &lt;strong&gt;Hertz&lt;/strong&gt; ($Hz$), avec la formule: $\boxed{f = \frac{1}{T}}$ &lt;u&gt;Attention: il faut que la période soit en secondes donc bien penser à convertir!&lt;/u&gt;&lt;/p&gt;&#xA;&lt;p&gt;La fréquence détermine la &lt;strong&gt;hauteur&lt;/strong&gt; du son :&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

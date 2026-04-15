@@ -13,6 +13,9 @@
     <loc>http://localhost:1313/docs/physique/seconde/chimie/mole/</loc>
     <lastmod>2026-04-09T17:21:32+02:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/docs/physique/seconde/ondes/son/</loc>
+    <lastmod>2026-04-14T11:55:13+02:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/docs/maths/premiere/polynomes/</loc>
     <lastmod>2026-04-09T17:21:32+02:00</lastmod>
   </url><url>
@@ -21,6 +24,9 @@
   </url><url>
     <loc>http://localhost:1313/docs/physique/seconde/chimie/configuration/</loc>
     <lastmod>2026-04-09T17:21:32+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/physique/seconde/ondes/spectres/</loc>
+    <lastmod>2026-04-14T11:55:13+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/anglais/vocabulaire/irregular/midlevel/</loc>
     <lastmod>2026-02-13T21:27:49+01:00</lastmod>
@@ -35,6 +41,8 @@
   </url><url>
     <loc>http://localhost:1313/docs/physique/troisieme/energie/centrale/</loc>
     <lastmod>2026-02-08T21:42:07+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/physique/seconde/ondes/lumi%C3%A8re/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/physique/troisieme/mati%C3%A8re/miscibilit%C3%A9/</loc>
   </url><url>
@@ -95,6 +103,9 @@
     <lastmod>2026-04-09T17:21:32+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/physique/troisieme/mati%C3%A8re/</loc>
+  </url><url>
+    <loc>http://localhost:1313/docs/physique/seconde/ondes/</loc>
+    <lastmod>2026-04-14T11:55:13+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/physique/troisieme/ondes/</loc>
     <lastmod>2026-04-09T17:21:32+02:00</lastmod>
@@ -222,10 +233,10 @@
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/</loc>
-    <lastmod>2026-04-09T17:21:32+02:00</lastmod>
+    <lastmod>2026-04-14T11:55:13+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-04-09T17:21:32+02:00</lastmod>
+    <lastmod>2026-04-14T11:55:13+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
   </url>
