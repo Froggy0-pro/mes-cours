@@ -8,33 +8,27 @@ https://github.com/alex-shpak/hugo-book
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Les forces extérieures# Le mouvement (ou l’immobilité) d’un système dépend des forces extérieures auxquelles il est soumis. Les forces sont représentées
-Démarche à suivre# Dans tout problème de mécanique, il
-Connaître la période d’un son permet de déterminer sa fréquence $f$, exprimée en Hertz ($Hz$), avec la formule: $\boxed{f = \frac{1}{T}}$ Attention: il faut que la période soit en secondes donc bien penser à convertir!
-La fréquence détermine la hauteur du son :
+<meta name="description" content="Les forces extérieures# Le mouvement (ou l’immobilité) d’un système dépend des forces extérieures auxquelles il est soumis. Les forces sont représentées par des vecteurs partant d’un point d’application (souvent le centre de masse du système ou le point de contact). Une force a donc :
+une direction, indiquant par quel axe elle est portée, un sens (vers le haut, le bas, etc.), une norme : sa valeur exprimée en Newton $N$. Forces classiques en référentiel terrestre# Le poids : toujours orienté vers le bas, il s’applique sur tout objet possédant une masse, il est donc toujours présent. L’expression de sa norme est : $\boxed{P=m*g}$ avec : $m$ la masse en kilogrammes $kg$ $g$ l’intensité de la pesanteur, sur Terre $g \approx 9,81 N/kg$ La réaction (normale) du support : si le système est posé sur un support (le sol, une table, etc.), alors le support exerce sur le système une force qui le repousse perpendiculairement au support, d’où l’adjectif “normal”.
 ">
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
 <meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/docs/physique/seconde/m%C3%A9canique/forces/">
   <meta property="og:site_name" content="Mes cours">
-  <meta property="og:title" content="2) Forces et lois de Newton">
-  <meta property="og:description" content="Les forces extérieures# Le mouvement (ou l’immobilité) d’un système dépend des forces extérieures auxquelles il est soumis. Les forces sont représentées
-Démarche à suivre# Dans tout problème de mécanique, il
-Connaître la période d’un son permet de déterminer sa fréquence $f$, exprimée en Hertz ($Hz$), avec la formule: $\boxed{f = \frac{1}{T}}$ Attention: il faut que la période soit en secondes donc bien penser à convertir!
-La fréquence détermine la hauteur du son :">
+  <meta property="og:title" content="2) Forces et principe d&#39;inertie">
+  <meta property="og:description" content="Les forces extérieures# Le mouvement (ou l’immobilité) d’un système dépend des forces extérieures auxquelles il est soumis. Les forces sont représentées par des vecteurs partant d’un point d’application (souvent le centre de masse du système ou le point de contact). Une force a donc :
+une direction, indiquant par quel axe elle est portée, un sens (vers le haut, le bas, etc.), une norme : sa valeur exprimée en Newton $N$. Forces classiques en référentiel terrestre# Le poids : toujours orienté vers le bas, il s’applique sur tout objet possédant une masse, il est donc toujours présent. L’expression de sa norme est : $\boxed{P=m*g}$ avec : $m$ la masse en kilogrammes $kg$ $g$ l’intensité de la pesanteur, sur Terre $g \approx 9,81 N/kg$ La réaction (normale) du support : si le système est posé sur un support (le sol, une table, etc.), alors le support exerce sur le système une force qui le repousse perpendiculairement au support, d’où l’adjectif “normal”.">
   <meta property="og:locale" content="fr_fr">
   <meta property="og:type" content="article">
     <meta property="article:section" content="docs">
 
 
-  <meta itemprop="name" content="2) Forces et lois de Newton">
-  <meta itemprop="description" content="Les forces extérieures# Le mouvement (ou l’immobilité) d’un système dépend des forces extérieures auxquelles il est soumis. Les forces sont représentées
-Démarche à suivre# Dans tout problème de mécanique, il
-Connaître la période d’un son permet de déterminer sa fréquence $f$, exprimée en Hertz ($Hz$), avec la formule: $\boxed{f = \frac{1}{T}}$ Attention: il faut que la période soit en secondes donc bien penser à convertir!
-La fréquence détermine la hauteur du son :">
-  <meta itemprop="wordCount" content="379">
+  <meta itemprop="name" content="2) Forces et principe d&#39;inertie">
+  <meta itemprop="description" content="Les forces extérieures# Le mouvement (ou l’immobilité) d’un système dépend des forces extérieures auxquelles il est soumis. Les forces sont représentées par des vecteurs partant d’un point d’application (souvent le centre de masse du système ou le point de contact). Une force a donc :
+une direction, indiquant par quel axe elle est portée, un sens (vers le haut, le bas, etc.), une norme : sa valeur exprimée en Newton $N$. Forces classiques en référentiel terrestre# Le poids : toujours orienté vers le bas, il s’applique sur tout objet possédant une masse, il est donc toujours présent. L’expression de sa norme est : $\boxed{P=m*g}$ avec : $m$ la masse en kilogrammes $kg$ $g$ l’intensité de la pesanteur, sur Terre $g \approx 9,81 N/kg$ La réaction (normale) du support : si le système est posé sur un support (le sol, une table, etc.), alors le support exerce sur le système une force qui le repousse perpendiculairement au support, d’où l’adjectif “normal”.">
+  <meta itemprop="wordCount" content="641">
 
-<title>2) Forces et lois de Newton | Mes cours</title>
+<title>2) Forces et principe d&#39;inertie | Mes cours</title>
 <link rel="icon" href="http://localhost:1313/favicon.png" >
 <link rel="manifest" href="http://localhost:1313/manifest.json">
 <link rel="canonical" href="http://localhost:1313/docs/physique/seconde/m%C3%A9canique/forces/">
@@ -42,7 +36,7 @@ La fréquence détermine la hauteur du son :">
 
 
   <script defer src="http://localhost:1313/fuse.min.js"></script>
-  <script defer src="http://localhost:1313/en.search.min.fe5513fc6198653fe7f82b562d07ea1817f6d7c59d2c60e127a798c4b3127f89.js" integrity="sha256-/lUT/GGYZT/n&#43;CtWLQfqGBf218WdLGDhJ6eYxLMSf4k=" crossorigin="anonymous"></script>
+  <script defer src="http://localhost:1313/en.search.min.91252a0626557b7e7681a7c8097fb55faad5131c4ea930e163ec2cb78c934f32.js" integrity="sha256-kSUqBiZVe352gafICX&#43;1X6rVExxOqTDhY&#43;wst4yTTzI=" crossorigin="anonymous"></script>
 
 
 
@@ -667,12 +661,81 @@ La fréquence détermine la hauteur du son :">
   
 
   
-    <a>
-      Troisième</a>
+    <input type="checkbox" id="section-b9d41fc5c916037afe2801fab83351df" class="toggle"  />
+    <label for="section-b9d41fc5c916037afe2801fab83351df" class="flex">
+      <a role="button" class="">
+        Troisième</a>
+      <img src="http://localhost:1313/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
   
 
           
   <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-fcda9a4ab2a8fc42e59c7b0cae9ce38a" class="toggle"  />
+    <label for="section-fcda9a4ab2a8fc42e59c7b0cae9ce38a" class="flex">
+      <a role="button" class="">
+        Géométrie</a>
+      <img src="http://localhost:1313/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/troisieme/g%C3%A9om%C3%A9trie/pythagore/" class="">
+      1) Pythagore</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/troisieme/g%C3%A9om%C3%A9trie/thal%C3%A8s/" class="">
+      2) Thalès</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/troisieme/g%C3%A9om%C3%A9trie/trigonom%C3%A9trie/" class="">
+      3) Trigonométrie</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
     
   </ul>
 
@@ -878,6 +941,20 @@ La fréquence détermine la hauteur du son :">
         </li>
       
     
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/physique/seconde/ondes/lentille/" class="">
+      4) Lentille convergente</a>
+  
+
+        </li>
+      
+    
   </ul>
 
         </li>
@@ -923,7 +1000,21 @@ La fréquence détermine la hauteur du son :">
 
   
     <a href="http://localhost:1313/docs/physique/seconde/m%C3%A9canique/forces/" class="active">
-      2) Forces et lois de Newton</a>
+      2) Forces et principe d&#39;inertie</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/physique/seconde/m%C3%A9canique/gravitation/" class="">
+      3) Interaction gravitationnelle</a>
   
 
         </li>
@@ -1519,7 +1610,7 @@ La fréquence détermine la hauteur du son :">
     <img src="http://localhost:1313/icons/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <h3>2) Forces et lois de Newton</h3>
+  <h3>2) Forces et principe d&#39;inertie</h3>
 
   <label for="toc-control">
     
@@ -1536,8 +1627,8 @@ La fréquence détermine la hauteur du son :">
 <nav id="TableOfContents">
   <ul>
     <li><a href="#les-forces-extérieures">Les forces extérieures</a></li>
-    <li><a href="#démarche-à-suivre">Démarche à suivre</a></li>
-    <li><a href="#niveau-dintensité-sonore">Niveau d&rsquo;intensité sonore</a></li>
+    <li><a href="#forces-classiques-en-référentiel-terrestre">Forces classiques en référentiel terrestre</a></li>
+    <li><a href="#première-loi-de-newton">Première loi de Newton</a></li>
   </ul>
 </nav>
 
@@ -1551,29 +1642,47 @@ La fréquence détermine la hauteur du son :">
       
       
   <article class="markdown book-article"><h2 id="les-forces-extérieures">Les forces extérieures<a class="anchor" href="#les-forces-ext%c3%a9rieures">#</a></h2>
-<p>Le mouvement (ou l&rsquo;immobilité) d&rsquo;un système dépend des forces extérieures auxquelles il est soumis. Les forces sont représentées</p>
-<h2 id="démarche-à-suivre">Démarche à suivre<a class="anchor" href="#d%c3%a9marche-%c3%a0-suivre">#</a></h2>
-<p>Dans tout problème de mécanique, il</p>
+<p>Le mouvement (ou l&rsquo;immobilité) d&rsquo;un système dépend des forces extérieures auxquelles il est soumis. Les forces sont représentées par des <strong>vecteurs</strong> partant d&rsquo;un point d&rsquo;application (souvent le centre de masse du système ou le point de contact). Une force a donc :</p>
+<ul>
+<li>une direction, indiquant par quel axe elle est portée,</li>
+<li>un sens (vers le haut, le bas, etc.),</li>
+<li>une norme : sa valeur exprimée en <strong>Newton $N$</strong>.</li>
+</ul>
+<h2 id="forces-classiques-en-référentiel-terrestre">Forces classiques en référentiel terrestre<a class="anchor" href="#forces-classiques-en-r%c3%a9f%c3%a9rentiel-terrestre">#</a></h2>
+<ol>
+<li>Le <strong>poids</strong> : toujours orienté vers le bas, il s&rsquo;applique sur tout objet possédant une masse, il est donc toujours présent. L&rsquo;expression de sa norme est : $\boxed{P=m*g}$ avec :</li>
+</ol>
+<ul>
+<li>$m$ la masse en <strong>kilogrammes</strong> $kg$</li>
+<li>$g$ l&rsquo;intensité de la pesanteur, sur Terre $g \approx 9,81 N/kg$</li>
+</ul>
+<ol start="2">
+<li>
+<p>La <strong>réaction (normale) du support</strong> : si le système est posé sur un support (le sol, une table, etc.), alors le support exerce sur le système une force qui le repousse perpendiculairement au support, d&rsquo;où l&rsquo;adjectif &ldquo;normal&rdquo;.</p>
+</li>
+<li>
+<p>La <strong>tension du fil</strong> : si le système n&rsquo;est pas posé mais plutôt suspendu par un fil, alors le fil exerce sur le système une force similaire le tirant le long du fil.</p>
+</li>
+<li>
+<p>Les <strong>frottements</strong> : si le système est en mouvement dans un milieu matériel (air, eau, etc.), alors cette force viendra s&rsquo;opposer au mouvement. Il est courant de les négliger pour simplifier les calculs, comme dans le cas de la <strong>chute libre</strong>.</p>
+</li>
+</ol>
+<p>On ne considèrera comme &ldquo;forces&rdquo; que les actions qui s&rsquo;exercent en continu. Si dans un exercice on lance une balle, le lancer n&rsquo;est pas continu donc on ne parlera pas de force. En revanche, si une voiture roule, on considèrera sa <strong>force motrice</strong>, qui permet de la pousser en continu vers l&rsquo;avant.</p>
 <div class="center">
-<img src="http://localhost:1313/images/chimie/son.png" alt="Son" width="700">
+  <img src="http://localhost:1313/images/chimie/poids.png" width="200">
+  <img src="http://localhost:1313/images/chimie/reaction_support.png" width="170">
+  <img src="http://localhost:1313/images/chimie/tension_fil.png" width="150">
 </div>
-<p>Connaître la période d&rsquo;un son permet de déterminer sa <strong>fréquence</strong> $f$, exprimée en <strong>Hertz</strong> ($Hz$), avec la formule: $\boxed{f = \frac{1}{T}}$ <u>Attention: il faut que la période soit en secondes donc bien penser à convertir!</u></p>
-<p>La fréquence détermine la <strong>hauteur</strong> du son :</p>
-<ul>
-<li>fréquence élevée → son <strong>aigu</strong></li>
-<li>fréquence faible → son <strong>grave</strong></li>
-</ul>
-<p>Par ailleurs, l’oreille humaine ne perçoit que les sons dont la fréquence est comprise entre : $\boxed{20 Hz \leq f \leq 20000 Hz}$ ; c&rsquo;est le <strong>domaine audible</strong>. Au-delà de ce domaine il y a :</p>
-<ul>
-<li><strong>les infrasons</strong> : $f &lt; 20 Hz$</li>
-<li><strong>les ultrasons</strong> : $f &gt; 20000 Hz$</li>
-</ul>
-<p>Bien sûr, je peux aussi retrouver la période (qui sera en $s$) à partir de la fréquence : $\boxed{T = \frac{1}{f}}$ ; on tâchera aussi de garder en tête les formules du collège : $\boxed{t = \frac{d}{v}}$ $\boxed{v = \frac{d}{t}}$ et $\boxed{d=v*t}$</p>
-<p>Et enfin, le <strong>timbre</strong> d&rsquo;un son correspond à la forme de son motif élémentaire. Si on observe l&rsquo;oscillogramme de la même note de musique jouée par deux instruments différents, on verra deux motifs différents, mais avec la même période. Le son a donc exactement la même hauteur (car la même fréquence), mais les deux instruments ne donnent pas le même ressenti à l&rsquo;oreille.</p>
-<h2 id="niveau-dintensité-sonore">Niveau d&rsquo;intensité sonore<a class="anchor" href="#niveau-dintensit%c3%a9-sonore">#</a></h2>
-<p>L’<strong>intensité sonore</strong> correspond à la puissance du son perçu. Généralement, on exprime plutôt le niveau d&rsquo;intensité sonore, mesuré en <strong>décibels (dB)</strong>, qui donne une échelle facilement compréhensible par le grand public, notamment quand il faut mettre en évidence un potentiel danger (car oui, être exposé à des sons très forts et sur de longues durées peut provoquer des dégâts irréversibles sur l&rsquo;audition)</p>
+<h2 id="première-loi-de-newton">Première loi de Newton<a class="anchor" href="#premi%c3%a8re-loi-de-newton">#</a></h2>
+<p>En 1687, Isaac Newton énonce les lois qui constituent aujourd&rsquo;hui les bases de la mécanique classique. D&rsquo;après la <strong>première loi de Newton</strong>, <u>si la somme des forces s&rsquo;exerçant sur un système est nulle, alors celui-ci est immobile ou bien en mouvement rectiligne uniforme</u> : c&rsquo;est le <strong>principe d&rsquo;inertie</strong>. Cette loi est valable dans les deux sens, donc si je sais qu&rsquo;un système est immobile ou en mouvement rectiligne uniforme, les forces qui s&rsquo;exercent sur lui se compensent forcément.</p>
+<p>Attention, quand on parle de somme des forces qui s&rsquo;annule, on parle de la somme des vecteurs (vecteur nul), pas des normes, qui sont quant à elles strictement positives. On a donc :</p>
+<p>$$\boxed{\sum \vec{F}_{ext} = \vec{0} &lt;=&gt; \text{système au repos ou en mouvement rectiligne uniforme}}$$</p>
+<p><u>Méthodologie des exercices</u>:</p>
+<p>Dans les exercices, la première loi de Newton sert soit à trouver la valeur de la norme d&rsquo;une force dans un système au repos (car sinon on ne connaît que la formule du poids), soit à l&rsquo;inverse à montrer qu&rsquo;un système est au repos (ou non).</p>
+<p>On commence toujours par <strong>définir le système</strong> étudié, puis le <strong>référentiel</strong>, supposé <strong>galiléen</strong> (c&rsquo;est-à-dire que les lois de Newton s&rsquo;y appliquent). Ensuite on réalise un <strong>bilan des forces</strong> sur le système et on s&rsquo;adapte à partir de là.</p>
+<p><u>Exemple</u>: J&rsquo;étudie un camion de masse $m=40000kg$ dans le référentiel terrestre supposé galiléen. Les forces qui s&rsquo;appliquent lors de la montée d&rsquo;une pente sont le poids, la réaction normale de la route, la force motrice et les frottements. En additionnant les vecteurs force, je trouve $\sum \vec{F}_{ext} \neq \vec{0}$ donc d&rsquo;après la première loi de Newton, le camion n&rsquo;est pas en mouvement rectiligne uniforme.</p>
 <div class="center">
-<img src="http://localhost:1313/images/chimie/niveau_sonore.png" alt="Niveau" width="400">
+  <img src="http://localhost:1313/images/chimie/bdf.png" width="500">
 </div>
 <details>
 <summary>Exercice</summary>
@@ -1628,8 +1737,8 @@ La fréquence détermine la hauteur du son :">
     </span>
     <span>
     
-      <a href="http://localhost:1313/docs/physique/terminale/acidebase/couples/" class="flex align-center">
-        <span>1) Couples acide/base</span>
+      <a href="http://localhost:1313/docs/physique/seconde/m%C3%A9canique/gravitation/" class="flex align-center">
+        <span>3) Interaction gravitationnelle</span>
         <img src="http://localhost:1313/icons/forward.svg" class="book-icon" alt="Forward" />
       </a>
     
@@ -1695,8 +1804,8 @@ document.addEventListener("DOMContentLoaded", function () {
 <nav id="TableOfContents">
   <ul>
     <li><a href="#les-forces-extérieures">Les forces extérieures</a></li>
-    <li><a href="#démarche-à-suivre">Démarche à suivre</a></li>
-    <li><a href="#niveau-dintensité-sonore">Niveau d&rsquo;intensité sonore</a></li>
+    <li><a href="#forces-classiques-en-référentiel-terrestre">Forces classiques en référentiel terrestre</a></li>
+    <li><a href="#première-loi-de-newton">Première loi de Newton</a></li>
   </ul>
 </nav>
 

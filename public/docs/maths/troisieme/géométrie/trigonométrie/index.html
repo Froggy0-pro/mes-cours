@@ -1,0 +1,1847 @@
+<!DOCTYPE html>
+<html lang="fr-fr" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Théorème de Thalès# Dans un triangle $ABC$ quelconque, si une droite $(MN)$ est parallèle à un côté du triangle (ici $BC$) et que les points $A, M, B$ et $A, N, C$ sont alignés, alors on obtient les relations de proportionnalité suivantes: $\boxed{\frac{AM}{AB} = \frac{AN}{AC} = \frac{MN}{BC}}$
+C’est le théorème de Thalès. Il permet de calculer une longueur grâce à trois autres longueurs dans une configuration en triangle avec deux droites parallèles et des points alignés.
+">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/docs/maths/troisieme/g%C3%A9om%C3%A9trie/trigonom%C3%A9trie/">
+  <meta property="og:site_name" content="Mes cours">
+  <meta property="og:title" content="3) Trigonométrie">
+  <meta property="og:description" content="Théorème de Thalès# Dans un triangle $ABC$ quelconque, si une droite $(MN)$ est parallèle à un côté du triangle (ici $BC$) et que les points $A, M, B$ et $A, N, C$ sont alignés, alors on obtient les relations de proportionnalité suivantes: $\boxed{\frac{AM}{AB} = \frac{AN}{AC} = \frac{MN}{BC}}$
+C’est le théorème de Thalès. Il permet de calculer une longueur grâce à trois autres longueurs dans une configuration en triangle avec deux droites parallèles et des points alignés.">
+  <meta property="og:locale" content="fr_fr">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="docs">
+
+
+  <meta itemprop="name" content="3) Trigonométrie">
+  <meta itemprop="description" content="Théorème de Thalès# Dans un triangle $ABC$ quelconque, si une droite $(MN)$ est parallèle à un côté du triangle (ici $BC$) et que les points $A, M, B$ et $A, N, C$ sont alignés, alors on obtient les relations de proportionnalité suivantes: $\boxed{\frac{AM}{AB} = \frac{AN}{AC} = \frac{MN}{BC}}$
+C’est le théorème de Thalès. Il permet de calculer une longueur grâce à trois autres longueurs dans une configuration en triangle avec deux droites parallèles et des points alignés.">
+  <meta itemprop="wordCount" content="416">
+
+<title>3) Trigonométrie | Mes cours</title>
+<link rel="icon" href="http://localhost:1313/favicon.png" >
+<link rel="manifest" href="http://localhost:1313/manifest.json">
+<link rel="canonical" href="http://localhost:1313/docs/maths/troisieme/g%C3%A9om%C3%A9trie/trigonom%C3%A9trie/">
+<link rel="stylesheet" href="http://localhost:1313/book.min.7e3f11d5a21359d22c624b572878d7b4815568272a8c2384e5eff87151627a86.css" integrity="sha256-fj8R1aITWdIsYktXKHjXtIFVaCcqjCOE5e/4cVFieoY=" crossorigin="anonymous">
+
+
+  <script defer src="http://localhost:1313/fuse.min.js"></script>
+  <script defer src="http://localhost:1313/en.search.min.91252a0626557b7e7681a7c8097fb55faad5131c4ea930e163ec2cb78c934f32.js" integrity="sha256-kSUqBiZVe352gafICX&#43;1X6rVExxOqTDhY&#43;wst4yTTzI=" crossorigin="anonymous"></script>
+
+
+
+  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/mhchem.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body, {
+  delimiters: [
+    {left: '$$', right: '$$', display: true},
+    {left: '$', right: '$', display: false}
+  ]
+});"></script>
+
+</head>
+<body dir="ltr" class="book-kind-page book-type-docs">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    
+<aside class="book-menu">
+  <div class="book-menu-content">
+    
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="http://localhost:1313/"><span>Mes cours</span>
+  </a>
+</h2>
+
+
+<div class="book-search hidden">
+  <input id="book-search-input" type="text" 
+    placeholder="Search"
+    aria-label="Search"
+    maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-f69cdcbbbdd3c35e1afd61029681440a" class="toggle" checked />
+    <label for="section-f69cdcbbbdd3c35e1afd61029681440a" class="flex">
+      <a role="button" class="">
+        Maths</a>
+      <img src="http://localhost:1313/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a>
+      Post bac</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-4e784de060d4f2d33eae65bf7e21207d" class="toggle"  />
+    <label for="section-4e784de060d4f2d33eae65bf7e21207d" class="flex">
+      <a role="button" class="">
+        Première</a>
+      <img src="http://localhost:1313/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-79f63f6d39e0104fc4f2dceefd1a3a8b" class="toggle"  />
+    <label for="section-79f63f6d39e0104fc4f2dceefd1a3a8b" class="flex">
+      <a role="button" class="">
+        1) Polynômes</a>
+      <img src="http://localhost:1313/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/premiere/polynomes/second/" class="">
+      1) Second degré</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/premiere/polynomes/secondplus/" class="">
+      2) Applications diverses</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/premiere/polynomes/troisieme/" class="">
+      3) Troisième degré</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-7b0772488c7cbd7102bbeb6115e97687" class="toggle"  />
+    <label for="section-7b0772488c7cbd7102bbeb6115e97687" class="flex">
+      <a role="button" class="">
+        4) Géométrie</a>
+      <img src="http://localhost:1313/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/premiere/geometrie/vecteurs/" class="">
+      1) Rappels sur les vecteurs</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/premiere/geometrie/scalaire/" class="">
+      2) Produit scalaire</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/premiere/geometrie/equations/" class="">
+      3) Équations cartésiennes</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-ad947d7977f5cc36adee80e1d7344253" class="toggle"  />
+    <label for="section-ad947d7977f5cc36adee80e1d7344253" class="flex">
+      <a role="button" class="">
+        Dérivation</a>
+      <img src="http://localhost:1313/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/premiere/derivation/variation/var/" class="">
+      1) Taux de variation</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/premiere/derivation/usuelles/usu/" class="">
+      2) Dérivées usuelles</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/premiere/derivation/fonctions/fonc/" class="">
+      3) Sens de variation</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-5c750ef3bc2f9de76436469c87343288" class="toggle"  />
+    <label for="section-5c750ef3bc2f9de76436469c87343288" class="flex">
+      <a role="button" class="">
+        Exponentielle</a>
+      <img src="http://localhost:1313/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/premiere/exponentielle/fonction/" class="">
+      1) Fonction exponentielle</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-cfa8a488b59b392b6b51d4c4b08a2326" class="toggle"  />
+    <label for="section-cfa8a488b59b392b6b51d4c4b08a2326" class="flex">
+      <a role="button" class="">
+        Probabilités</a>
+      <img src="http://localhost:1313/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/premiere/probas/conditionnelle/" class="">
+      1) Probas conditionnelles</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/premiere/probas/tableaux/" class="">
+      2) Tableaux croisés</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/premiere/probas/lois/" class="">
+      3) Variables aléatoires</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-150597735392203b65f9bc76b83ad53c" class="toggle"  />
+    <label for="section-150597735392203b65f9bc76b83ad53c" class="flex">
+      <a role="button" class="">
+        Python</a>
+      <img src="http://localhost:1313/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/premiere/python/base/" class="">
+      1) Bases de programmation</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-a3996586209fdd2bdb0f5c22461cfd73" class="toggle"  />
+    <label for="section-a3996586209fdd2bdb0f5c22461cfd73" class="flex">
+      <a role="button" class="">
+        Suites</a>
+      <img src="http://localhost:1313/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/premiere/suites/generalites/" class="">
+      1) Généralités</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/premiere/suites/arithmetiques/" class="">
+      2) Suites arithmétiques</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/premiere/suites/geometriques/" class="">
+      3) Suites géométriques</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-36dd4f009001c97be3c0c34cf1b3bb66" class="toggle"  />
+    <label for="section-36dd4f009001c97be3c0c34cf1b3bb66" class="flex">
+      <a role="button" class="">
+        Trigonométrie</a>
+      <img src="http://localhost:1313/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/premiere/trigo/cercle/" class="">
+      1) Cercle trigonométrique</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/premiere/trigo/equations/" class="">
+      2) Calculs et équations</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/premiere/trigo/fonction/" class="">
+      3) Fonctions trigo</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a>
+      Seconde</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a>
+      Terminale</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-b9d41fc5c916037afe2801fab83351df" class="toggle" checked />
+    <label for="section-b9d41fc5c916037afe2801fab83351df" class="flex">
+      <a role="button" class="">
+        Troisième</a>
+      <img src="http://localhost:1313/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-fcda9a4ab2a8fc42e59c7b0cae9ce38a" class="toggle" checked />
+    <label for="section-fcda9a4ab2a8fc42e59c7b0cae9ce38a" class="flex">
+      <a role="button" class="">
+        Géométrie</a>
+      <img src="http://localhost:1313/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/troisieme/g%C3%A9om%C3%A9trie/pythagore/" class="">
+      1) Pythagore</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/troisieme/g%C3%A9om%C3%A9trie/thal%C3%A8s/" class="">
+      2) Thalès</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/maths/troisieme/g%C3%A9om%C3%A9trie/trigonom%C3%A9trie/" class="active">
+      3) Trigonométrie</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-f8b4d2eb2464212282c8f9b2ddd41ddb" class="toggle"  />
+    <label for="section-f8b4d2eb2464212282c8f9b2ddd41ddb" class="flex">
+      <a role="button" class="">
+        Physique-chimie</a>
+      <img src="http://localhost:1313/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a>
+      Première</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-3a36637f6f579d423cf67350b4e6280c" class="toggle"  />
+    <label for="section-3a36637f6f579d423cf67350b4e6280c" class="flex">
+      <a role="button" class="">
+        Seconde</a>
+      <img src="http://localhost:1313/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-de11b21ff8988e9b33a4a863ffccd41f" class="toggle"  />
+    <label for="section-de11b21ff8988e9b33a4a863ffccd41f" class="flex">
+      <a role="button" class="">
+        Chimie</a>
+      <img src="http://localhost:1313/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/physique/seconde/chimie/mole/" class="">
+      1) La mole - formulaire</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/physique/seconde/chimie/configuration/" class="">
+      2) Configuration électronique</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/physique/seconde/chimie/lewis/" class="">
+      3) Schéma de Lewis</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/physique/seconde/chimie/solide/" class="">
+      4) Solides ioniques</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-8ad84e1c320f24d7ca29836fe18fd368" class="toggle"  />
+    <label for="section-8ad84e1c320f24d7ca29836fe18fd368" class="flex">
+      <a role="button" class="">
+        Les ondes</a>
+      <img src="http://localhost:1313/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/physique/seconde/ondes/son/" class="">
+      1) Le son</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/physique/seconde/ondes/spectres/" class="">
+      2) La lumière</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/physique/seconde/ondes/lumi%C3%A8re/" class="">
+      3) Lois de Descartes</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/physique/seconde/ondes/lentille/" class="">
+      4) Lentille convergente</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-7008becca0158c4f33dd07d291c394a6" class="toggle"  />
+    <label for="section-7008becca0158c4f33dd07d291c394a6" class="flex">
+      <a role="button" class="">
+        Mécanique</a>
+      <img src="http://localhost:1313/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/physique/seconde/m%C3%A9canique/mouvement/" class="">
+      1) Description du mouvement</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/physique/seconde/m%C3%A9canique/forces/" class="">
+      2) Forces et principe d&#39;inertie</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/physique/seconde/m%C3%A9canique/gravitation/" class="">
+      3) Interaction gravitationnelle</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-9419beda789d29eda1a7453174b75d11" class="toggle"  />
+    <label for="section-9419beda789d29eda1a7453174b75d11" class="flex">
+      <a role="button" class="">
+        Terminale</a>
+      <img src="http://localhost:1313/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-cb67a0da7c0d8f4d615183c308c305bd" class="toggle"  />
+    <label for="section-cb67a0da7c0d8f4d615183c308c305bd" class="flex">
+      <a role="button" class="">
+        Chimie</a>
+      <img src="http://localhost:1313/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/physique/terminale/acidebase/couples/" class="">
+      1) Couples acide/base</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/physique/terminale/acidebase/cinetique/" class="">
+      2) Cinétique et équilibre</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/physique/terminale/acidebase/acidite/" class="">
+      3) Constante d&#39;acidité Ka</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/physique/terminale/acidebase/force/" class="">
+      4) Force des acides/bases</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/physique/terminale/acidebase/suivi/" class="">
+      5) Méthodes de suivi</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-939aad91b7101a785670fc0128533c7c" class="toggle"  />
+    <label for="section-939aad91b7101a785670fc0128533c7c" class="flex">
+      <a role="button" class="">
+        Troisième</a>
+      <img src="http://localhost:1313/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-fc2235f8a1fc43c9b276fdcb369ee292" class="toggle"  />
+    <label for="section-fc2235f8a1fc43c9b276fdcb369ee292" class="flex">
+      <a role="button" class="">
+        L&#39;énergie</a>
+      <img src="http://localhost:1313/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/physique/troisieme/energie/formes/" class="">
+      1) Différentes formes d&#39;énergie</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/physique/troisieme/energie/conversions/" class="">
+      2) Transferts et conversions</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/physique/troisieme/energie/centrale/" class="">
+      3) Les centrales électriques</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/physique/troisieme/energie/elec/" class="">
+      4) L&#39;électricité</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-d58730bb16972aa5750be8674f590f2c" class="toggle"  />
+    <label for="section-d58730bb16972aa5750be8674f590f2c" class="flex">
+      <a role="button" class="">
+        La matière</a>
+      <img src="http://localhost:1313/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/physique/troisieme/mati%C3%A8re/atome/" class="">
+      1) L&#39;atome</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/physique/troisieme/mati%C3%A8re/mol%C3%A9cules/" class="">
+      2) Molécules et ions</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/physique/troisieme/mati%C3%A8re/miscibilit%C3%A9/" class="">
+      3) Mélanges liquides</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/physique/troisieme/mati%C3%A8re/transformations/" class="">
+      4) Transformations</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-52c89bd8f3d3a892fd697987a7683b80" class="toggle"  />
+    <label for="section-52c89bd8f3d3a892fd697987a7683b80" class="flex">
+      <a role="button" class="">
+        Les ondes</a>
+      <img src="http://localhost:1313/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-b7cd7a903053014938197441be6cac9c" class="toggle"  />
+    <label for="section-b7cd7a903053014938197441be6cac9c" class="flex">
+      <a role="button" class="">
+        Anglais</a>
+      <img src="http://localhost:1313/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-f4ddcde993f9642ae91e6c3ec1142721" class="toggle"  />
+    <label for="section-f4ddcde993f9642ae91e6c3ec1142721" class="flex">
+      <a role="button" class="">
+        Vocabulaire</a>
+      <img src="http://localhost:1313/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-5cdec767d0fbcd850b470a6f35462099" class="toggle"  />
+    <label for="section-5cdec767d0fbcd850b470a6f35462099" class="flex">
+      <a role="button" class="">
+        Idioms</a>
+      <img src="http://localhost:1313/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/anglais/vocabulaire/idiomes/animals/" class="">
+      1) Animals</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/anglais/vocabulaire/idiomes/bodyparts/" class="">
+      2) Body parts</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/anglais/vocabulaire/idiomes/food/" class="">
+      3) Food</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/anglais/vocabulaire/idiomes/items/" class="">
+      4) Items</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/anglais/vocabulaire/idiomes/time/" class="">
+      5) Time</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/anglais/vocabulaire/idiomes/weather/" class="">
+      6) Weather</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/anglais/vocabulaire/idiomes/water/" class="">
+      7) Water</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/anglais/vocabulaire/idiomes/various/" class="">
+      8) Various</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-666301d40065af6d89cb26c65849e06d" class="toggle"  />
+    <label for="section-666301d40065af6d89cb26c65849e06d" class="flex">
+      <a role="button" class="">
+        Irregular verbs</a>
+      <img src="http://localhost:1313/icons/chevron-right.svg" class="book-icon" alt="Expand" />
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/anglais/vocabulaire/irregular/midlevel/" class="">
+      2) Medium level</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+
+
+
+  </div>
+</aside>
+ 
+
+    <div class="book-page">
+      <header class="book-header hidden">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="http://localhost:1313/icons/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <h3>3) Trigonométrie</h3>
+
+  <label for="toc-control">
+    
+    <img src="http://localhost:1313/icons/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#théorème-de-thalès">Théorème de Thalès</a></li>
+    <li><a href="#réciproque-et-contraposée-du-théorème">Réciproque et contraposée du théorème</a></li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown book-article"><h2 id="théorème-de-thalès">Théorème de Thalès<a class="anchor" href="#th%c3%a9or%c3%a8me-de-thal%c3%a8s">#</a></h2>
+<p>Dans un <strong>triangle $ABC$ quelconque</strong>, si une droite $(MN)$ est parallèle à un côté du triangle (ici $BC$) et que les points $A, M, B$ et $A, N, C$ sont alignés, alors on obtient les relations de <strong>proportionnalité</strong> suivantes: $\boxed{\frac{AM}{AB} = \frac{AN}{AC} = \frac{MN}{BC}}$</p>
+<div class="center">
+<img src="http://localhost:1313/images/maths/thales.png" alt="Thalès" width="500">
+</div>
+<p>C&rsquo;est le <strong>théorème de Thalès</strong>. Il permet de <strong>calculer une longueur</strong> grâce à trois autres longueurs dans une configuration en triangle avec <u>deux droites parallèles et des points alignés</u>.</p>
+<p>Pour trouver une longueur dans une figure avec Thalès, on écrit les rapports de proportionnalité, puis on garde le couple de fractions comportant la longueur souhaitée et pour lequel on connaît les trois autres valeurs. On trouve ensuite la longueur grâce au <u>produit en croix</u>.</p>
+<div class="left">
+<img src="http://localhost:1313/images/maths/produit_croix.png" alt="Thalès" width="200">
+</div>
+<p><u>Exemple d&rsquo;énoncé</u>: Soit $IFH$ un triangle. On sait que les droites $(EG)$ et $(IH)$ sont parallèles. Trouver la longueur $FH$.</p>
+<div class="center">
+<img src="http://localhost:1313/images/maths/exo_thales.png" alt="Thalès" width="200">
+</div>
+<p><u>Rédaction</u>: La droite $(EG)$ est parallèle à $(IH)$ et les points $F, E, I$ et $F, G, H$ sont alignés, d&rsquo;après le théorème de Thalès :</p>
+<p>$\frac{FE}{FI} = \frac{FG}{FH} = \frac{GE}{HI}$. Donc $\frac{3}{FH} = \frac{5}{8,5}$, soit $FH = \frac{3*8,5}{5} = 5,1cm$</p>
+<h2 id="réciproque-et-contraposée-du-théorème">Réciproque et contraposée du théorème<a class="anchor" href="#r%c3%a9ciproque-et-contrapos%c3%a9e-du-th%c3%a9or%c3%a8me">#</a></h2>
+<p>Dans le sens classique de Thalès, on utilise le fait que des droites sont parallèles pour justifier que l&rsquo;on a le droit d&rsquo;utiliser la formule. Cependant, on peut faire le chemin inverse, c&rsquo;est-à-dire montrer que l&rsquo;égalité vue précédemment est vérifiée dans un triangle pour démontrer que des droites sont parallèles. Dans ce sens, c&rsquo;est la <strong>réciproque</strong> du théorème. D&rsquo;ailleurs, il suffit de montrer que la relation de proportionnalité est vraie entre deux des trois fractions pour qu&rsquo;elle soit vraie pour les trois.</p>
+<p><u>Exemple d&rsquo;énoncé</u>: Les droites $(PQ)$ et $(XE)$ sont-elles parallèles?</p>
+<div class="center">
+<img src="http://localhost:1313/images/maths/exo_thales2.png" alt="Thalès" width="450">
+</div>
+<p><u>Rédaction</u>: D&rsquo;une part, $\frac{HE}{HP} = \frac{33}{41,25} = 0,8$. D&rsquo;autre part, $\frac{HX}{HQ} = \frac{25}{31,25} = 0,8$. Les points $X, H, Q$ et $E, H, P$ sont alignés et $\frac{HX}{HQ} = \frac{HE}{HP}$, d&rsquo;après la réciproque du théorème de Thalès, les droites $(PQ)$ et $(XE)$ sont parallèles.</p>
+<p>Si on avait trouvé que $\frac{HX}{HQ} \neq \frac{HE}{HP}$, on aurait alors conclu que les droites n&rsquo;étaient pas parallèles grâce à la <strong>contraposée</strong> du théorème de Thalès.</p>
+<details>
+<summary>Exercice</summary>
+<ol>
+<li>Calculer $AE$ avec : $AB = 12$, $AD = 3$, $AC = 8$</li>
+<li>Vérifier si $(DE)$ est parallèle à $(BC)$ avec :<br>
+$AD = 2$, $AB = 6$, $AE = 3$, $AC = 9$</li>
+<li>Pourquoi est-il important de vérifier que les droites sont parallèles ?</li>
+</ol>
+</details>
+<details>
+<summary>Solution</summary>
+<ol>
+<li>$\frac{3}{12} = \frac{AE}{8} \Rightarrow AE = 2$</li>
+<li>$\frac{2}{6} = \frac{3}{9}$ → égalité → droites parallèles</li>
+<li>Sinon le théorème ne s’applique pas</li>
+</ol>
+</details></article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+<div>
+
+</div>
+
+<div>
+
+</div>
+
+</div>
+
+
+
+
+
+  
+  
+  
+  <div class="flex flex-wrap justify-between">
+    <span>
+    
+      <a href="http://localhost:1313/docs/maths/troisieme/g%C3%A9om%C3%A9trie/thal%C3%A8s/" class="flex align-center">
+        <img src="http://localhost:1313/icons/backward.svg" class="book-icon" alt="Backward" />
+        <span>2) Thalès</span>
+      </a>
+    
+    </span>
+    <span>
+    
+      <a href="http://localhost:1313/docs/physique/seconde/chimie/mole/" class="flex align-center">
+        <span>1) La mole - formulaire</span>
+        <img src="http://localhost:1313/icons/forward.svg" class="book-icon" alt="Forward" />
+      </a>
+    
+    </span>
+  </div>
+  
+
+
+ 
+        
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+        <script>
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll(".book-menu li").forEach(function (li) {
+    const link = li.querySelector(":scope > a");
+    const sublist = li.querySelector(":scope > ul");
+
+    if (link && sublist) {
+      
+      sublist.style.display = "none";
+      link.classList.add("menu-toggle");
+
+      
+      link.addEventListener("click", function (e) {
+        e.preventDefault();
+        const isOpen = sublist.style.display === "block";
+        sublist.style.display = isOpen ? "none" : "block";
+        link.classList.toggle("open", !isOpen);
+      });
+    }
+  });
+});
+</script>
+
+
+
+
+        
+  
+ 
+        
+  
+  
+    <script>(function(){document.querySelectorAll("pre:has(code)").forEach(e=>{e.addEventListener("click",e.focus),e.addEventListener("copy",function(t){if(t.preventDefault(),navigator.clipboard){const t=window.getSelection().toString()||e.textContent;navigator.clipboard.writeText(t)}})})})()</script>
+  
+
+      </footer>
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+  
+  <aside class="book-toc">
+    <div class="book-toc-content">
+      
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#théorème-de-thalès">Théorème de Thalès</a></li>
+    <li><a href="#réciproque-et-contraposée-du-théorème">Réciproque et contraposée du théorème</a></li>
+  </ul>
+</nav>
+
+
+
+    </div>
+  </aside>
+  
+ 
+  </main>
+
+  
+  <script>
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll(".book-menu li").forEach(function (li) {
+    const link = li.querySelector(":scope > a");
+    const sublist = li.querySelector(":scope > ul");
+
+    if (link && sublist) {
+      
+      sublist.style.display = "none";
+      link.classList.add("menu-toggle");
+
+      
+      link.addEventListener("click", function (e) {
+        e.preventDefault();
+        const isOpen = sublist.style.display === "block";
+        sublist.style.display = isOpen ? "none" : "block";
+        link.classList.toggle("open", !isOpen);
+      });
+    }
+  });
+});
+</script>
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

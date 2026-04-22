@@ -1,42 +1,53 @@
 ---
-title: "2) Forces et lois de Newton"
+title: "2) Forces et principe d'inertie"
 weight: 1
 ---
 ## Les forces extérieures
 
-Le mouvement (ou l'immobilité) d'un système dépend des forces extérieures auxquelles il est soumis. Les forces sont représentées 
+Le mouvement (ou l'immobilité) d'un système dépend des forces extérieures auxquelles il est soumis. Les forces sont représentées par des **vecteurs** partant d'un point d'application (souvent le centre de masse du système ou le point de contact). Une force a donc :
+- une direction, indiquant par quel axe elle est portée,
+- un sens (vers le haut, le bas, etc.),
+- une norme : sa valeur exprimée en **Newton $N$**.
 
-## Démarche à suivre 
+## Forces classiques en référentiel terrestre
 
-Dans tout problème de mécanique, il 
+1) Le **poids** : toujours orienté vers le bas, il s'applique sur tout objet possédant une masse, il est donc toujours présent. L'expression de sa norme est : $\boxed{P=m*g}$ avec :
+- $m$ la masse en **kilogrammes** $kg$
+- $g$ l'intensité de la pesanteur, sur Terre $g \approx 9,81 N/kg$
 
-<div class="center">
-<img src="/images/chimie/son.png" alt="Son" width="700">
-</div>
+2) La **réaction (normale) du support** : si le système est posé sur un support (le sol, une table, etc.), alors le support exerce sur le système une force qui le repousse perpendiculairement au support, d'où l'adjectif "normal".
 
-Connaître la période d'un son permet de déterminer sa **fréquence** $f$, exprimée en **Hertz** ($Hz$), avec la formule: $\boxed{f = \frac{1}{T}}$ <u>Attention: il faut que la période soit en secondes donc bien penser à convertir!</u>
+3) La **tension du fil** : si le système n'est pas posé mais plutôt suspendu par un fil, alors le fil exerce sur le système une force similaire le tirant le long du fil.
 
-La fréquence détermine la **hauteur** du son :
-- fréquence élevée → son **aigu**
-- fréquence faible → son **grave**
+4) Les **frottements** : si le système est en mouvement dans un milieu matériel (air, eau, etc.), alors cette force viendra s'opposer au mouvement. Il est courant de les négliger pour simplifier les calculs, comme dans le cas de la **chute libre**.
 
-Par ailleurs, l’oreille humaine ne perçoit que les sons dont la fréquence est comprise entre : $\boxed{20 Hz \leq f \leq 20000 Hz}$ ; c'est le **domaine audible**. Au-delà de ce domaine il y a :
-
-- **les infrasons** : $f < 20 Hz$  
-- **les ultrasons** : $f > 20000 Hz$  
-
-Bien sûr, je peux aussi retrouver la période (qui sera en $s$) à partir de la fréquence : $\boxed{T = \frac{1}{f}}$ ; on tâchera aussi de garder en tête les formules du collège : $\boxed{t = \frac{d}{v}}$ $\boxed{v = \frac{d}{t}}$ et $\boxed{d=v*t}$
-
-Et enfin, le **timbre** d'un son correspond à la forme de son motif élémentaire. Si on observe l'oscillogramme de la même note de musique jouée par deux instruments différents, on verra deux motifs différents, mais avec la même période. Le son a donc exactement la même hauteur (car la même fréquence), mais les deux instruments ne donnent pas le même ressenti à l'oreille.
-
-## Niveau d'intensité sonore
-
-L’**intensité sonore** correspond à la puissance du son perçu. Généralement, on exprime plutôt le niveau d'intensité sonore, mesuré en **décibels (dB)**, qui donne une échelle facilement compréhensible par le grand public, notamment quand il faut mettre en évidence un potentiel danger (car oui, être exposé à des sons très forts et sur de longues durées peut provoquer des dégâts irréversibles sur l'audition)
+On ne considèrera comme "forces" que les actions qui s'exercent en continu. Si dans un exercice on lance une balle, le lancer n'est pas continu donc on ne parlera pas de force. En revanche, si une voiture roule, on considèrera sa **force motrice**, qui permet de la pousser en continu vers l'avant.
 
 <div class="center">
-<img src="/images/chimie/niveau_sonore.png" alt="Niveau" width="400">
+  <img src="/images/chimie/poids.png" width="200">
+  <img src="/images/chimie/reaction_support.png" width="170">
+  <img src="/images/chimie/tension_fil.png" width="150">
 </div>
 
+## Première loi de Newton
+
+En 1687, Isaac Newton énonce les lois qui constituent aujourd'hui les bases de la mécanique classique. D'après la **première loi de Newton**, <u>si la somme des forces s'exerçant sur un système est nulle, alors celui-ci est immobile ou bien en mouvement rectiligne uniforme</u> : c'est le **principe d'inertie**. Cette loi est valable dans les deux sens, donc si je sais qu'un système est immobile ou en mouvement rectiligne uniforme, les forces qui s'exercent sur lui se compensent forcément.
+
+Attention, quand on parle de somme des forces qui s'annule, on parle de la somme des vecteurs (vecteur nul), pas des normes, qui sont quant à elles strictement positives. On a donc : 
+
+$$\boxed{\sum \vec{F}_{ext} = \vec{0} <=> \text{système au repos ou en mouvement rectiligne uniforme}}$$
+
+<u>Méthodologie des exercices</u>:
+
+Dans les exercices, la première loi de Newton sert soit à trouver la valeur de la norme d'une force dans un système au repos (car sinon on ne connaît que la formule du poids), soit à l'inverse à montrer qu'un système est au repos (ou non).
+
+On commence toujours par **définir le système** étudié, puis le **référentiel**, supposé **galiléen** (c'est-à-dire que les lois de Newton s'y appliquent). Ensuite on réalise un **bilan des forces** sur le système et on s'adapte à partir de là.
+
+<u>Exemple</u>: J'étudie un camion de masse $m=40000kg$ dans le référentiel terrestre supposé galiléen. Les forces qui s'appliquent lors de la montée d'une pente sont le poids, la réaction normale de la route, la force motrice et les frottements. En additionnant les vecteurs force, je trouve $\sum \vec{F}_{ext} \neq \vec{0}$ donc d'après la première loi de Newton, le camion n'est pas en mouvement rectiligne uniforme.
+
+<div class="center">
+  <img src="/images/chimie/bdf.png" width="500">
+</div>
 <details>
 <summary>Exercice</summary>
 

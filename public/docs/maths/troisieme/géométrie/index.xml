@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Géométrie on Mes cours</title>
+    <link>http://localhost:1313/docs/maths/troisieme/g%C3%A9om%C3%A9trie/</link>
+    <description>Recent content in Géométrie on Mes cours</description>
+    <generator>Hugo</generator>
+    <language>fr-fr</language>
+    <atom:link href="http://localhost:1313/docs/maths/troisieme/g%C3%A9om%C3%A9trie/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>1) Pythagore</title>
+      <link>http://localhost:1313/docs/maths/troisieme/g%C3%A9om%C3%A9trie/pythagore/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/maths/troisieme/g%C3%A9om%C3%A9trie/pythagore/</guid>
+      <description>&lt;h2 id=&#34;théorème-de-pythagore&#34;&gt;Théorème de Pythagore&lt;a class=&#34;anchor&#34; href=&#34;#th%c3%a9or%c3%a8me-de-pythagore&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Un &lt;strong&gt;triangle rectangle&lt;/strong&gt; possède un angle droit (angle de $90°$). Le côté opposé à cet angle, qui est forcément le plus long des trois côtés, est appelé &lt;strong&gt;hypoténuse&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Dans un triangle rectangle, le carré de la longueur de l’hypoténuse est égal à la somme des carrés des longueurs des deux autres côtés. C&amp;rsquo;est le &lt;strong&gt;théorème de Pythagore.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;div style=&#34;text-align: left; margin: 1.5rem;&#34;&gt;&#xD;&#xA;&lt;svg width=&#34;220&#34; height=&#34;180&#34; viewBox=&#34;0 0 220 180&#34;&gt;&#xD;&#xA;  &lt;polygon points=&#34;40,140 180,140 40,40&#34; fill=&#34;none&#34; stroke=&#34;black&#34; stroke-width=&#34;2&#34;/&gt;&#xD;&#xA;  &lt;text x=&#34;30&#34; y=&#34;155&#34;&gt;A&lt;/text&gt;&#xD;&#xA;  &lt;text x=&#34;185&#34; y=&#34;155&#34;&gt;B&lt;/text&gt;&#xD;&#xA;  &lt;text x=&#34;30&#34; y=&#34;35&#34;&gt;C&lt;/text&gt;&#xD;&#xA;  &lt;!-- angle droit --&gt;&#xD;&#xA;  &lt;rect x=&#34;40&#34; y=&#34;120&#34; width=&#34;20&#34; height=&#34;20&#34; fill=&#34;none&#34; stroke=&#34;black&#34;/&gt;&#xD;&#xA;&lt;/svg&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;p&gt;Ainsi, si un triangle est rectangle en $A$ :&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2) Thalès</title>
+      <link>http://localhost:1313/docs/maths/troisieme/g%C3%A9om%C3%A9trie/thal%C3%A8s/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/maths/troisieme/g%C3%A9om%C3%A9trie/thal%C3%A8s/</guid>
+      <description>&lt;h2 id=&#34;théorème-de-thalès&#34;&gt;Théorème de Thalès&lt;a class=&#34;anchor&#34; href=&#34;#th%c3%a9or%c3%a8me-de-thal%c3%a8s&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Dans un &lt;strong&gt;triangle $ABC$ quelconque&lt;/strong&gt;, si une droite $(MN)$ est parallèle à un côté du triangle (ici $BC$) et que les points $A, M, B$ et $A, N, C$ sont alignés, alors on obtient les relations de &lt;strong&gt;proportionnalité&lt;/strong&gt; suivantes: $\boxed{\frac{AM}{AB} = \frac{AN}{AC} = \frac{MN}{BC}}$&lt;/p&gt;&#xA;&lt;div class=&#34;center&#34;&gt;&#xD;&#xA;&lt;img src=&#34;http://localhost:1313/images/maths/thales.png&#34; alt=&#34;Thalès&#34; width=&#34;500&#34;&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;p&gt;C&amp;rsquo;est le &lt;strong&gt;théorème de Thalès&lt;/strong&gt;. Il permet de &lt;strong&gt;calculer une longueur&lt;/strong&gt; grâce à trois autres longueurs dans une configuration en triangle avec &lt;u&gt;deux droites parallèles et des points alignés&lt;/u&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>3) Trigonométrie</title>
+      <link>http://localhost:1313/docs/maths/troisieme/g%C3%A9om%C3%A9trie/trigonom%C3%A9trie/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/maths/troisieme/g%C3%A9om%C3%A9trie/trigonom%C3%A9trie/</guid>
+      <description>&lt;h2 id=&#34;théorème-de-thalès&#34;&gt;Théorème de Thalès&lt;a class=&#34;anchor&#34; href=&#34;#th%c3%a9or%c3%a8me-de-thal%c3%a8s&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Dans un &lt;strong&gt;triangle $ABC$ quelconque&lt;/strong&gt;, si une droite $(MN)$ est parallèle à un côté du triangle (ici $BC$) et que les points $A, M, B$ et $A, N, C$ sont alignés, alors on obtient les relations de &lt;strong&gt;proportionnalité&lt;/strong&gt; suivantes: $\boxed{\frac{AM}{AB} = \frac{AN}{AC} = \frac{MN}{BC}}$&lt;/p&gt;&#xA;&lt;div class=&#34;center&#34;&gt;&#xD;&#xA;&lt;img src=&#34;http://localhost:1313/images/maths/thales.png&#34; alt=&#34;Thalès&#34; width=&#34;500&#34;&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;p&gt;C&amp;rsquo;est le &lt;strong&gt;théorème de Thalès&lt;/strong&gt;. Il permet de &lt;strong&gt;calculer une longueur&lt;/strong&gt; grâce à trois autres longueurs dans une configuration en triangle avec &lt;u&gt;deux droites parallèles et des points alignés&lt;/u&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

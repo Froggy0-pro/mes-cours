@@ -5,6 +5,8 @@
     <loc>http://localhost:1313/docs/anglais/vocabulaire/idiomes/animals/</loc>
     <lastmod>2026-04-09T17:21:32+02:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/docs/physique/seconde/m%C3%A9canique/mouvement/</loc>
+  </url><url>
     <loc>http://localhost:1313/docs/physique/troisieme/energie/formes/</loc>
     <lastmod>2026-04-09T17:21:32+02:00</lastmod>
   </url><url>
@@ -19,11 +21,15 @@
     <loc>http://localhost:1313/docs/maths/premiere/polynomes/</loc>
     <lastmod>2026-04-09T17:21:32+02:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/docs/maths/troisieme/g%C3%A9om%C3%A9trie/pythagore/</loc>
+  </url><url>
     <loc>http://localhost:1313/docs/anglais/vocabulaire/idiomes/bodyparts/</loc>
     <lastmod>2026-04-09T17:21:32+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/physique/seconde/chimie/configuration/</loc>
     <lastmod>2026-04-09T17:21:32+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/physique/seconde/m%C3%A9canique/forces/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/physique/seconde/ondes/spectres/</loc>
     <lastmod>2026-04-14T11:55:13+02:00</lastmod>
@@ -32,6 +38,8 @@
     <lastmod>2026-02-13T21:27:49+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/physique/troisieme/mati%C3%A8re/mol%C3%A9cules/</loc>
+  </url><url>
+    <loc>http://localhost:1313/docs/maths/troisieme/g%C3%A9om%C3%A9trie/thal%C3%A8s/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/physique/troisieme/energie/conversions/</loc>
     <lastmod>2026-04-09T17:21:32+02:00</lastmod>
@@ -48,6 +56,8 @@
   </url><url>
     <loc>http://localhost:1313/docs/physique/seconde/chimie/lewis/</loc>
     <lastmod>2026-04-09T17:21:32+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/maths/troisieme/g%C3%A9om%C3%A9trie/trigonom%C3%A9trie/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/maths/premiere/geometrie/</loc>
     <lastmod>2026-04-09T17:21:32+02:00</lastmod>
@@ -99,6 +109,8 @@
     <loc>http://localhost:1313/docs/physique/terminale/acidebase/</loc>
     <lastmod>2026-01-18T20:36:28+01:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/docs/maths/troisieme/g%C3%A9om%C3%A9trie/</loc>
+  </url><url>
     <loc>http://localhost:1313/docs/physique/troisieme/energie/</loc>
     <lastmod>2026-04-09T17:21:32+02:00</lastmod>
   </url><url>
@@ -112,6 +124,8 @@
   </url><url>
     <loc>http://localhost:1313/docs/maths/</loc>
     <lastmod>2026-01-18T20:36:28+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/physique/seconde/m%C3%A9canique/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/physique/</loc>
     <lastmod>2026-01-18T20:36:28+01:00</lastmod>
