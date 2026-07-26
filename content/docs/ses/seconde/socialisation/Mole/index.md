@@ -1,97 +1,152 @@
 ---
-title: "2) La mole - formulaire"
+title: "3) La vie politique"
 weight: 1
 ---
-## Quantité de matière et mole
 
-Lorsque l'on veut compter un grand nombre d'entités de manière plus efficace, il n'est pas rare de les regrouper par paquets du même nombre et de plutôt compter ces paquets. Par exemple, on regroupe historiquement les oeufs par douzaines. Une douzaine d'oeuf est un paquet comprenant 12 oeufs, ainsi si j'ai 36 oeufs sur les bras, je peux dire plus simplement que j'en ai 3 douzaines. Et bien on fait pareil avec les espèces chimiques! Cependant, plutôt que de les regrouper par paquets de 12, on les regroupe par paquets de $6.02*10^{23}$. Ce nombre s'appelle la **constante d'Avogadro**, qu'on note $N_A$ et on appelle un paquet de cette taille **une mole** de matière.
-
-On définit alors une grandeur physique, la **quantité de matière**, qui permet de rendre compte du nombre d'entités chimiques dans un échantillon. Elle est notée $n$ et s’exprime en **moles (mol)**.
-
-Ainsi, si j'ai par exemple un récipient contenant $0.5$ mol d'eau, cela signifie que j'ai la moitié d'une mole de molécules d'eau dans ce récipient, soit $3.01*10^{23}$ molécules d'eau.
-
-On peut relier facilement la quantité de matière $n$ au nombre d’entités $N$ et à la constante d'Avogadro: $\boxed{n = \frac{N}{N_A}}$ ou encore $\boxed{N = n \times N_A}$ avec :
-
-- $n$ : quantité de matière (en $mol$)  
-- $N$ : nombre d’entités (sans unité)
-- $N_A$ : constante d’Avogadro (en $mol^{-1}$)
-
-## Relation avec la masse
-
-Bien entendu, la masse d'un échantillon dépend de sa quantité de matière: plus il y a d'entités chimiques dans l'échantillon, plus il est lourd!
-
-Un atome ne contenant que des protons, des neutrons et des électrons, sa masse correspond à la somme des masses de tous ces éléments: $\boxed{m_{atome} = nb_{protons} * m_{proton} + nb_{neutrons} * m_{neutron} + nb_{électrons} * m_{électron}}$
-
-<div style="margin: 1.5rem 2rem;">
-
-| Particule | Masse (kg) |
-|:---------:|:----------:|
-| **Proton** | $1{,}67 \times 10^{-27}$ |
-| **Neutron** | $1{,}67 \times 10^{-27}$ |
-| **Électron** | $9{,}11 \times 10^{-31}$ |
-
-</div>
-
-On peut d'ailleurs se simplifier la vie car:
-- la masse d'un proton et d'un neutron est quasiment identique, on peut donc les rassembler et utiliser la masse du nucléon,
-- la masse des électrons est très faible par rapport à celle des nucléons, on peut donc la négliger dans le calcul.
-
-Au final, la masse d'un atome vaut: $\boxed{m_{atome} = nb_{nucléons} * m_{nucléon}}$
-
-<u>Remarque</u>: C'est pour cela que le nombre de nucléons, noté $A$ dans l'écriture ${^{A}_{Z}X}$, s'appelle le nombre de masse!
-
-Pour trouver la masse d'une molécule, rien de plus simple, il suffit d'additionner les masses de chacun de ses atomes.
-
-Et enfin, on peut trouver le nombre d'entités d'un échantillon de corps pur si on connaît sa masse. On calcule d'abord la masse d'une seule entité comme vu précédemment, puis on trouve : $\boxed{N = \frac{m_{échantillon}}{m_{entité}}}$
-
-<u>Exemple</u>: J'étudie une bague en or pur pesant $10g$. Dans le tableau périodique je trouve pour l'or ${^{197}_{79}A_u}$, un atome contient donc 197 nucléons, ce qui signifie qu'il pèse $197 * 1.67 * 10^{-27} = 3.29 * 10^{-25}kg$
-
-J'ai donc $N = \frac{10 * 10^{-3}}{3.29 * 10^{-25}} = 3.04 * 10^{22}$ atomes d'or dans cette bague. Notons que j'ai converti les $g$ en $kg$ car il faut que les deux masses soient dans la même unité.
-
-## Masse molaire et masse volumique
-
-La **masse molaire** $M$ correspond à la masse d’une mole d’une espèce chimique. Elle s’exprime en **g/mol**. Il s'agit d'une grandeur très pratique car 1 mole de nucléons pèse $1g$, la masse molaire d'un atome est donc identique à son nombre de masse.
-
-<u>Exemples</u> :
-- Hydrogène ${^{1}_{1}H}$: $M(H) = 1 g/mol$  
-- Carbone ${^{12}_{6}C}$: $M(C) = 12 g/mol$  
-- Oxygène ${^{16}_{8}O}$: $M(O) = 16 g/mol$  
-
-Encore une fois, pour avoir la masse molaire d'une molécule, on additionne simplement les masses molaires de ses atomes, par exemple : $M(H_2O) = 2 * M(H) + 1 * M(O) = 2 + 16 = 18 g/mol$
-
-On peut facilement relier la masse $m$ (en $g$), la masse molaire $M$ (en $g/mol$) et la quantité de matière $n$ (en $mol$): $\boxed{n = \frac{m}{M}}$ qu'on peut aussi utiliser dans le sens $\boxed{m = n \times M}$
-
-Rappelons aussi les formules reliant la masse volumique $\rho$ (en $g/L$), la masse $m$ (en $g$) et le volume $V$ (en $L$) $\boxed{\rho = \frac{m}{V}}$, soit également $\boxed{V = \frac{m}{\rho}}$ ou encore $\boxed{m = \rho*V}$
-
-<u>Rappel</u>: $1L=1dm^3$ et $1m^3=1000dm^3$ donc $1m^3=1000L$
-
-## Concentration en quantité de matière et en masse
-
-Pour finir, dans une solution, on définit la concentration, qui correspond respectivement à la quantité de matière ou à la masse d'une espèce présente dans le volume de solution.
-
-Pour la concentration en quantité de matière $C$ (en $mol/L$), on a : $\boxed{C = \frac{n}{V}}$ ce qui donne $\boxed{n = C*V}$
-
-Pour la concentration massique $C_m$ (en $g/L$), on a : $\boxed{C_m = \frac{m}{V}}$ ce qui donne $\boxed{m = C_m*V}$
-
-On peut facilement passer de l'une à l'autre grâce à la masse molaire, en effet: $\boxed{C = \frac{C_m}{M}}$ soit $\boxed{C_m = C*M}$
-
+## Le monde du travail
 
 <details>
-<summary>Exercice</summary>
+<summary>Quel philosophe écrit au 4ème siècle avant J.C. "l'homme est un animal social"?</summary>
 
-1. Calculer la quantité de matière dans $18g$ d’eau.  
-2. Combien y a-t-il de molécules dans $1 \, mol$ ?  
-3. Calculer la masse de $0{,}5 \, mol$ de dioxygène $O_2$.  
-4. Quelle est la quantité de matière dans $2L$ d’une solution à $0{,}1 \, mol/L$ ?
+Il s'agit du philosophe grec Aristote. En réalité, sa citation est "l'homme est un animal politique", ce qui a des implications supplémentaires, mais on la simplifie souvent en "l'homme est un animal social".
 
 </details>
 
 <details>
-<summary>Solution</summary>
+<summary>Pourquoi affirmer que l'être humain est un animal social?</summary>
 
-1. $n = \frac{18}{18} = 1 \, mol$  
-2. $6{,}02 \times 10^{23}$ molécules  
-3. $M(O_2) = 32 \, g/mol \Rightarrow m = 0{,}5 \times 32 = 16g$  
-4. $n = 0{,}1 \times 2 = 0{,}2 \, mol$
+Les êtres humains dépendent fortement des autres pour survivre, apprendre et se développer. Leur vie, qui serait bien difficile en solitaire d'un point de vue pratique, s'organise ainsi autour de communautés permettant de maintenir la sécurité, la cohésion et la propagation du groupe en partageant les tâches et les connaissances. 
 
 </details>
+
+<details>
+<summary>Y a-t-il d'autres animaux sociaux?</summary>
+
+Il s'agit d'une statégie de survie efficace, beaucoup d'espèces opèrent donc de la même manière. Les chimpanzés, les éléphants, les abeilles, les fourmis, etc. sont des animaux sociaux.
+
+</details>
+
+<details>
+<summary>Puisque l'humain est un animal social, est-il "programmé" dès sa naissance pour la vie en société?</summary>
+
+Du fait de sa nature animale, il est équipé des instincts de survie de base, mais la quasi totalité des comportements nécessaires à son fonctionnement en société doivent être acquis par l'apprentissage. On distingue donc les caractères innés, profondément intégrés dès la naissance, et les caractères acquis issus de l'expérience.
+
+</details>
+
+<details>
+<summary>Donner des exemples de comportements innés et acquis.</summary>
+
+Si on met un bébé dans une piscine, il va se mettre à nager. De même qu'il a des réflexes instinctifs comme pleurer ou retirer sa main d'une surface chaude. Tous ces réflexes constituent des comportements innés. Les comportements acquis se développent quant à eux en observant et en imitant les autres membres de la communauté. C'est ainsi que l'humain apprend à parler, manger avec des couverts, faire la queue à la caisse, bref, se comporter comme un humain.
+
+</details>
+
+<details>
+<summary>De quoi dépendent les comportements acquis?</summary>
+
+De la communauté dans laquelle on naît puis par la suite des communautés au contact desquelles on évolue. Si un humain est abandonné dans les bois et élevé par des singes, il adoptera le comportement social des singes. D'un point de vue moins extrème, la communauté dans laquelle on naît à une influence énorme sur notre futur car on n'a pas d'autre choix que d'intégrer les codes relatifs à cette communauté et d'en devenir nous-mêmes une partie.
+
+</details>
+
+<details>
+<summary>Proposer une définition de la socialisation.</summary>
+
+La socialisation est le processus continu par lequel un individu acquiert et intériorise les manières d’être, de penser et de se comporter relatives à la société à laquelle il appartient. C'est un mécanisme fondamental car il favorise l'intégration de tout individu en société et le maintien de la cohésion entre ses membres. 
+</details>
+
+<details>
+<summary>Où s'effectue le processus de socialisation?</summary>
+
+Tout endroit où l'on est en contact direct ou indirect avec d'autres personnes (qui sont donc des agents socialisateurs) constitue une instance de socialisation. La famille avec qui on vit, nos groupes d'amis, l'école, le travail, les associations, les institutions religieuses, etc. Les médias que l'on consomme (réseaux sociaux, informations, culture populaire, etc.) ont également une part grandissante de responsabilité dans la socialisation.
+
+</details>
+
+<details>
+<summary>Combien y a-t-il d'étapes à la socialisation?</summary>
+
+On distingue la socialisation primaire, de la naissance jusqu'à la fin de l'adolescence. Durant cette période, la plasticité cérébrale est la plus importante, ce qui permet à l'humain en devenir d'acquérir un grand nombre de codes nécessaires à la vie en société.
+
+La deuxième phase, dite de socialisation secondaire, dure de l'âge adulte à la mort. Le processus suit son cours au fur et à mesure que la personne évolue dans de nouveaux milieux, lui permettant d'affiner son comportement en fonction de son environnement.
+
+</details>
+
+<details>
+<summary>Comment s'effectue le processus de socialisation?</summary>
+
+Les trois moyens de socialisation principaux sont:
+- l'imitation: on observe la façon de parler, de se tenir, de réagir dans différents contextes sociaux et on les intègre pour les répéter à notre tour.
+- l'injonction: on obéit aux ordres qui nous sont donnés par des figures d'autorité.
+- l'interaction: probablement la plus importante dans la socialisation secondaire, toute interaction avec une autre personne ou un groupe va entraîner une réaction, qui peut être positive (les sanctions positives incluent par exemple les félicitations ou les récompenses), négative (les sanctions négatives vont du regard de travers à l'exclusion sociale) ou neutre. On adaptera notre comportement futur en fonction des leçons tirées de ces interactions.
+</details>
+
+<details>
+<summary>Que signifie "socialisation horizontale" et "socialisation verticale"?</summary>
+
+La socialisation horizontale a pour agents nos égaux dans la hiérarchie, par exemple nos camarades de classe, tandis que la socialisation verticale à pour agents des figures d'autorité comme les parents ou les professeurs.
+</details>
+
+<details>
+<summary>La socialisation sert principalement à intégrer les normes et les valeurs d'un groupe. Quelle est la différence entre norme et valeur? Donner des exemples.</summary>
+
+Les normes sociales sont les règles perçues, informelles et pour la plupart non écrites qui définissent les actions acceptables et appropriées au sein d'un groupe ou d'une communauté. Le respect ou non de ces normes va généralement conditionner le caractère positif ou négatif d'une interaction. Les valeurs sont quant à elles des idéaux moraux définissant ce qui est considéré désirable dans une société. Généralement une norme est associée à une valeur, par exemple:
+- laisser les places assises aux personnes âgées ou handicapées est une norme correspondant à la valeur du respect
+- ne pas couper la parole à quelqu'un est une autre norme correspondant à la valeur du respect
+- rendre un objet trouvé est une norme correspondant à la valeur de l'honnêteté
+- considérer qu'un homme et une femme devraient gagner le même salaire pour un travail identique est une norme correspondant à la valeur de l'égalité
+
+</details>
+
+<details>
+<summary>Les normes et les valeurs changent en fonction des pays et des époques. Donner des exemples de normes différentes de notre culture actuelle.</summary>
+
+- Manger avec des baguettes.
+- Faire travailler les enfants.
+- Avoir des esclaves.
+
+</details>
+
+<details>
+<summary>Quelles sont les conséquences du non-respect des normes sociales?</summary>
+
+Ne pas respecter une norme sociale, c'est s'exposer à la punition sociale. Généralement, cela se traduit en une humiliation ponctuelle (commentaires négatifs, rejet, moquerie) ou répétée (harcèlement). Par exemple, l'enfant obèse sera souvent moqué à l'école pour sa différence, mais si tout le monde était obèse, la norme serait différente et les situations seraient inversées. Par ailleurs, exclure quelqu'un du groupe, c'est aussi renforcer le sentiment d'appartenance à celui-ci pour les autres.
+
+</details>
+
+Pression sociale pour se conformer
+
+Deux faces d'une même pièce, en tant qu'individu on aime être validé, c'est pour ça qu'on se rapproche des groupes qui partagent nos valeurs. 
+
+Problème du communautarisme.
+
+Les normes sociales que nous avons intégrées diffèrent en fonction des groupes auprès desquels on a été socialisé. Ainsi, on ne reprochera pas à un touriste de ne pas connaître les codes de notre pays et on lui apprendra lorsqu'il fera un faux pas, résultant en un nouveau processus de socialisation.
+
+<details>
+<summary>Comment les normes sociales évoluent-elles en fonction du milieu social?</summary>
+
+Milieu supérieur/favorisé
+Milieu moyen (classe moyenne)
+Milieu populaire/défavorisé
+Reproduction sociale
+Stéréotype
+
+</details>
+
+Différence de normes sociales entre les genres
+Différence genre/sexe
+Constructions sociales
+
+comment les médias façonnent l'identité
+
+Réseaux sociaux
+Culture populaire
+Influence d'opinion
+Chambres d'écho, importance de multiplier les points de vue
+
+Ouverture de la socialisation
+comportement grégaire
+
+Conclusion sur la construction de l'identité
+-> notre génétique
+-> les milieux qui nous socialisent en grandissant
+-> le développement personnel
+
+
