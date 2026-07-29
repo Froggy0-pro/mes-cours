@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Économie on Mes cours</title>
+    <link>http://localhost:1313/docs/ses/seconde/economie/</link>
+    <description>Recent content in Économie on Mes cours</description>
+    <generator>Hugo</generator>
+    <language>fr-fr</language>
+    <atom:link href="http://localhost:1313/docs/ses/seconde/economie/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>1) La production</title>
+      <link>http://localhost:1313/docs/ses/seconde/economie/production/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/ses/seconde/economie/production/</guid>
+      <description>&lt;h2 id=&#34;la-production&#34;&gt;La production&lt;a class=&#34;anchor&#34; href=&#34;#la-production&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Les individus ont de nombreux besoins (se nourrir, se loger, se déplacer, se divertir, se soigner, etc.). Afin de satisfaire ces besoins, la société va s&amp;rsquo;organiser autour d&amp;rsquo;activités de production, qui vont entraîner la création de richesses. Le rôle de l&amp;rsquo;économiste est de comprendre:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;comment les richesses sont créées&lt;/li&gt;&#xA;&lt;li&gt;comment ces richesses peuvent être mesurées&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;details&gt;&#xD;&#xA;&lt;summary&gt;Définir la production.&lt;/summary&gt;&#xD;&#xA;&lt;p&gt;La production correspond à l’ensemble des activités qui permettent de réaliser des biens et des services destinés à satisfaire les besoins des individus.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2) L&#39;entreprise</title>
+      <link>http://localhost:1313/docs/ses/seconde/economie/entreprise/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/ses/seconde/economie/entreprise/</guid>
+      <description>&lt;h2 id=&#34;lentreprise&#34;&gt;L&amp;rsquo;entreprise&lt;a class=&#34;anchor&#34; href=&#34;#lentreprise&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;details&gt;&#xD;&#xA;&lt;summary&gt;Quel est le premier objectif d&#39;une entreprise?&lt;/summary&gt;&#xD;&#xA;&lt;p&gt;Réaliser un profit (Profit = Recette - Coûts)&lt;/p&gt;&#xA;&lt;/details&gt;&#xD;&#xA;&lt;details&gt;&#xD;&#xA;&lt;summary&gt;Quels sont les critères définissant une entreprise?&lt;/summary&gt;&#xD;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;La taille (-10 salariés: micro-entreprise, entre 10 et 149: PME, +250: grande entreprise)&lt;/li&gt;&#xA;&lt;li&gt;Le secteur d&amp;rsquo;activité (primaire, secondaire, tertiaire)&lt;/li&gt;&#xA;&lt;li&gt;Le statut juridique&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/details&gt;&#xD;&#xA;&lt;details&gt;&#xD;&#xA;&lt;summary&gt;Quels sont les différents statuts juridiques?&lt;/summary&gt;&#xD;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;l&amp;rsquo;entreprise individuelle (une seule personne)&lt;/li&gt;&#xA;&lt;li&gt;la SARL, Société à Responsabilité Limitée (entre 2 et 100 associés). La société est dirigée par un gérant mais chaque associé possède des parts sociales, leur responsabilité est donc limitée par rapport à la part de leurs apports par rapport au total.&lt;/li&gt;&#xA;&lt;li&gt;la SA, Société Anonyme (pour les grandes entreprises). Les propriétaires sont les actionnaires, qui possèdent les actions constituant le capital de l&amp;rsquo;entreprise. Elles sont souvent cotées en bourse.&lt;/li&gt;&#xA;&lt;li&gt;la SAS, Société par Actions Simplifiées (pour les start-ups). Plus flexible que la SA, elle est dirigée par un président.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/details&gt;&#xD;&#xA;&lt;details&gt;&#xD;&#xA;&lt;summary&gt;Pourquoi dit-on qu&#39;une entreprise &#34;crée&#34; de la richesse?&lt;/summary&gt;&#xD;&#xA;&lt;p&gt;Car elles produisent des biens et des services dont la valeur monétaire est supérieure à celle des consommations intermédiaires (les biens et services utilisés pendant la production)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>3) PIB et croissance</title>
+      <link>http://localhost:1313/docs/ses/seconde/economie/pib/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/ses/seconde/economie/pib/</guid>
+      <description>&lt;h2 id=&#34;pib-et-croissance-économique&#34;&gt;PIB et croissance économique&lt;a class=&#34;anchor&#34; href=&#34;#pib-et-croissance-%c3%a9conomique&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;La richesse produite dans un pays est mesurée grâce au PIB (Produit Intérieur Brut).&lt;/p&gt;&#xA;&lt;p&gt;Le PIB est obtenu en ajoutant l&amp;rsquo;ensemble des valeurs ajoutées obtenues dans l&amp;rsquo;ensemble du pays sur un an. On mesure le plus souvent son évolution sur plusieurs trimestres ou plusieurs années.&lt;/p&gt;&#xA;&lt;p&gt;Lorsque le PIB augmente, on parle de croissance économique. Ces périodes sont généralement associées à des progrès techniques, des innovations, une augmentation de la population active et du niveau de vie.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

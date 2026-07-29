@@ -7,8 +7,6 @@
   </url><url>
     <loc>http://localhost:1313/docs/physique/seconde/m%C3%A9canique/mouvement/</loc>
   </url><url>
-    <loc>http://localhost:1313/docs/ses/seconde/m%C3%A9canique/mouvement/</loc>
-  </url><url>
     <loc>http://localhost:1313/docs/physique/troisieme/energie/formes/</loc>
     <lastmod>2026-04-09T17:21:32+02:00</lastmod>
   </url><url>
@@ -16,6 +14,8 @@
   </url><url>
     <loc>http://localhost:1313/docs/physique/seconde/chimie/mole/</loc>
     <lastmod>2026-04-09T17:21:32+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/ses/seconde/economie/production/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/ses/seconde/socialisation/socialisation/</loc>
     <lastmod>2026-07-19T14:23:03+02:00</lastmod>
@@ -39,7 +39,7 @@
   </url><url>
     <loc>http://localhost:1313/docs/physique/seconde/m%C3%A9canique/forces/</loc>
   </url><url>
-    <loc>http://localhost:1313/docs/ses/seconde/m%C3%A9canique/forces/</loc>
+    <loc>http://localhost:1313/docs/ses/seconde/economie/entreprise/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/physique/seconde/ondes/spectres/</loc>
     <lastmod>2026-04-14T11:55:13+02:00</lastmod>
@@ -47,8 +47,7 @@
     <loc>http://localhost:1313/docs/ses/seconde/ondes/spectres/</loc>
     <lastmod>2026-07-19T14:23:03+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/ses/seconde/socialisation/mole/</loc>
-    <lastmod>2026-07-19T14:23:03+02:00</lastmod>
+    <loc>http://localhost:1313/docs/ses/seconde/socialisation/emploi/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/anglais/vocabulaire/irregular/midlevel/</loc>
     <lastmod>2026-02-13T21:27:49+01:00</lastmod>
@@ -65,7 +64,7 @@
   </url><url>
     <loc>http://localhost:1313/docs/physique/seconde/m%C3%A9canique/gravitation/</loc>
   </url><url>
-    <loc>http://localhost:1313/docs/ses/seconde/m%C3%A9canique/gravitation/</loc>
+    <loc>http://localhost:1313/docs/ses/seconde/socialisation/politique/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/physique/troisieme/energie/centrale/</loc>
     <lastmod>2026-02-08T21:42:07+01:00</lastmod>
@@ -76,11 +75,10 @@
   </url><url>
     <loc>http://localhost:1313/docs/physique/troisieme/mati%C3%A8re/miscibilit%C3%A9/</loc>
   </url><url>
+    <loc>http://localhost:1313/docs/ses/seconde/economie/pib/</loc>
+  </url><url>
     <loc>http://localhost:1313/docs/physique/seconde/chimie/lewis/</loc>
     <lastmod>2026-04-09T17:21:32+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/docs/ses/seconde/socialisation/lewis/</loc>
-    <lastmod>2026-07-19T14:23:03+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/maths/troisieme/g%C3%A9om%C3%A9trie/trigonom%C3%A9trie/</loc>
   </url><url>
@@ -101,9 +99,6 @@
   </url><url>
     <loc>http://localhost:1313/docs/physique/seconde/chimie/solide/</loc>
     <lastmod>2026-04-09T17:21:32+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/docs/ses/seconde/socialisation/solide/</loc>
-    <lastmod>2026-07-19T14:23:03+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/physique/troisieme/mati%C3%A8re/transformations/</loc>
   </url><url>
@@ -146,6 +141,8 @@
     <loc>http://localhost:1313/docs/ses/terminale/acidebase/</loc>
     <lastmod>2026-07-19T14:23:03+02:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/docs/ses/seconde/economie/</loc>
+  </url><url>
     <loc>http://localhost:1313/docs/maths/troisieme/g%C3%A9om%C3%A9trie/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/physique/troisieme/energie/</loc>
@@ -169,8 +166,6 @@
     <lastmod>2026-01-18T20:36:28+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/physique/seconde/m%C3%A9canique/</loc>
-  </url><url>
-    <loc>http://localhost:1313/docs/ses/seconde/m%C3%A9canique/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/physique/</loc>
     <lastmod>2026-01-18T20:36:28+01:00</lastmod>

@@ -1,5 +1,5 @@
 ---
-title: "Mécanique"
+title: "Économie"
 bookCollapseSection: true
 weight: 2
 ---
